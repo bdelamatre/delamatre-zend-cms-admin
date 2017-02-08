@@ -1,0 +1,346 @@
+<?=$this->partial('layout/components/banner.phtml',array('text'=>'Admin Dashboard','src'=>'applications.jpg'))?>
+<div class="container">
+
+
+    <div class="section-admin">
+        <h1>Content Management System (CMS)</h1>
+        <p>Manage content w/ built-in WYSIWYG editor.</p>
+
+        <!-- cms content -->
+        <div class="row row-admin">
+
+            <?php if(in_array($this->ZfcUserIdentity()->getType(),array('admin','superadmin'))): ?>
+
+                <div class="col-sm-3 col-admin">
+                    <div class="panel-admin">
+                        <h2><a href="/admin/blog/index">Blog</a></h2>
+                        <p>Built-in blog.</p>
+                        <?php if(in_array($this->ZfcUserIdentity()->getType(),array('superadmin'))): ?>
+                            <!-- only show config to superadmins -->
+                            <a class="btn btn-primary" role="button" data-toggle="collapse" href="#blogConfig" aria-expanded="false" aria-controls="blogConfig">
+                                Config
+                            </a>
+                        <?php endif; ?>
+                    </div>
+                </div>
+
+            <?php endif; ?>
+
+            <?php if(in_array($this->ZfcUserIdentity()->getType(),array('admin','superadmin'))): ?>
+
+                <div class="col-sm-3 col-admin">
+                    <div class="panel-admin">
+                        <h2><a href="/admin/case-study/index">Case Studies</a></h2>
+                        <p>Custom Entity.</p>
+                        <?php if(in_array($this->ZfcUserIdentity()->getType(),array('superadmin'))): ?>
+                            <!-- only show config to superadmins -->
+                            <a class="btn btn-primary" role="button" data-toggle="collapse" href="#casestudyConfig" aria-expanded="false" aria-controls="casestudyConfig">
+                                Config
+                            </a>
+                        <?php endif; ?>
+                    </div>
+                </div>
+
+            <?php endif; ?>
+
+            <?php if(in_array($this->ZfcUserIdentity()->getType(),array('admin','superadmin'))): ?>
+
+                <div class="col-sm-3 col-admin">
+                    <div class="panel-admin">
+                        <h2><a href="/admin/content/index">Content</a></h2>
+                        <p>Built-in content/pages.</p>
+                        <?php if(in_array($this->ZfcUserIdentity()->getType(),array('superadmin'))): ?>
+                            <!-- only show config to superadmins -->
+                            <a class="btn btn-primary" role="button" data-toggle="collapse" href="#contentConfig" aria-expanded="false" aria-controls="contentConfig">
+                                Config
+                            </a>
+                        <?php endif; ?>
+                    </div>
+                </div>
+
+            <?php endif; ?>
+
+            <?php if(in_array($this->ZfcUserIdentity()->getType(),array('admin','superadmin'))): ?>
+
+                <div class="col-sm-3 col-admin">
+                    <div class="panel-admin">
+                        <h2><a href="/admin/document/index">Documents</a></h2>
+                        <p>Custom Entity.</p>
+                        <?php if(in_array($this->ZfcUserIdentity()->getType(),array('superadmin'))): ?>
+                            <!-- only show config to superadmins -->
+                            <a class="btn btn-primary" role="button" data-toggle="collapse" href="#documentConfig" aria-expanded="false" aria-controls="documentConfig">
+                                Config
+                            </a>
+                        <?php endif; ?>
+                    </div>
+                </div>
+
+            <?php endif; ?>
+
+            <?php if(in_array($this->ZfcUserIdentity()->getType(),array('admin','superadmin'))): ?>
+
+                <div class="col-sm-3 col-admin">
+                    <div class="panel-admin">
+                        <h2><a href="/admin/filemanager/index">File Manager</a></h2>
+                        <p>Built-in file manager.</p>
+                        <?php if(in_array($this->ZfcUserIdentity()->getType(),array('superadmin'))): ?>
+                            <!-- only show config to superadmins -->
+                            <a class="btn btn-primary" role="button" data-toggle="collapse" href="#filemanagerConfig" aria-expanded="false" aria-controls="filemanagerConfig">
+                                Config
+                            </a>
+                        <?php endif; ?>
+                    </div>
+                </div>
+
+            <?php endif; ?>
+
+            <?php if(in_array($this->ZfcUserIdentity()->getType(),array('admin','superadmin'))): ?>
+
+                <div class="col-sm-3 col-admin disabled">
+                    <div class="panel-admin">
+                        <h2><a href="/admin/gallery/index">Galleries</a></h2>
+                        <p>Built-in dynamic galleries.</p>
+                        <?php if(in_array($this->ZfcUserIdentity()->getType(),array('superadmin'))): ?>
+                            <!-- only show config to superadmins -->
+                            <a class="btn btn-primary" role="button" data-toggle="collapse" href="#galleryConfig" aria-expanded="false" aria-controls="galleryConfig">
+                                Config
+                            </a>
+                        <?php endif; ?>
+                    </div>
+                </div>
+
+            <?php endif; ?>
+
+            <?php if(in_array($this->ZfcUserIdentity()->getType(),array('admin','superadmin'))): ?>
+
+                <div class="col-sm-3 col-admin">
+                    <div class="panel-admin">
+                        <h2><a href="/admin/video/index">Videos</a></h2>
+                        <p>Custom Entity.</p>
+                        <?php if(in_array($this->ZfcUserIdentity()->getType(),array('superadmin'))): ?>
+                            <!-- only show config to superadmins -->
+                            <a class="btn btn-primary" role="button" data-toggle="collapse" href="#videoConfig" aria-expanded="false" aria-controls="videoConfig">
+                                Config
+                            </a>
+                        <?php endif; ?>
+                    </div>
+                </div>
+
+            <?php endif; ?>
+
+            <?php if(in_array($this->ZfcUserIdentity()->getType(),array('admin','superadmin'))): ?>
+
+                <div class="col-sm-3 col-admin">
+                    <div class="panel-admin">
+                        <h2><a href="/admin/white-paper/index">White Papers</a></h2>
+                        <p>Custom Entity.</p>
+                        <?php if(in_array($this->ZfcUserIdentity()->getType(),array('superadmin'))): ?>
+                            <!-- only show config to superadmins -->
+                            <a class="btn btn-primary" role="button" data-toggle="collapse" href="#whitepaperConfig" aria-expanded="false" aria-controls="whitepaperConfig">
+                                Config
+                            </a>
+                        <?php endif; ?>
+                    </div>
+                </div>
+
+            <?php endif; ?>
+
+        </div><!-- end cms panels -->
+
+
+        <?php if(in_array($this->ZfcUserIdentity()->getType(),array('superadmin'))): ?>
+
+            <div class="collapse" id="blogConfig">
+                asd
+            </div>
+
+            <div class="collapse" id="contentConfig">
+                asd
+            </div>
+
+            <div class="collapse" id="galleryConfig">
+                asd
+            </div>
+
+            <div class="collapse" id="casestudyConfig">
+                asd
+            </div>
+
+            <div class="collapse" id="documentConfig">
+                asd
+            </div>
+
+            <div class="collapse" id="videoConfig">
+                asd
+            </div>
+
+            <div class="collapse" id="whitepaperConfig">
+                asd
+            </div>
+
+            <!-- only show config to superadmins -->
+            <div class="collapse" id="filemanagerConfig">
+
+                <h3>ElFinder Filemanager</h3>
+                <table class="table">
+                    <tr>
+                        <th>Debug</th>
+                        <td><?=$this->IconCheckMark($this->config()['filemanager']['debug'])?></td>
+                    </tr>
+                    <tr>
+                        <th>Base URL</th>
+                        <td><?=$this->config()['myapp']['baseurl']?></td>
+                    </tr>
+                    <tr>
+                        <th>Roots</th>
+                        <td>
+                            <ul class="list-unstyled">
+                                <?php foreach($this->config()['filemanager']['roots'] as $key=>$root): ?>
+                                    <li><?=$root['path']?> - <a href="<?=$this->config()['myapp']['baseurl'].$root['URL']?>" target="_blank"><?=$this->config()['myapp']['baseurl'].$root['URL']?></a> [<?=$root['driver']?>] </li>
+                                <?php endforeach; ?>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+
+        <?php endif; ?>
+
+    </div><!-- end content management section -->
+
+    <?php if(in_array($this->ZfcUserIdentity()->getType(),array('admin','superadmin'))): ?>
+
+    <div class="section-admin">
+        <h1>Security</h1>
+        <p>Manage security for the site.</p>
+
+        <!-- security section -->
+        <div class="row row-admin">
+
+            <div class="col-sm-3 col-admin">
+                <div class="panel-admin">
+                    <h2><a href="/admin/user/index">Users</a></h2>
+                    <p>Manage users and access.</p>
+                    <?php if(in_array($this->ZfcUserIdentity()->getType(),array('superadmin'))): ?>
+                        <!-- only show config to superadmins -->
+                        <a class="btn btn-primary" role="button" data-toggle="collapse" href="#userConfig" aria-expanded="false" aria-controls="userConfig">
+                            Config
+                        </a>
+                    <?php endif; ?>
+                </div>
+            </div>
+
+        <?php endif; ?>
+
+        <?php if(in_array($this->ZfcUserIdentity()->getType(),array('superadmin'))): ?>
+            <!-- only show config to superadmins -->
+            <div class="collapse" id="userConfig">
+                <table class="table">
+                    <tr>
+                        <th>Enable Default Entities</th>
+                        <td><?=$this->iconCheckMark($this->config()['zfcuser']['enable_default_entities'])?></td>
+                    </tr>
+                    <tr>
+                        <th>Entity Class</th>
+                        <td><?=$this->config()['zfcuser']['user_entity_class']?></td>
+                    </tr>
+                    <tr>
+                        <th>Enable Registration</th>
+                        <td><?=$this->iconCheckMark($this->config()['zfcuser']['enable_registration'])?></td>
+                    </tr>
+                    <tr>
+                        <th>Login After Registration</th>
+                        <td><?=$this->iconCheckMark($this->config()['zfcuser']['login_after_registration'])?></td>
+                    </tr>
+                    <tr>
+                        <th>Registration Form CAPTCHA</th>
+                        <td><?=$this->iconCheckMark($this->config()['zfcuser']['use_registration_form_captcha'])?></td>
+                    </tr>
+                    <tr>
+                        <th>Enable Username</th>
+                        <td><?=$this->iconCheckMark($this->config()['zfcuser']['enable_username'])?></td>
+                    </tr>
+                    <tr>
+                        <th>Enable Displayname</th>
+                        <td><?=$this->iconCheckMark($this->config()['zfcuser']['enable_display_name'])?></td>
+                    </tr>
+                    <tr>
+                        <th>Auth Identity Fields</th>
+                        <td>
+                            <?php foreach($this->config()['zfcuser']['auth_identity_fields'] as $field):?>
+                                <?=$field?><br/>
+                            <?php endforeach; ?>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Use Redirect Parameter If Present</th>
+                        <td><?=$this->iconCheckMark($this->config()['zfcuser']['use_redirect_parameter_if_present'])?></td>
+                    </tr>
+                    <tr>
+                        <th>Login Redirect Route</th>
+                        <td><?=$this->config()['zfcuser']['login_redirect_route']?></td>
+                    </tr>
+                    <tr>
+                        <th>Logout Redirect Route</th>
+                        <td><?=$this->config()['zfcuser']['logout_redirect_route']?></td>
+                    </tr>
+                    <tr>
+                        <th>Enable User State</th>
+                        <td><?=$this->iconCheckMark($this->config()['zfcuser']['enable_user_state'])?></td>
+                    </tr>
+                    <tr>
+                        <th>Default User State</th>
+                        <td><?=$this->iconCheckMark($this->config()['zfcuser']['default_user_state'])?></td>
+                    </tr>
+                    <tr>
+                        <th>Allowed Login States</th>
+                        <td>
+                            <?php foreach($this->config()['zfcuser']['allowed_login_states'] as $field):?>
+                                <?=$field?><br/>
+                            <?php endforeach; ?>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+        <?php endif; ?>
+        </div>
+
+    </div><!-- end security section -->
+    <!--div class="text-muted">
+        <h2>Newsletter Subscriptions</h2>
+        <p>View newsletter subscriptions and push to GR360.</p>
+    </div>
+
+    <div class="text-muted">
+        <h2>CMS</h2>
+        <p>Edit website content.</p>
+    </div>
+
+    <div class="text-muted">
+        <h2>Employee Directory</h2>
+        <p>View employee directory. Updated every 1 hour from Active Directory.</p>
+    </div>
+
+    <div class="text-muted">
+        <h2>Customer Portal</h2>
+        <p>Share files, project information, invoicing and collect payments.</p>
+    </div>
+
+    <div class="text-muted">
+        <h2>Equipment Monitoring</h2>
+        <p>View monitoring information for in-field equipment.</p>
+    </div>
+
+    <div class="text-muted">
+        <h2>Job Tracking, Inventory & Purchasing</h2>
+        <p>View monitoring information for in-field equipment.</p>
+    </div>
+
+    <div class="text-muted">
+        <h2>Catalog</h2>
+        <p>Manage equipment and e-commerce</p>
+    </div-->
+
+</div>

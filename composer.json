@@ -1,0 +1,28 @@
+{
+    "name": "bdelamatre/delamatre-zend-cms-admin",
+    "description": "Administration panel for delamatre-zend-cms",
+    "type": "library",
+    "keywords": [
+        "zf2",
+        "delamatre",
+        "byron delamatre"
+    ],
+    "authors": [
+        {
+            "name": "Byron DeLaMatre",
+            "email": "byron@delamatre.com",
+            "homepage": "http://delamatre.com"
+        }
+    ],
+    "require": {
+        "bdelamatre/delamatre-zend-cms": "dev-master"
+    },
+    "autoload":{
+        "psr-0":{
+            "DelamatreZendCmsAdmin" : "src/"
+        },
+        "classmap": [
+            "Module.php"
+        ]
+    }
+}

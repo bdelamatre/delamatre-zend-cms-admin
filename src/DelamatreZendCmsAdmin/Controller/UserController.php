@@ -18,7 +18,7 @@ class UserController extends AbstractAdminActionController
 
         //start building the users query
         $qb = $this->createQueryBuilder();
-        $qb->select(array('u'))->from('DelamatreZend\Entity\User','u')->orderBy('u.username', 'ASC');
+        $qb->select(array('u'))->from($this->getUserClass(),'u')->orderBy('u.username', 'ASC');
         $users = $qb->getQuery()->getResult();
         $usersCount = count($users);
 
@@ -36,7 +36,7 @@ class UserController extends AbstractAdminActionController
         $id = $this->params()->fromQuery('id');
 
         /** @var \DelamatreZend\Entity\User $user */
-        $user = $this->getEntityManager()->find('DelamatreZend\Entity\User',$id);
+        $user = $this->getEntityManager()->find($this->getUserClass(),$id);
 
         if(empty($user)){
             throw new \Exception('No user found for user id '.$id);
@@ -60,7 +60,7 @@ class UserController extends AbstractAdminActionController
         if(empty($id)){
             $user = new User();
         }else{
-            $user = $this->getEntityManager()->find('DelamatreZend\Entity\User',$id);
+            $user = $this->getEntityManager()->find($this->getUserClass(),$id);
 
             if(empty($user)){
                 throw new \Exception('No user found for user id '.$id);

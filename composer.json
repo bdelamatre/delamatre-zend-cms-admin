@@ -18,8 +18,8 @@
         "bdelamatre/delamatre-zend-cms": "dev-master"
     },
     "autoload":{
-        "psr-0":{
-            "DelamatreZendCmsAdmin" : "src/"
+        "psr-4":{
+            "DelamatreZendCmsAdmin\\" : "src/"
         },
         "classmap": [
             "Module.php"

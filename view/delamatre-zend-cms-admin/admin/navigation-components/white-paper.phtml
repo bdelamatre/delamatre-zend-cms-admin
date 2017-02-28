@@ -1,0 +1,31 @@
+<?php if(in_array($this->ZfcUserIdentity()->getType(),array('admin','superadmin'))): ?>
+
+    <div class="col-sm-3 col-admin">
+        <div class="panel-admin">
+            <h2><a href="/admin/white-paper/index">White Papers (<?=$this->whitePaperCount?>)</a></h2>
+            <p>Custom Entity.</p>
+            <?php if(in_array($this->ZfcUserIdentity()->getType(),array('superadmin'))): ?>
+                <!-- only show config to superadmins -->
+                <a class="btn btn-primary" role="button" data-toggle="collapse" href="#whitepaperConfig" aria-expanded="false" aria-controls="whitepaperConfig">
+                    Config
+                </a>
+                <div class="modal fade" id="whitepaperConfig" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="myModalLabel">White Paper Config</h1>
+                            </div>
+                            <div class="modal-body">
+                                asd
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <?php endif; ?>
+        </div>
+    </div>
+
+<?php endif; ?>

@@ -2,8 +2,6 @@
 
 namespace DelamatreZendCmsAdmin\Mvc\Controller;
 
-
-use DelamatreZendCmsAdmin\Mvc\Controller\AbstractAdminActionController;
 use Zend\View\Model\ViewModel;
 
 class AbstractEntityAdminController extends AbstractAdminActionController

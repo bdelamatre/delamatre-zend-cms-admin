@@ -3,7 +3,7 @@
     <div class="col-sm-3 col-admin">
         <div class="panel-admin">
             <h2><a href="/admin/white-paper/index">White Papers (<?=$this->whitePaperCount?>)</a></h2>
-            <p>Custom Entity.</p>
+            <p>Built-in white papers.</p>
             <?php if(in_array($this->ZfcUserIdentity()->getType(),array('superadmin'))): ?>
                 <!-- only show config to superadmins -->
                 <a class="btn btn-primary" role="button" data-toggle="collapse" href="#whitepaperConfig" aria-expanded="false" aria-controls="whitepaperConfig">
@@ -13,10 +13,10 @@
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h1 class="modal-title" id="myModalLabel">White Paper Config</h1>
+                                <h1 class="modal-title" id="myModalLabel">White Papers Config</h1>
                             </div>
                             <div class="modal-body">
-                                asd
+
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

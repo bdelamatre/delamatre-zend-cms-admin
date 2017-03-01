@@ -1,19 +1,19 @@
-<?php if(in_array($this->ZfcUserIdentity()->getType(),array('admin','superadmin'))): ?>
+<?php if(in_array($this->ZfcUserIdentity()->getType(),array('user','admin','superadmin'))): ?>
 
     <div class="col-sm-3 col-admin">
         <div class="panel-admin">
-            <h2><a href="/admin/organization/index">Organizations (<?=$this->organizationCount?>)</a></h2>
-            <p>Built-in organizations.</p>
+            <h2><a href="/admin/case-study/index">Case Study (<?=$this->caseStudyCount?>)</a></h2>
+            <p>Built-in case studies.</p>
             <?php if(in_array($this->ZfcUserIdentity()->getType(),array('superadmin'))): ?>
                 <!-- only show config to superadmins -->
-                <a class="btn btn-primary" role="button" data-toggle="modal" href="#organizationConfig" aria-expanded="false" aria-controls="organizationConfig">
+                <a class="btn btn-primary" role="button" data-toggle="collapse" href="#casestudyConfig" aria-expanded="false" aria-controls="casestudyConfig">
                     Config
                 </a>
-                <div class="modal fade" id="organizationConfig" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal fade" id="casestudyConfig" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h1 class="modal-title" id="myModalLabel">Organization Config</h1>
+                                <h1 class="modal-title" id="myModalLabel">Case Studies Config</h1>
                             </div>
                             <div class="modal-body">
 

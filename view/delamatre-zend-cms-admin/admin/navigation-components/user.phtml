@@ -6,14 +6,14 @@
         <p>Manage users and access.</p>
         <?php if(in_array($this->ZfcUserIdentity()->getType(),array('superadmin'))): ?>
             <!-- only show config to superadmins -->
-            <a class="btn btn-primary" role="button" data-toggle="collapse" href="#userConfig" aria-expanded="false" aria-controls="userConfig">
+            <a class="btn btn-primary" role="button" data-toggle="modal" href="#userConfig" aria-expanded="false" aria-controls="userConfig">
                 Config
             </a>
             <div class="modal fade" id="userConfig" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h1 class="modal-title" id="myModalLabel">User Config</h1>
+                            <h1 class="modal-title text-center" id="myModalLabel">User Config</h1>
                         </div>
                         <div class="modal-body">
                             <table class="table">

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="263bb3c7-3012-40d5-b43b-1c545af2a485" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="263bb3c7-3012-40d5-b43b-1c545af2a485" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/Module.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="20" selection-end-column="71" />
+              <caret line="16" column="44" lean-forward="false" selection-start-line="16" selection-start-column="44" selection-end-line="20" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -73,7 +71,7 @@
             <state relative-caret-position="204">
               <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
               <folding>
-                <marker date="1488384339401" expanded="true" signature="552:572" ph="{&quot;DelamatreZendCmsAdmin&quot;: &quot;src/&quot;...}" />
+                <marker date="1488384724071" expanded="true" signature="552:572" ph="{&quot;DelamatreZendCmsAdmin&quot;: &quot;src/&quot;...}" />
               </folding>
             </state>
           </provider>
@@ -345,7 +343,7 @@
         <state relative-caret-position="204">
           <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
           <folding>
-            <marker date="1488384339401" expanded="true" signature="552:572" ph="{&quot;DelamatreZendCmsAdmin&quot;: &quot;src/&quot;...}" />
+            <marker date="1488384724071" expanded="true" signature="552:572" ph="{&quot;DelamatreZendCmsAdmin&quot;: &quot;src/&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -355,7 +353,7 @@
         <state relative-caret-position="204">
           <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
           <folding>
-            <marker date="1488384339401" expanded="true" signature="552:572" ph="{&quot;DelamatreZendCmsAdmin&quot;: &quot;src/&quot;...}" />
+            <marker date="1488384724071" expanded="true" signature="552:572" ph="{&quot;DelamatreZendCmsAdmin&quot;: &quot;src/&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -395,7 +393,7 @@
     <entry file="file://$PROJECT_DIR$/Module.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="20" selection-end-column="71" />
+          <caret line="16" column="44" lean-forward="false" selection-start-line="16" selection-start-column="44" selection-end-line="20" selection-end-column="71" />
           <folding />
         </state>
       </provider>

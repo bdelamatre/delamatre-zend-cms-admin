@@ -23,7 +23,8 @@ class UserController extends AbstractAdminActionController
         $usersCount = count($users);
 
         $view = new ViewModel();
-        $view->usersCount = $usersCount;
+        $view->recordCount = $usersCount;
+        $view->routeName = 'user';
         $view->users = $users;
         return $view;
 

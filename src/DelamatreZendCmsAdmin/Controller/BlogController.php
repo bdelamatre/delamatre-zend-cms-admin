@@ -12,6 +12,13 @@ class BlogController extends AbstractEntityAdminController
     public $entityName = 'DelamatreZendCms\Entity\Blog';
     public $formName = 'DelamatreZendCmsAdmin\Form\BlogForm';
 
+    public function buildQuery()
+    {
+        $qb = parent::buildQuery();
+        $qb->orderBy('u.posted_timestamp','DESC');
+        return $qb;
+    }
+
     public function crudBusinessRules(\DelamatreZendCms\Entity\Superclass\Content $blog){
 
         if(!$blog->created_datetime){

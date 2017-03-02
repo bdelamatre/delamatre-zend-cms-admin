@@ -1,0 +1,41 @@
+body{
+    margin-top:82px;
+}
+
+.body-adjust{
+    margin-top:130px;
+}
+
+.sidebar{
+    background-color: #eee;
+    border-right: 2px solid #333;
+}
+
+.navbar{
+    height:82px;
+    background-color: #333 !important;
+}
+
+.navbar-brand{
+    padding-top: 0px;
+    color: #fff !important;
+}
+
+.environment-adjust{
+    margin-top:48px;
+}
+
+.environment{
+    position: fixed;
+    width:100%;
+    margin-top:-130px;
+    z-index: 255;
+}
+
+li .active{
+    background-color: #333 !important;
+}
+
+li .active a{
+    color: #fff;
+}

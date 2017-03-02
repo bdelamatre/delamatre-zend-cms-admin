@@ -71,10 +71,10 @@ class UserForm extends Form{
             ),
         ));
 
-        $status = new UserState('state');
+        $status = new \DelamatreZend\Form\Element\UserState('state');
         $this->add($status);
 
-        $type = new UserType('type');
+        $type = new \DelamatreZend\Form\Element\UserType('type');
         $this->add($type);
 
     }

@@ -1,18 +1,7 @@
-<?=$this->partial('layout/components/banner.phtml',array('text'=>'Filemanager','src'=>'applications.jpg'))?>
-<div class="container">
-    <div class="row">
-        <div class="col-sm-4">
-            <br/>
-            <a href="/admin"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i> Back to admin panel</a>
-        </div>
-        <div class="col-sm-8 text-right">
-        </div>
-    </div>
-    <hr/>
-    <div class="container">
-        <div id="elfinder"></div>
-    </div>
-</div>
+<h1>Filemanager</h1>
+
+<div id="elfinder"></div>
+
 <style type="text/css">
     .elfinder-workzone{
         margin-top:25px;
@@ -24,7 +13,7 @@
             url  : '/admin/filemanager/connector',
             lang : 'en',
             width : 'auto',
-            height : '500px',
+            height : '600px',
             uiOptions : {
 
                 // directories tree options

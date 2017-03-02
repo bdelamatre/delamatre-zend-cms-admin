@@ -8,9 +8,7 @@ if(isset($this->id)){
 
 ?>
 <?=$this->formHidden($this->formElement)?>
-<div id="<?=$editorId?>">
-    <?=$this->content?>
-</div>
+<div id="<?=$editorId?>"><?=$this->content?></div>
 
 <script type="text/javascript">
     $(document).ready(function() {
@@ -30,7 +28,6 @@ if(isset($this->id)){
                 ['view', ['fullscreen', 'codeview']]
             ]
         });
-
 
     });
 
@@ -56,7 +53,11 @@ if(isset($this->id)){
 
     <?php if(!isset($this->buildPostFormFunction) || $this->buildPostFormFunction==true): ?>
         var postForm = function() {
-            var content = $('#<?=$this->formElement->getAttribute('id')?>').val($('#<?=$editorId?>').summernote('code'));
+
+            var code = $('#<?=$editorId?>').summernote('code').replace(/&gt;/gi,">");
+            var content = $('#<?=$this->formElement->getAttribute('id')?>').val(code);
+            console.log(code);
+            alert("post");
         }
     <?php endif; ?>
 

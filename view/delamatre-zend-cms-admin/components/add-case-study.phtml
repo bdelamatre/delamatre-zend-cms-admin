@@ -1,30 +1,22 @@
-<?=$this->partial('layout/components/banner.phtml',array('text'=>'Add New Case Study To '.$this->entity->title,'src'=>'applications.jpg'))?>
+<?=$this->form()->openTag($this->form)?>
 
-<div class="container">
-
-    <?=$this->form()->openTag($this->form)?>
-
-    <div class="row">
-        <div class="col-sm-9">
-            <br/>
-            <a href="/admin/<?=$this->routeName?>/form?id=<?=$this->entity->id?>&default-tab=content-case-studies"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i> Back to <?=$this->entity->title?></a>
-        </div>
-        <div class="col-sm-3 text-right">
-        </div>
+<div class="row">
+    <div class="col-sm-9">
+        <br/>
+        <a href="/admin/<?=$this->routeName?>/form?id=<?=$this->entity->id?>&default-tab=content-case-studies"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i> Back to <?=$this->entity->title?></a>
     </div>
-
-    <hr/>
-    <div class="container">
-
-        <h1>Choose Case Study</h1>
-
-        <?=$this->formHidden($this->form->get('id'))?>
-        <?=$this->formLabel($this->form->get('case-study'))?>
-        <?=$this->formSelect($this->form->get('case-study'))?>
-
-        <button type="submit">Add</button>
-
+    <div class="col-sm-3 text-right">
     </div>
-
-    <?=$this->form()->closeTag($this->form)?>
 </div>
+
+<hr/>
+
+<h1>Choose Case Study</h1>
+
+<?=$this->formHidden($this->form->get('id'))?>
+<?=$this->formLabel($this->form->get('case-study'))?>
+<?=$this->formSelect($this->form->get('case-study'))?>
+
+<button type="submit">Add</button>
+
+<?=$this->form()->closeTag($this->form)?>

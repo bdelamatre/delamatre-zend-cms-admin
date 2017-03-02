@@ -2,6 +2,7 @@
 
 namespace DelamatreZendCmsAdmin\Mvc\Controller;
 
+use Zend\Mvc\MvcEvent;
 use Zend\View\Model\ViewModel;
 
 class AbstractEntityAdminController extends AbstractAdminActionController
@@ -11,14 +12,26 @@ class AbstractEntityAdminController extends AbstractAdminActionController
     public $entityName = 'DelamatreZendCms\Entity\Superclass\Content';
     public $formName = 'DelamatreZend\Form\Form';
 
+    public function buildQuery(){
+
+        $qb = $this->createQueryBuilder();
+        $qb->select(array('u'))
+            ->from($this->entityName,'u')
+            ->orderBy('u.active', 'DESC')
+            ->addOrderBy('u.title', 'ASC');
+        return $qb;
+    }
+
+
     public function indexAction(){
 
         //require authentication
         $this->requireAuthentication();
 
+
+
         //start building the users query
-        $qb = $this->createQueryBuilder();
-        $qb->select(array('u'))->from($this->entityName,'u')->orderBy('u.active', 'DESC')->addOrderBy('u.title', 'ASC');
+        $qb = $this->buildQuery();
         $records = $qb->getQuery()->getResult();
         $recordCount = count($records);
 

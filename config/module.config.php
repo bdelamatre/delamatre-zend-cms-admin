@@ -41,6 +41,8 @@ return array(
     'controllers' => array(
         'invokables' => array(
             'Admin\Controller\Admin' => Controller\AdminController::class,
+            'Admin\Controller\Settings' => Controller\SettingsController::class,
+            'Admin\Controller\Help' => Controller\HelpController::class,
             'Admin\Controller\Blog' => Controller\BlogController::class,
             'Admin\Controller\Content' => Controller\ContentController::class,
             'Admin\Controller\Gallery' => Controller\GalleryController::class,
@@ -51,6 +53,10 @@ return array(
             'Admin\Controller\Filemanager' => Controller\FilemanagerController::class,
             'Admin\Controller\User' => Controller\UserController::class,
         ),
+    ),
+
+    'module_layouts' => array(
+        'DelamatreZendCmsAdmin' => 'layout/admin',
     ),
 
     'view_manager' => array(

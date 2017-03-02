@@ -1,0 +1,177 @@
+<?php echo $this->doctype(); ?>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta property="og:logo" content="/branding/vulcan/logos/vulcanHead130x130.png" size="130x130" />
+<meta property="og:logo" content="/branding/vulcan/logos/vulcanHead195x195.png" size="195x195" />
+<meta property="og:logo" content="/branding/vulcan/logos/vulcanHead260x260.png" size="260x260" />
+<link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+<?php echo $this->headTitle($this->config()['myapp']['appendTitle'])->setSeparator(' - ')->setAutoEscape(false); ?>
+<?php echo $this->headMeta()
+    ->appendName('viewport', 'width=device-width, initial-scale=1.0')
+    ->appendHttpEquiv('X-UA-Compatible', 'IE=edge'); ?>
+<?php echo $this->headLink(); ?>
+<?php echo $this->headStyle(); ?>
+<?php echo $this->headScript(); ?>
+<?php echo $this->inlineScript() ?>
+<?php echo $this->adobeTypeKit()?>
+<?php echo $this->googleAnalytics(null,null,array('1'=>session_id(),'2'=>$this->IPAddress())); ?>
+<?php if(!in_array($this->CURRENT_ROUTE_NAME,$this->config()['myapp']['contact-popup']['exceptions']['routes'])
+            && !in_array($this->CURRENT_MODULE_NAME,$this->config()['myapp']['contact-popup']['exceptions']['modules'])
+            && !in_array($this->CURRENT_CONTROLLER_NAME,$this->config()['myapp']['contact-popup']['exceptions']['controllers'])
+            && (!isset($_SESSION['contacted']) || $_SESSION['contacted']==false)): ?>
+<script type="text/javascript">
+    <!-- popup contact modal -->
+    setTimeout("contactLayover('#contact-modal')",<?=$this->config()['myapp']['contact-popup']['timeout']?>);
+</script>
+<?php endif; ?>
+</head>
+<body class="wf-loading">
+
+    <?php if($this->zfcUserIdentity()
+                || $this->config()['myapp']['environment']['type']!=ENVIRONMENT_TYPE_PRODUCTION): ?>
+
+    <!-- environment / user notification -->
+    <div class="alert alert-warning">
+
+        <div class="row">
+            <div class="col-sm-6">
+                <?php if($this->config()['myapp']['environment']['type']!=ENVIRONMENT_TYPE_PRODUCTION ):?>
+                    This is a <?=$this->config()['myapp']['environment']['type']?> environment. Notes: <?=$this->config()['myapp']['environment']['notes']?>
+                <?php endif; ?>
+            </div>
+            <div class="col-sm-6 text-right">
+                <?php if($this->zfcUserIdentity()):?>
+                    Logged in as  <?=$this->zfcUserDisplayNAme()?> <span class="text-muted">[<?=$this->zfcUserIdentity()->getType()?>]</span> <a href="/user/logout">Logout</a>
+                <?php else: ?>
+                    <a href="/user/login">Login</a>
+                <?php endif; ?>
+            </div>
+        </div>
+
+    </div>
+
+    <?php endif; ?>
+
+    <!-- start header -->
+    <header class="header">
+
+        <div class="container">
+
+            <!-- top right content -->
+            <div class="header-extra pull-right">
+                <a class="emphasis" href="mailto:<?=$this->config()['myapp']['contact']['email']?>" title="e-mail address">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <?=$this->config()['myapp']['contact']['email'] ?>
+                </a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="emphasis" href="tel:<?=$this->config()['myapp']['contact']['phone_link']?>" title="phone number">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <?=$this->config()['myapp']['contact']['phone_formatted']?>
+                </a>
+            </div>
+
+            <!--div class="header-extra pull-right" style="margin-right: 30px;">
+                <a href="/careers" title="now hiring">Careers</a>
+            </div-->
+
+        </div>
+
+    </header><!-- end header -->
+
+    <!-- navigation -->
+    <?php echo $this->navigation('default')->menu()->setPartial(array('layout/navigation/menu.phtml','default'))->render(); ?>
+
+    <h1>testing</h1>
+
+    <!-- content -->
+    <?php echo $this->content; ?>
+
+    <!-- footer -->
+    <footer class="footer">
+
+        <!--  footer-bar -->
+        <div class="footer-bar">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-sm-8">
+
+                        <form class="form-inline" action="/submit-newsletter" method="post">
+                            <input name="email" type="text" class="form-control" style="width: 275px;" placeholder="your@email.com" />
+                            <button type="submit" class="btn btn-emphasis text-upper" style="width: 275px;" >Subscribe to our Newsletter <i class="fa fa-envelope" aria-hidden="true"></i></button>
+                        </form>
+
+                    </div>
+                    <div class="col-sm-4 text-right footer-social">
+
+                        <ul class="list list-inline">
+                            <li>
+                                <a href="https://www.facebook.com/pages/Vulcan-Systems/556615251088473" target="_blank">
+                                    <i class="fa fa-facebook fa-3x"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/vulcansystems" target="_blank">
+                                    <i class="fa fa-twitter fa-3x"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/company/vulcansystems" target="_blank">
+                                    <i class="fa fa-linkedin fa-3x"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/channel/UCCh9Frvp9O_NJvUcJZ_fcmw" target="_blank">
+                                    <i class="fa fa-youtube fa-3x"></i>
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div><!-- end:row -->
+
+            </div><!-- end:container -->
+
+        </div><!-- end:footer-bar -->
+
+        <div class="container">
+            <br/>
+            <div class="row">
+                <div class="col-sm-4" style="border-right:#333 1px solid;">
+                    <p class="text-center text-upper">Vulcan<sup>&reg;</sup> Systems offers a full range of <span class="emphasis">custom-built</span> equipment for drying, calcining and thermal desorption processes in addition to providing standardized components.</p>
+                    <br/><br/>
+                    <?php echo $this->navigation('default')->menu()->setPartial(array('layout/navigation/sitemap-top.phtml','default'))->render(); ?>
+                    <!-- FIX-ME: rogue div tag -->
+                    <!--/div-->
+                </div>
+                <div class="col-sm-8">
+                    <?=$this->partial('layout/components/contact-form-min.phtml',array('id'=>'contact-form-footer'))?>
+                </div>
+            </div><!-- end:row -->
+        </div><!-- end:container -->
+
+        <hr/>
+
+        <div class="text-center">
+            <a href="https://www.vulcansystems.com?utm_medium=website&utm_source=website&utm_campaign=&utm_content=vulcansystems" title="Vulcan Systems">Vulcan<sup>&reg;</sup> Systems</a> / <a href="http://www.tuffmanequipment.com?utm_medium=website&utm_source=website&utm_campaign=&utm_content=vulcansystems" title="Tuffman">Tuffman<sup>&reg;</sup></a> / <a href="http://www.wwrequip.com?utm_medium=website&utm_source=website&utm_campaign=&utm_content=vulcansystems" title="Worldwide Recycling Equipment Sales, LLC">Worldwide Recycling Equipment Sales, LLC</a> / <a href="/sitemap">Site Map</a>
+        </div>
+
+    </footer>
+
+    <!-- contact-modal -->
+    <div id="contact-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+            </div>
+
+        </div>
+    </div><!-- end:contact-modal -->
+
+</body>
+</html>

@@ -24,6 +24,7 @@ class ContentForm extends Form{
             ),
             'attributes' => array(
                 'required' => true,
+                'placeholder' => 'unique-key',
             ),
         ));
 
@@ -35,7 +36,7 @@ class ContentForm extends Form{
             ),
             'attributes' => array(
                 'required' => true,
-                'placeholder' => 'Page Title',
+                'placeholder' => 'Title',
             ),
         ));
 

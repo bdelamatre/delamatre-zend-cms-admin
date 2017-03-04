@@ -90,7 +90,9 @@ class AbstractEntityAdminController extends AbstractAdminActionController
 
         }
 
-        $form = new $this->formName();
+        $formName = $this->formName;
+
+        $form = new $formName('form',array('entityManager'=>$this->getEntityManager()));
 
         $data = $entity->getArrayCopy();
         $form->setData($data);

@@ -5,6 +5,7 @@
         <!--th style="width:125px;">Thumb</th-->
         <th>Key</th>
         <th>Title</th>
+        <th  style="width:150px;">Display On Web</th>
         <th style="width:150px;">Updated</th>
         <th  style="width:25px;"></th>
     </tr>
@@ -15,6 +16,7 @@
             <!--td><img src="<?=$record->getImageThumb()?>" title="<?=$record->title?>" class="img-responsive" /></td-->
             <td><?=$record->key?></td>
             <td><?=$record->title?></td>
+            <td><?=$this->iconCheckMark($record->display_on_website)?></td>
             <td>
                 <?php if($record->updated_datetime): ?>
                     <?=$record->updated_datetime->format($this->config()['myapp']['datetime_format'])?>

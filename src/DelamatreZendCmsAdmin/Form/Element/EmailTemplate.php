@@ -5,7 +5,7 @@ namespace DelamatreZendCmsAdmin\Form\Element;
 use Doctrine\ORM\EntityManager;
 use Zend\Form\Element\Select;
 
-class Document extends Select{
+class EmailTemplate extends Select{
 
     public function __construct($name=null, $options=array(), EntityManager $entityManager){
 
@@ -14,7 +14,7 @@ class Document extends Select{
         $valueOptions = array(''=>'');
 
         $qb = $entityManager->createQueryBuilder();
-        $qb->select('t')->from('DelamatreZendCms\Entity\Document','t')->orderBy('t.title','ASC');
+        $qb->select('t')->from('DelamatreZendCms\Entity\EmailTemplate','t')->orderBy('t.title','ASC');
 
         if(!empty($options['exclude'])){
             $qb->andWhere($qb->expr()->notIn('t.id',$options['exclude']));
@@ -28,7 +28,7 @@ class Document extends Select{
         }
 
         $this->setValueOptions($valueOptions);
-        $this->setLabel('Document');
+        $this->setLabel('E-Mail Template');
 
     }
 

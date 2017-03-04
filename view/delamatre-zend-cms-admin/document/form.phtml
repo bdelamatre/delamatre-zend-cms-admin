@@ -1,9 +1,3 @@
-<?php if(empty($this->id)): ?>
-    <h1>Create Document</h1>
-<?php else: ?>
-    <h1>Edit Document <?=$this->entity->key?></h1>
-<?php endif;?>
-
 <?=$this->form()->openTag($this->form->setAttribute('onsubmit','return postForm();'))?>
 
 <?=$this->partial('delamatre-zend-cms-admin/components/entity-form-header.phtml',array('routeName'=>$this->routeName,'entity'=>$this->entity))?>
@@ -36,6 +30,7 @@
 
             <div style="margin:0 25px 0 25px;">
                 <?=$this->formRow($this->form->get('key'))?>
+                <?=$this->formRow($this->form->get('display_on_website'))?>
                 <?=$this->formRow($this->form->get('title'))?>
                 <?=$this->formRow($this->form->get('download'))?>
                 <?=$this->formRow($this->form->get('imageThumb'))?>

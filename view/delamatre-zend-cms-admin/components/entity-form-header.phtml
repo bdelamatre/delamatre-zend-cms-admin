@@ -1,9 +1,14 @@
 <div class="row">
     <div class="col-sm-4">
-        <br/>
+        <?php if(empty($this->entity->id)): ?>
+            <h1>Create <?=$this->name?></h1>
+        <?php else: ?>
+            <h1>Edit <?=$this->name?> <?=$this->entity->key?></h1>
+        <?php endif;?>
         <a href="/admin/<?=$this->routeName?>/index"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i> Back to records</a>
     </div>
     <div class="col-sm-8 text-right">
+        <br/>
         <?php if($this->entity->id): ?>
             <?php if($this->entity->active==true): ?>
                 <a class="btn btn-danger" href="/admin/<?=$this->routeName?>/deactivate?id=<?=$this->entity->id?>">Deactivate</a>

@@ -45,6 +45,8 @@ return array(
             'Admin\Controller\Help' => Controller\HelpController::class,
             'Admin\Controller\Blog' => Controller\BlogController::class,
             'Admin\Controller\Content' => Controller\ContentController::class,
+            'Admin\Controller\Email' => Controller\EmailController::class,
+            'Admin\Controller\EmailTemplate' => Controller\EmailTemplateController::class,
             'Admin\Controller\Gallery' => Controller\GalleryController::class,
             'Admin\Controller\CaseStudy' => Controller\CaseStudyController::class,
             'Admin\Controller\Document' => Controller\DocumentController::class,

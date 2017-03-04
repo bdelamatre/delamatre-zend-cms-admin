@@ -14,7 +14,7 @@ class WhitePaper extends Select{
         $valueOptions = array(''=>'');
 
         $qb = $entityManager->createQueryBuilder();
-        $qb->select('t')->from('Application\Entity\WhitePaper','t');
+        $qb->select('t')->from('DelamatreZendCms\Entity\WhitePaper','t');
 
         if(!empty($options['exclude'])){
             $qb->andWhere($qb->expr()->notIn('t.id',$options['exclude']));

@@ -6,6 +6,7 @@
         <th style="width:200px;">Key</th>
         <th>Title</th>
         <th>Youtube URL</th>
+        <th  style="width:150px;">Display On Web</th>
         <th style="width:150px;">Updated</th>
         <th  style="width:25px;"></th>
     </tr>
@@ -17,6 +18,7 @@
             <td><?=$record->key?></td>
             <td><?=$record->title?></td>
             <td><?=$record->youtubeUrl?></td>
+            <td><?=$this->iconCheckMark($record->display_on_website)?></td>
             <td>
                 <?php if($record->updated_datetime): ?>
                     <?=$record->updated_datetime->format($this->config()['myapp']['datetime_format'])?>

@@ -56,8 +56,6 @@ if(isset($this->id)){
 
             var code = $('#<?=$editorId?>').summernote('code').replace(/&gt;/gi,">");
             var content = $('#<?=$this->formElement->getAttribute('id')?>').val(code);
-            console.log(code);
-            alert("post");
         }
     <?php endif; ?>
 

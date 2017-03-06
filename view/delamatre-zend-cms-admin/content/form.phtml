@@ -64,8 +64,8 @@
         <div role="tabpanel" class="tab-pane <?php if($this->defaultTab=='content-other'){echo 'active';} ?>" id="content-other">
 
             <div style="margin:0 25px 0 25px;">
-                <?=$this->formRow($this->form->get('image'))?>
-                <?=$this->formRow($this->form->get('imageThumb'))?>
+                <?=$this->formElfinder($this->form->get('image'))?>
+                <?=$this->formElfinder($this->form->get('imageThumb'))?>
                 <?=$this->formRow($this->form->get('imageMenu'))?>
                 <?=$this->formRow($this->form->get('descriptionMenu'))?>
             </div>

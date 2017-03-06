@@ -1,20 +1,23 @@
 body{
-    margin-top:82px;
+    margin-top:52px;
 }
 
 .body-adjust{
-    margin-top:130px;
+    margin-top:100px;
 }
 
 .sidebar{
-    background-color: #eee;
+    color:#fff;
+    background-color: #333;
     border-right: 2px solid #333;
     border-bottom: 2px solid #333;
 }
 
 .navbar{
-    height:82px;
-    background-color: #333 !important;
+    height:52px;
+    background-color: #333;
+    background-image: none;
+    border: 0;
 }
 
 .navbar-brand{
@@ -29,17 +32,25 @@ body{
 }
 
 .nav-sidebar li a{
+    background-color: #333 !important;
+    color:#fff;
     padding-top:0px;
 }
 
+.nav-sidebar li a:hover{
+    padding-top:0px;
+    color:#EA2227;
+}
+
+
 .environment-adjust{
-    margin-top:48px;
+    margin-top:18px;
 }
 
 .environment{
     position: fixed;
     width:100%;
-    margin-top:-130px;
+    margin-top:-100px;
     z-index: 255;
 }
 

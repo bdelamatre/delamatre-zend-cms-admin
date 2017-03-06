@@ -33,6 +33,7 @@ class SettingsController extends AbstractEntityAdminController
 
         $download = $this->params()->fromQuery('download',false);
         $read = $this->params()->fromQuery('read',false);
+        $clear = $this->params()->fromQuery('clear',false);
         $content = 'select a file to view its contents';
 
         foreach(glob('data/log/*.log')as $filename){
@@ -47,6 +48,9 @@ class SettingsController extends AbstractEntityAdminController
                 header('Content-Length: ' . filesize($filename));
                 readfile($filename);
                 exit;
+            }elseif($clear==$filename){
+                unlink($filename);
+                touch($filename);
             }
             if($read==$filename){
                 $content = file_get_contents($filename);

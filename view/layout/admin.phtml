@@ -65,7 +65,7 @@
                     <img src="<?=$this->config()['myapp']['logo']?>" style="max-height:72px;padding:5px;" />
                 </a-->
                 <a class="navbar-brand" href="/admin">
-                    <h1><?=$this->config()['myapp']['name']?> Dashboard</h1>
+                    <h4><?=$this->config()['myapp']['name']?> Dashboard</h4>
                 </a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
@@ -84,27 +84,28 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-3 col-md-2 sidebar">
-                <h4>Overview</h4>
+            <div class="col-sm-1 sidebar">
+                <h4><?=$this->fontAwesome('fa-dashboard')?>&nbsp;&nbsp;Overview</h4>
+                <hr/>
                 <ul class="nav nav-sidebar">
                     <li><a href="/admin">Dashboard</a></li>
                 </ul>
+                <h4><?=$this->fontAwesome('fa-users')?>&nbsp;&nbsp;Marketing</h4>
                 <hr/>
-                <h4>Marketing</h4>
                 <!--h4>&nbsp;&nbsp;Leads</h4-->
                 <ul class="nav nav-sidebar">
-                    <li><a href="/admin/lead/index">Leads Dashboard</a></li>
-                    <li><a href="/admin/roi-calculator/index">ROI Calculations Dashboard</a></li>
+                    <li><a href="/admin/lead/index">Leads</a></li>
+                    <li><a href="/admin/roi-calculator/index">ROI Calculations</a></li>
                 </ul>
+                <h4><?=$this->fontAwesome('fa-envelope')?>&nbsp;&nbsp;E-Mail</h4>
                 <hr/>
-                <h4>E-Mail</h4>
                 <!--h4>&nbsp;&nbsp;Leads</h4-->
                 <ul class="nav nav-sidebar">
                     <li><a href="/admin/email/index">E-Mails</a></li>
-                    <li><a href="/admin/email-template/index">E-Mail Templates</a></li>
+                    <li><a href="/admin/email-template/index">Templates</a></li>
                 </ul>
+                <h4><?=$this->fontAwesome('fa-file-text')?>&nbsp;&nbsp;CMS</h4>
                 <hr/>
-                <h4>Content Management System</h4>
                 <h4>&nbsp;&nbsp;Custom Objects</h4>
                 <ul class="nav nav-sidebar">
                     <li><a href="/admin/application/index">Applications</a></li>
@@ -122,30 +123,30 @@
                     <li><a href="/admin/video/index">Videos</a></li>
                     <li><a href="/admin/white-paper/index">White Papers</a></li>
                 </ul>
+                <h4><?=$this->fontAwesome('fa-lock')?>&nbsp;&nbsp;Security</h4>
                 <hr/>
-                <h4>Security</h4>
                 <ul class="nav nav-sidebar">
                     <li><a href="/admin/user/index">Users</a></li>
                     <!--li><a href="/admin/organization/index">Organizations</a></li-->
                 </ul>
+                <h4><?=$this->fontAwesome('fa-cogs')?>&nbsp;&nbsp;System</h4>
                 <hr/>
-                <h4>System</h4>
-                <h4>&nbsp;&nbsp;Tools</h4>
+                <h4>&nbsp;&nbsp;<?=$this->fontAwesome('fa-wrench')?>&nbsp;&nbsp;Tools</h4>
                 <ul class="nav nav-sidebar">
                     <li><a href="/admin/filemanager/index">Filemanager</a></li>
                 </ul>
-                <h4>&nbsp;&nbsp;Settings</h4>
+                <h4>&nbsp;&nbsp;<?=$this->fontAwesome('fa-cog')?>&nbsp;&nbsp;Settings</h4>
                 <ul class="nav nav-sidebar">
                     <li><a href="/admin/settings/configuration">Configuration</a></li>
                     <li><a href="/admin/settings/logs">Logs</a></li>
                 </ul>
+                <h4><?=$this->fontAwesome('fa-question')?>&nbsp;&nbsp;Help</h4>
                 <hr/>
-                <h4>Help</h4>
                 <ul class="nav nav-sidebar">
-                    <li><a href="/admin/help/content">Content Creator's Cheat Sheet</a></li>
+                    <li><a href="/admin/help/content">Cheat Sheet</a></li>
                 </ul>
             </div>
-            <div class="col-sm-9 col-md-10">
+            <div class="col-sm-11">
 
                 <!-- content -->
                 <?php echo $this->content; ?>

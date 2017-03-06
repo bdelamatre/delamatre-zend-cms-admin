@@ -16,6 +16,9 @@
                 <a class="btn btn-success" href="/admin/<?=$this->routeName?>/activate?id=<?=$this->entity->id?>">Activate</a>
             <?php endif; ?>
         <?php endif; ?>
+        <?php if($this->additionalActions): ?>
+            <?=$this->additionalActions?>
+        <?php endif; ?>
         <button class="btn btn-primary" type="submit">Save Record</button>
     </div>
 </div>

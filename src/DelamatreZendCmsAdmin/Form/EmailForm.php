@@ -2,6 +2,8 @@
 
 namespace DelamatreZendCmsAdmin\Form;
 
+use DelamatreZend\Form\Element\GenerateSignature;
+use DelamatreZend\Form\Element\YesNo;
 use DelamatreZendCmsAdmin\Form\Element\EmailTemplate;
 
 class EmailForm extends \DelamatreZendCmsAdmin\Form\Superclass\ContentForm {
@@ -27,10 +29,10 @@ class EmailForm extends \DelamatreZendCmsAdmin\Form\Superclass\ContentForm {
         $this->add($emailTemplate);
 
         $this->add(array(
-            'name' => 'theme_color',
+            'name' => 'subject',
             'type' => 'text',
             'options' => array(
-                'label' => 'Theme Color',
+                'label' => 'Subject',
             ),
             'attributes' => array(
                 //'placeholder' => 'sjhdf873nd93nd9384nd93',
@@ -49,10 +51,25 @@ class EmailForm extends \DelamatreZendCmsAdmin\Form\Superclass\ContentForm {
         ));
 
         $this->add(array(
+            'name' => 'theme_color',
+            'type' => 'text',
+            'options' => array(
+                'label' => 'Theme Color',
+            ),
+            'attributes' => array(
+                //'placeholder' => 'sjhdf873nd93nd9384nd93',
+            ),
+        ));
+
+        $this->get('title')->setLabel('[[title]]');
+        $this->get('description')->setLabel('[[description]]');
+        $this->get('image')->setLabel('[[image]]');
+
+        $this->add(array(
             'name' => 'subtitle',
             'type' => 'text',
             'options' => array(
-                'label' => 'Subtitle',
+                'label' => '[[subtitle]]',
             ),
             'attributes' => array(
                 //'placeholder' => 'sjhdf873nd93nd9384nd93',
@@ -63,7 +80,7 @@ class EmailForm extends \DelamatreZendCmsAdmin\Form\Superclass\ContentForm {
             'name' => 'calltoaction',
             'type' => 'text',
             'options' => array(
-                'label' => 'Call To Action',
+                'label' => '[[calltoaction]]',
             ),
             'attributes' => array(
                 //'placeholder' => 'sjhdf873nd93nd9384nd93',
@@ -74,12 +91,65 @@ class EmailForm extends \DelamatreZendCmsAdmin\Form\Superclass\ContentForm {
             'name' => 'calltoaction_url',
             'type' => 'text',
             'options' => array(
-                'label' => 'Call To Action URL',
+                'label' => '[[calltoaction_url]]',
             ),
             'attributes' => array(
                 //'placeholder' => 'sjhdf873nd93nd9384nd93',
             ),
         ));
+
+        $generateSignature = new \DelamatreZendCmsAdmin\Form\Element\GenerateSignature('generate_signature');
+        $generateSignature->setLabel('Generate Signature');
+        $this->add($generateSignature);
+
+        $this->add(array(
+            'name' => 'signature_name',
+            'type' => 'text',
+            'options' => array(
+                'label' => 'Signature Name',
+            ),
+            'attributes' => array(
+                //'placeholder' => 'sjhdf873nd93nd9384nd93',
+            ),
+        ));
+
+        $this->add(array(
+            'name' => 'signature_title',
+            'type' => 'text',
+            'options' => array(
+                'label' => 'Signature Title',
+            ),
+            'attributes' => array(
+                //'placeholder' => 'sjhdf873nd93nd9384nd93',
+            ),
+        ));
+
+        $this->add(array(
+            'name' => 'signature_extension',
+            'type' => 'text',
+            'options' => array(
+                'label' => 'Signature Extension',
+            ),
+            'attributes' => array(
+                //'placeholder' => 'sjhdf873nd93nd9384nd93',
+            ),
+        ));
+
+        $this->add(array(
+            'name' => 'signature_mobile',
+            'type' => 'text',
+            'options' => array(
+                'label' => 'Signature Mobile',
+            ),
+            'attributes' => array(
+                //'placeholder' => 'sjhdf873nd93nd9384nd93',
+            ),
+        ));
+
+        $attachRelatedFiles = new YesNo('attach_related_files');
+        $attachRelatedFiles->setLabel('Attach Related Files');
+        $this->add($attachRelatedFiles);
+
 
     }
 

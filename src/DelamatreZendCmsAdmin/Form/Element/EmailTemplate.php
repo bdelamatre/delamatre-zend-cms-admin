@@ -14,7 +14,7 @@ class EmailTemplate extends Select{
         $valueOptions = array(''=>'');
 
         $qb = $entityManager->createQueryBuilder();
-        $qb->select('t')->from('DelamatreZendCms\Entity\EmailTemplate','t')->orderBy('t.title','ASC');
+        $qb->select('t')->from('DelamatreZendCms\Entity\EmailTemplate','t')->where('t.active=1')->orderBy('t.title','ASC');
 
         if(!empty($options['exclude'])){
             $qb->andWhere($qb->expr()->notIn('t.id',$options['exclude']));

@@ -5,7 +5,9 @@ namespace DelamatreZendCmsAdmin\Controller;
 
 use Admin\Mvc\Controller\RelatedContent;
 use DelamatreZendCms\Entity\Email;
+use DelamatreZendCmsAdmin\Form\EmailTestForm;
 use DelamatreZendCmsAdmin\Mvc\Controller\AbstractEntityAdminController;
+use Zend\View\Model\ViewModel;
 
 class EmailController extends AbstractEntityAdminController
 {
@@ -41,27 +43,56 @@ class EmailController extends AbstractEntityAdminController
 
     }
 
-    /*&public function buildQuery()
-    {
-        $qb = parent::buildQuery();
-        $qb->orderBy('u.posted_timestamp','DESC');
-        return $qb;
-    }
+    public function sendTestAction(){
 
-    public function crudBusinessRules(\DelamatreZendCms\Entity\Superclass\Content $blog){
+        $this->requireAuthentication();
 
-        if(!$blog->created_datetime){
-            //backwards compatability for posted_timestamp
-            if($blog->posted_timestamp){
-                $blog->created_datetime = $blog->posted_timestamp;
-            }else{
-                $blog->created_datetime = new \DateTime('now');
-                $blog->posted_timestamp = new \DateTime('now');
-            }
+        $id = $this->params()->fromQuery('id');
+
+        if(empty($id)){
+            throw new \Exception("No ID specified");
         }
 
-        $blog->updated_datetime = new \DateTime('now');
+        /* @var Email $entity */
+        $entity = $this->getEntityManager()->find($this->entityName,$id);
 
-    }*/
+        if(empty($entity)){
+            throw new \Exception('No '.$this->entityName.' found for id '.$id);
+        }
+
+        $form = new EmailTestForm();
+
+        if($this->getRequest()->isPost()){
+
+            $post = $this->params()->fromPost();
+            $form->setData($post);
+            if($form->isValid()){
+
+
+                $message = $entity->generateMessage($this->getConfig()['myapp']['baseurl']);
+
+                $mail = $this->createMail();
+                $mail->setBody($message);
+                $mail->setSubject($entity->getSubject());
+                $mail->setTo($post['email'],$post['name']);
+
+                $this->getSmtp()->send($mail);
+
+
+                //send email to test recipients
+                //$email = $this->getSmtp();
+
+            }
+
+        }
+
+
+        $view = new ViewModel();
+        $view->entity = $entity;
+        $view->form = $form;
+        return $view;
+
+    }
+
 
 }

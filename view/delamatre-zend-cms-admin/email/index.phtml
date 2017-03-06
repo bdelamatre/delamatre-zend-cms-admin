@@ -2,10 +2,12 @@
 
 <table class="table table-hover table-condensed">
     <tr>
-        <th style="width:200px;">Key</th>
-        <th>Title</th>
+        <th>Key</th>
+        <th>Subject</th>
+        <th>Category</th>
         <th style="width:200px;">E-Mail Template</th>
-        <th style="width:200px;">Preview</th>
+        <th style="width:100px;">Preview</th>
+        <th style="width:100px;">Send Test</th>
         <th  style="width:25px;"></th>
     </tr>
     <?php foreach($this->records as $record):
@@ -13,9 +15,11 @@
         ?>
         <tr class="<?php if($record->active==false){echo 'danger';}?>">
             <td><?=$record->key?></td>
-            <td><?=$record->title?></td>
+            <td><?=$record->subject?></td>
+            <td><?=$record->category?></td>
             <td><a href="/admin/email-template/form?id=<?=$record->email_template_id?>"><?=$record->emailTemplate->title?></a></td>
             <td><a href="/admin/email/preview?id=<?=$record->id?>" target="_blank">Preview</a></td>
+            <td><a href="/admin/email/send-test?id=<?=$record->id?>" target="_blank">Send Test</a></td>
             <td><a href="/admin/<?=$this->routeName?>/form?id=<?=$record->id?>"><?=$this->icon('fa-pencil-square','fa-lg')?></a></td>
         </tr>
     <?php endforeach; ?>

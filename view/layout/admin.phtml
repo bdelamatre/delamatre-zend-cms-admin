@@ -79,67 +79,89 @@
         </div>
     </nav>
 
-    <!-- navigation -->
-    <?php //echo $this->navigation('default')->menu()->setPartial(array('layout/navigation/menu.phtml','default'))->render(); ?>
-
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-1 sidebar">
                 <h4><?=$this->fontAwesome('fa-dashboard')?>&nbsp;&nbsp;Overview</h4>
                 <hr/>
+
+                <!-- dashboard -->
                 <ul class="nav nav-sidebar">
                     <li><a href="/admin">Dashboard</a></li>
                 </ul>
-                <h4><?=$this->fontAwesome('fa-users')?>&nbsp;&nbsp;Marketing</h4>
-                <hr/>
-                <!--h4>&nbsp;&nbsp;Leads</h4-->
-                <ul class="nav nav-sidebar">
-                    <li><a href="/admin/lead/index">Leads</a></li>
-                    <li><a href="/admin/roi-calculator/index">ROI Calculations</a></li>
-                </ul>
-                <h4><?=$this->fontAwesome('fa-envelope')?>&nbsp;&nbsp;E-Mail</h4>
-                <hr/>
-                <!--h4>&nbsp;&nbsp;Leads</h4-->
-                <ul class="nav nav-sidebar">
-                    <li><a href="/admin/email/index">E-Mails</a></li>
-                    <li><a href="/admin/email-template/index">Templates</a></li>
-                </ul>
-                <h4><?=$this->fontAwesome('fa-file-text')?>&nbsp;&nbsp;CMS</h4>
-                <hr/>
-                <h4>&nbsp;&nbsp;Custom Objects</h4>
-                <ul class="nav nav-sidebar">
-                    <li><a href="/admin/application/index">Applications</a></li>
-                    <li><a href="/admin/industry/index">Industries</a></li>
-                    <li><a href="/admin/service/index">Services</a></li>
-                    <li><a href="/admin/technology/index">Technologies</a></li>
-                </ul>
-                <h4>&nbsp;&nbsp;Built-in Objects</h4>
-                <ul class="nav nav-sidebar">
-                    <li><a href="/admin/blog/index">Blog</a></li>
-                    <li><a href="/admin/case-study/index">Case Studies</a></li>
-                    <li><a href="/admin/content/index">Content</a></li>
-                    <li><a href="/admin/document/index">Documents</a></li>
-                    <li><a href="/admin/gallery/index">Galleries</a></li>
-                    <li><a href="/admin/video/index">Videos</a></li>
-                    <li><a href="/admin/white-paper/index">White Papers</a></li>
-                </ul>
+
+                <!-- marketing -->
+                <?php if(in_array($this->ZfcUserIdentity()->getType(),array('user','admin','superadmin'))): ?>
+                    <h4><?=$this->fontAwesome('fa-users')?>&nbsp;&nbsp;Marketing</h4>
+                    <hr/>
+                    <!--h4>&nbsp;&nbsp;Leads</h4-->
+                    <ul class="nav nav-sidebar">
+                        <li><a href="/admin/lead/index">Leads</a></li>
+                        <li><a href="/admin/roi-calculator/index">ROI Calculations</a></li>
+                    </ul>
+                <?php endif; ?>
+
+                <!-- email -->
+                <?php if(in_array($this->ZfcUserIdentity()->getType(),array('user','admin','superadmin'))): ?>
+                    <h4><?=$this->fontAwesome('fa-envelope')?>&nbsp;&nbsp;E-Mail</h4>
+                    <hr/>
+                    <!--h4>&nbsp;&nbsp;Leads</h4-->
+                    <ul class="nav nav-sidebar">
+                        <li><a href="/admin/email/index">E-Mails</a></li>
+                        <li><a href="/admin/email-template/index">Templates</a></li>
+                    </ul>
+                <?php endif; ?>
+
+                <!-- cms -->
+                <?php if(in_array($this->ZfcUserIdentity()->getType(),array('user','admin','superadmin'))): ?>
+                    <h4><?=$this->fontAwesome('fa-file-text')?>&nbsp;&nbsp;CMS</h4>
+                    <hr/>
+                    <h4>&nbsp;&nbsp;Custom Objects</h4>
+                    <ul class="nav nav-sidebar">
+                        <li><a href="/admin/application/index">Applications</a></li>
+                        <li><a href="/admin/industry/index">Industries</a></li>
+                        <li><a href="/admin/service/index">Services</a></li>
+                        <li><a href="/admin/technology/index">Technologies</a></li>
+                    </ul>
+                    <h4>&nbsp;&nbsp;Built-in Objects</h4>
+                    <ul class="nav nav-sidebar">
+                        <li><a href="/admin/blog/index">Blog</a></li>
+                        <li><a href="/admin/case-study/index">Case Studies</a></li>
+                        <li><a href="/admin/content/index">Content</a></li>
+                        <li><a href="/admin/document/index">Documents</a></li>
+                        <li><a href="/admin/gallery/index">Galleries</a></li>
+                        <li><a href="/admin/video/index">Videos</a></li>
+                        <li><a href="/admin/white-paper/index">White Papers</a></li>
+                    </ul>
+                <?php endif; ?>
+
+                <!-- security -->
+                <?php if(in_array($this->ZfcUserIdentity()->getType(),array('admin','superadmin'))): ?>
                 <h4><?=$this->fontAwesome('fa-lock')?>&nbsp;&nbsp;Security</h4>
                 <hr/>
                 <ul class="nav nav-sidebar">
                     <li><a href="/admin/user/index">Users</a></li>
                     <!--li><a href="/admin/organization/index">Organizations</a></li-->
                 </ul>
+                <?php endif; ?>
+
                 <h4><?=$this->fontAwesome('fa-cogs')?>&nbsp;&nbsp;System</h4>
                 <hr/>
-                <h4>&nbsp;&nbsp;<?=$this->fontAwesome('fa-wrench')?>&nbsp;&nbsp;Tools</h4>
-                <ul class="nav nav-sidebar">
-                    <li><a href="/admin/filemanager/index">Filemanager</a></li>
-                </ul>
-                <h4>&nbsp;&nbsp;<?=$this->fontAwesome('fa-cog')?>&nbsp;&nbsp;Settings</h4>
-                <ul class="nav nav-sidebar">
-                    <li><a href="/admin/settings/configuration">Configuration</a></li>
-                    <li><a href="/admin/settings/logs">Logs</a></li>
-                </ul>
+                <?php if(in_array($this->ZfcUserIdentity()->getType(),array('user','admin','superadmin'))): ?>
+                    <h4>&nbsp;&nbsp;<?=$this->fontAwesome('fa-wrench')?>&nbsp;&nbsp;Tools</h4>
+                    <ul class="nav nav-sidebar">
+                        <li><a href="/admin/filemanager/index">Filemanager</a></li>
+                    </ul>
+                <?php endif; ?>
+
+                <?php if(in_array($this->ZfcUserIdentity()->getType(),array('superadmin'))): ?>
+                    <h4>&nbsp;&nbsp;<?=$this->fontAwesome('fa-cog')?>&nbsp;&nbsp;Settings</h4>
+                    <ul class="nav nav-sidebar">
+                        <li><a href="/admin/settings/configuration">Configuration</a></li>
+                        <li><a href="/admin/settings/logs">Logs</a></li>
+                    </ul>
+                <?php endif; ?>
+
                 <h4><?=$this->fontAwesome('fa-question')?>&nbsp;&nbsp;Help</h4>
                 <hr/>
                 <ul class="nav nav-sidebar">

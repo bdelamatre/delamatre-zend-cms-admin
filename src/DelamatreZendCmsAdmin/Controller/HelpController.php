@@ -10,7 +10,7 @@ class HelpController extends AbstractEntityAdminController
 
     public function contentAction(){
 
-        $this->requireAuthentication();
+        $this->requireAuthentication(array('user','admin','superadmin'));
 
         $config = $this->getServiceLocator()->get('config');
         $routes = $config['router']['routes'];

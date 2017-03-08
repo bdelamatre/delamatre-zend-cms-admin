@@ -5,7 +5,10 @@
     </div>
     <div class="col-sm-3 text-right">
         <br/>
-        <a href="/admin/<?=$this->routeName?>/form" class="btn btn-emphasis">Add New <?=$this->name?></a>
+        <?php if($this->additionalActions): ?>
+            <?=$this->additionalActions?>
+        <?php endif; ?>
+        <a href="/admin/<?=$this->routeName?>/form" class="btn btn-primary">Add New <?=$this->name?></a>
     </div>
 </div>
 

@@ -11,6 +11,7 @@ class AbstractEntityAdminController extends AbstractAdminActionController
     public $routeName = 'entity';
     public $entityName = 'DelamatreZendCms\Entity\Superclass\Content';
     public $formName = 'DelamatreZend\Form\Form';
+    public $requiredGroups = array('user','admin','superadmin');
 
     public function buildQuery(){
 
@@ -26,8 +27,7 @@ class AbstractEntityAdminController extends AbstractAdminActionController
     public function indexAction(){
 
         //require authentication
-        $this->requireAuthentication();
-
+        $this->requireAuthentication($this->requiredGroups);
 
 
         //start building the users query
@@ -57,7 +57,7 @@ class AbstractEntityAdminController extends AbstractAdminActionController
 
     public function formAction(){
 
-        $this->requireAuthentication();
+        $this->requireAuthentication($this->requiredGroups);
 
         $id = $this->params()->fromQuery('id');
 
@@ -111,7 +111,7 @@ class AbstractEntityAdminController extends AbstractAdminActionController
 
     public function deactivateAction(){
 
-        $this->requireAuthentication();
+        $this->requireAuthentication($this->requiredGroups);
 
         $id = $this->params()->fromQuery('id');
 
@@ -138,8 +138,7 @@ class AbstractEntityAdminController extends AbstractAdminActionController
 
     public function activateAction(){
 
-
-        $this->requireAuthentication();
+        $this->requireAuthentication($this->requiredGroups);
 
         $id = $this->params()->fromQuery('id');
 
@@ -159,6 +158,64 @@ class AbstractEntityAdminController extends AbstractAdminActionController
             $this->getEntityManager()->flush();
 
             $this->redirect()->toUrl('/admin/'.$this->routeName.'/form?id='.$entity->id);
+
+        }
+
+    }
+
+    public function duplicateAction(){
+
+        $this->requireAuthentication($this->requiredGroups);
+
+        $id = $this->params()->fromQuery('id');
+
+        //if an id is specific get that lead, else create a new lead
+        if(empty($id)){
+            throw new \Exception('No id specified');
+        }else{
+
+            /** @var \DelamatreZendCms\Entity\Superclass\Content $entity */
+            $entity = $this->getEntityManager()->find($this->entityName,$id);
+
+            if(empty($entity)){
+                throw new \Exception('No '.$this->entityName.' found for id '.$id);
+            }
+
+            //duplicate entity
+            /** @var \DelamatreZendCms\Entity\Superclass\Content $newEntity */
+            $newEntity = clone $entity;
+            $newEntity->key = $newEntity->key.'-copy';
+            $this->getEntityManager()->persist($newEntity);
+            $this->getEntityManager()->flush();
+
+            $this->redirect()->toUrl('/admin/'.$this->routeName.'/form?id='.$newEntity->id);
+
+        }
+
+    }
+
+    public function deleteAction(){
+
+        $this->requireAuthentication($this->requiredGroups);
+
+        $id = $this->params()->fromQuery('id');
+
+        //if an id is specific get that lead, else create a new lead
+        if(empty($id)){
+            throw new \Exception('No id specified');
+        }else{
+
+            /** @var \DelamatreZendCms\Entity\Superclass\Content $entity */
+            $entity = $this->getEntityManager()->find($this->entityName,$id);
+
+            if(empty($entity)){
+                throw new \Exception('No '.$this->entityName.' found for id '.$id);
+            }
+
+            $this->getEntityManager()->remove($entity);
+            $this->getEntityManager()->flush();
+
+            $this->redirect()->toUrl('/admin/'.$this->routeName.'/index');
 
         }
 

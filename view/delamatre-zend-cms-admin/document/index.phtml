@@ -1,4 +1,7 @@
-<?=$this->partial('delamatre-zend-cms-admin/components/entity-index-header.phtml',array('routeName'=>$this->routeName,'name'=>'Documents','recordCount'=>$this->recordCount))?>
+<?php
+$additionalActions = '<a href="/admin/document/download-all" class="btn btn-primary">Download All</a>';
+?>
+<?=$this->partial('delamatre-zend-cms-admin/components/entity-index-header.phtml',array('routeName'=>$this->routeName,'name'=>'Documents','recordCount'=>$this->recordCount,'additionalActions'=>$additionalActions))?>
 
 <table class="table table-hover table-condensed">
     <tr>

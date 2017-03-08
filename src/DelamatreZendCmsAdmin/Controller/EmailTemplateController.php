@@ -15,7 +15,7 @@ class EmailTemplateController extends AbstractEntityAdminController
 
     public function previewAction(){
 
-        $this->requireAuthentication();
+        $this->requireAuthentication(array('user','admin','superadmin'));
 
         $id = $this->params()->fromQuery('id');
 
@@ -38,27 +38,5 @@ class EmailTemplateController extends AbstractEntityAdminController
 
     }
 
-    /*public function buildQuery()
-    {
-        $qb = parent::buildQuery();
-        $qb->orderBy('u.posted_timestamp','DESC');
-        return $qb;
-    }*/
-
-    /*public function crudBusinessRules(\DelamatreZendCms\Entity\Superclass\Content $blog){
-
-        if(!$blog->created_datetime){
-            //backwards compatability for posted_timestamp
-            if($blog->posted_timestamp){
-                $blog->created_datetime = $blog->posted_timestamp;
-            }else{
-                $blog->created_datetime = new \DateTime('now');
-                $blog->posted_timestamp = new \DateTime('now');
-            }
-        }
-
-        $blog->updated_datetime = new \DateTime('now');
-
-    }*/
 
 }

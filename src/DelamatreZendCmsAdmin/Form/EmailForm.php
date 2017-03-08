@@ -40,6 +40,17 @@ class EmailForm extends \DelamatreZendCmsAdmin\Form\Superclass\ContentForm {
         ));
 
         $this->add(array(
+            'name' => 'image_url',
+            'type' => 'text',
+            'options' => array(
+                'label' => '[[image_url]]',
+            ),
+            'attributes' => array(
+                //'placeholder' => 'sjhdf873nd93nd9384nd93',
+            ),
+        ));
+
+        $this->add(array(
             'name' => 'category',
             'type' => 'text',
             'options' => array(
@@ -101,6 +112,10 @@ class EmailForm extends \DelamatreZendCmsAdmin\Form\Superclass\ContentForm {
         $generateSignature = new \DelamatreZendCmsAdmin\Form\Element\GenerateSignature('generate_signature');
         $generateSignature->setLabel('Generate Signature');
         $this->add($generateSignature);
+
+        $signatureTemplate = new \DelamatreZendCmsAdmin\Form\Element\SignatureTemplate('signature_template');
+        $signatureTemplate->setLabel('Signature Template');
+        $this->add($signatureTemplate);
 
         $this->add(array(
             'name' => 'signature_name',

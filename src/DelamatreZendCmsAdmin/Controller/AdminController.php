@@ -10,7 +10,7 @@ class AdminController extends AbstractEntityAdminController
 
     public function indexAction(){
 
-        $this->requireAuthentication();
+        $this->requireAuthentication(array('user','admin','superadmin'));
 
         $blogQuery = $this->createQueryBuilder();
         $blogQuery->select($blogQuery->expr()->count('e.id'))->from('DelamatreZendCms\Entity\Blog','e');
@@ -63,8 +63,7 @@ class AdminController extends AbstractEntityAdminController
 
     public function referenceAction(){
 
-        $this->requireAuthentication();
-
+        $this->requireAuthentication(array('user','admin','superadmin'));
 
         $config = $this->getServiceLocator()->get('config');
         $routes = $config['router']['routes'];

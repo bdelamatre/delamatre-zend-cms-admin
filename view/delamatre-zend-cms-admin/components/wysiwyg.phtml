@@ -11,6 +11,7 @@ if(isset($this->id)){
 <div id="<?=$editorId?>"><?=$this->content?></div>
 
 <script type="text/javascript">
+
     $(document).ready(function() {
         $('#<?=$editorId?>').summernote({
             minHeight: null,             // set minimum height of editor
@@ -54,7 +55,8 @@ if(isset($this->id)){
     <?php if(!isset($this->buildPostFormFunction) || $this->buildPostFormFunction==true): ?>
         var postForm = function() {
 
-            var code = $('#<?=$editorId?>').summernote('code').replace(/&gt;/gi,">");
+            var code = $('#<?=$editorId?>').summernote('code').replace(/®/gi,"&reg;").replace(/&gt;/gi,">");
+            console.log(code);
             var content = $('#<?=$this->formElement->getAttribute('id')?>').val(code);
         }
     <?php endif; ?>

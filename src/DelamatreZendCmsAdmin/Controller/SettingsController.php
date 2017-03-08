@@ -10,7 +10,7 @@ class SettingsController extends AbstractEntityAdminController
 
     public function configurationAction(){
 
-        $this->requireAuthentication();
+        $this->requireAuthentication(array('superadmin'));
 
         $section = $this->params()->fromQuery('section',false);
         if($section){
@@ -27,7 +27,7 @@ class SettingsController extends AbstractEntityAdminController
 
     public function logsAction(){
 
-        $this->requireAuthentication();
+        $this->requireAuthentication(array('superadmin'));
 
         $logFiles = array();
 

@@ -8,6 +8,7 @@ if($this->entity->email_template_id){
 if($this->entity->id){
     $additionalAction .= '&nbsp;<a href="/admin/email/send-test?id='.$this->entity->id.'" target="_blank" class="btn btn-primary">Send Test</a>';
     $additionalAction .= '&nbsp;<a href="/admin/email/preview?id='.$this->entity->id.'" target="_blank" class="btn btn-primary">Preview</a>';
+    $additionalAction .= '&nbsp;<a href="/admin/email/download-outlook-part?id='.$this->entity->id.'" target="_blank" class="btn btn-primary" download>Download Outlook Part</a>';
 }
 
 ?>
@@ -62,6 +63,7 @@ if($this->entity->id){
                 <?=$this->formRow($this->form->get('title'))?>
                 <?=$this->formRow($this->form->get('description'))?>
                 <?=$this->formElfinder($this->form->get('image'))?>
+                <?=$this->formRow($this->form->get('image_url'))?>
                 <?=$this->formRow($this->form->get('subtitle'))?>
                 <?=$this->formRow($this->form->get('calltoaction'))?>
                 <?=$this->formRow($this->form->get('calltoaction_url'))?>
@@ -76,6 +78,7 @@ if($this->entity->id){
             </div>
             <div style="margin:0 25px 0 25px;">
                 <?=$this->formRow($this->form->get('generate_signature'))?>
+                <?=$this->formRow($this->form->get('signature_template'))?>
                 <?=$this->formRow($this->form->get('signature_name'))?>
                 <?=$this->formRow($this->form->get('signature_title'))?>
                 <?=$this->formRow($this->form->get('signature_extension'))?>

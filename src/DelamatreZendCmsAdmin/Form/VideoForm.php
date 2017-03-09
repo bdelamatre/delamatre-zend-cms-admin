@@ -14,6 +14,17 @@ class VideoForm extends \DelamatreZendCmsAdmin\Form\Superclass\ContentForm {
         $this->add($displayOnWeb);
 
         $this->add(array(
+            'name' => 'category',
+            'type' => 'text',
+            'options' => array(
+                'label' => 'Category',
+            ),
+            'attributes' => array(
+                //'placeholder' => 'sjhdf873nd93nd9384nd93',
+            ),
+        ));
+
+        $this->add(array(
             'name' => 'youtubeUrl',
             'type' => 'text',
             'options' => array(

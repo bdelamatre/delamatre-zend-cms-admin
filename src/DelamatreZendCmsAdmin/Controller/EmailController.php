@@ -4,9 +4,11 @@ namespace DelamatreZendCmsAdmin\Controller;
 
 
 use Admin\Mvc\Controller\RelatedContent;
+use Codegyre\PhantomShot\ThumbnailCollector;
 use DelamatreZendCms\Entity\Email;
 use DelamatreZendCmsAdmin\Form\EmailTestForm;
 use DelamatreZendCmsAdmin\Mvc\Controller\AbstractEntityAdminController;
+use Screen\Capture;
 use Zend\View\Model\ViewModel;
 
 class EmailController extends AbstractEntityAdminController
@@ -25,8 +27,8 @@ class EmailController extends AbstractEntityAdminController
 
         $qb = parent::buildQuery();
         $qb->orderBy('u.category','ASC');
-        $qb->orderBy('u.active','DESC');
-        $qb->addOrderBy('u.key','ASC');
+        $qb->addOrderBy('u.active','DESC');
+        $qb->addOrderBy('u.subject','ASC');
 
         if($category){
             $qb->andWhere('u.category=:category');
@@ -34,6 +36,43 @@ class EmailController extends AbstractEntityAdminController
         }
 
         return $qb;
+    }
+
+    public function screenshotAction(){
+
+        //get the entity
+        $id = $this->params()->fromQuery('id');
+
+        /* @var Email $entity */
+        $entity = $this->getEntityManager()->find($this->entityName,$id);
+
+        if(empty($entity)){
+            throw new \Exception('No '.$this->entityName.' found for id '.$id);
+        }
+
+        //make sure the save directory exists
+        $saveDirectory = 'data/screenshots/emails/';
+
+        if(!file_exists($saveDirectory)){
+            mkdir($saveDirectory);
+        }
+
+        $screenCapture = new Capture();
+        $screenCapture->setUrl($this->getConfig()['myapp']['baseurl'].'/admin/email/preview?id='.$id);
+        $screenCapture->setImageType('png');
+
+        //check if the screenshot already exists, if it doesn't than create it
+        $filename = $saveDirectory.$id.'_'.$entity->updated_datetime->getTimestamp().'_'.$entity->emailTemplate->updated_datetime->getTimestamp().'.'.$screenCapture->getImageType()->getFormat();
+
+        //var_dump($filename); exit();
+
+        if(!file_exists($filename)){
+            $screenCapture->save($filename);
+        }
+
+        readfile($filename);
+        exit();
+
     }
 
     public function previewAction(){

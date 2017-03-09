@@ -11,6 +11,24 @@ class DocumentController extends AbstractEntityAdminController
     public $entityName = 'Application\Entity\Document';
     public $formName = 'DelamatreZendCmsAdmin\Form\DocumentForm';
 
+    public function buildQuery()
+    {
+
+        $category = $this->params()->fromQuery('category');
+
+        $qb = parent::buildQuery();
+        $qb->orderBy('u.active','DESC');
+        $qb->addOrderBy('u.category','ASC');
+        $qb->addOrderBy('u.title','ASC');
+
+        if($category){
+            $qb->andWhere('u.category=:category');
+            $qb->setParameter('category',$category);
+        }
+
+        return $qb;
+    }
+
     public function downloadAllAction(){
 
         //create zip file

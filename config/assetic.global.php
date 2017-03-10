@@ -12,6 +12,10 @@ return array(
                 '@admin_css',
                 '@admin_js',
             ),
+            'zfcuser(.*)' => array(
+                '@admin_css',
+                '@admin_js',
+            ),
         ),
 
         'modules' => array(

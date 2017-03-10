@@ -19,30 +19,7 @@
     <body class="wf-loading">
 <?php endif; ?>
 
-    <?php if($this->zfcUserIdentity()
-        && $this->config()['myapp']['environment']['type']!=ENVIRONMENT_TYPE_PRODUCTION): ?>
-
-        <!-- environment / user notification -->
-        <div class="environment alert alert-warning">
-
-            <div class="row">
-                <div class="col-sm-6">
-                    <?php if($this->config()['myapp']['environment']['type']!=ENVIRONMENT_TYPE_PRODUCTION ):?>
-                        This is a <?=$this->config()['myapp']['environment']['type']?> environment. Notes: <?=$this->config()['myapp']['environment']['notes']?>
-                    <?php endif; ?>
-                </div>
-                <div class="col-sm-6 text-right">
-                    <?php if($this->zfcUserIdentity()):?>
-                        Logged in as  <?=$this->zfcUserDisplayNAme()?> <span class="text-muted">[<?=$this->zfcUserIdentity()->getType()?>]</span> <a href="/user/logout">Logout</a>
-                    <?php else: ?>
-                        <a href="/user/login">Login</a>
-                    <?php endif; ?>
-                </div>
-            </div>
-
-        </div>
-
-    <?php endif; ?>
+    <?php //$this->partial('layout/components/environment-alert.phtml')?>
 
     <?php if($this->zfcUserIdentity()
     && $this->config()['myapp']['environment']['type']!=ENVIRONMENT_TYPE_PRODUCTION): ?>
@@ -50,7 +27,6 @@
     <?php else: ?>
         <nav class="navbar navbar-inverse navbar-fixed-top">
     <?php endif; ?>
-
         <div class="container-fluid">
             <div class="navbar-header">
                 <!--button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -81,94 +57,96 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-1 sidebar">
-                <h4><?=$this->fontAwesome('fa-dashboard')?>&nbsp;&nbsp;Overview</h4>
-                <hr/>
-
-                <!-- dashboard -->
-                <ul class="nav nav-sidebar">
-                    <li><a href="/admin">Dashboard</a></li>
-                </ul>
-
-                <!-- marketing -->
-                <?php if(in_array($this->ZfcUserIdentity()->getType(),array('user','admin','superadmin'))): ?>
-                    <h4><?=$this->fontAwesome('fa-users')?>&nbsp;&nbsp;Marketing</h4>
+            <?php if($this->ZfcUserIdentity()): ?>
+                <div class="col-xs-4 col-sm-3 col-md-2 col-lg-1 sidebar">
+                    <h4><?=$this->fontAwesome('fa-dashboard')?>&nbsp;&nbsp;Overview</h4>
                     <hr/>
-                    <!--h4>&nbsp;&nbsp;Leads</h4-->
-                    <ul class="nav nav-sidebar">
-                        <li><a href="/admin/lead/index">Leads</a></li>
-                        <li><a href="/admin/roi-calculator/index">ROI Calculations</a></li>
-                    </ul>
-                <?php endif; ?>
 
-                <!-- email -->
-                <?php if(in_array($this->ZfcUserIdentity()->getType(),array('user','admin','superadmin'))): ?>
-                    <h4><?=$this->fontAwesome('fa-envelope')?>&nbsp;&nbsp;E-Mail</h4>
+                    <!-- dashboard -->
+                    <ul class="nav nav-sidebar">
+                        <li><a href="/admin">Dashboard</a></li>
+                    </ul>
+
+                    <!-- marketing -->
+                    <?php if(in_array($this->ZfcUserIdentity()->getType(),array('user','admin','superadmin'))): ?>
+                        <h4><?=$this->fontAwesome('fa-users')?>&nbsp;&nbsp;Marketing</h4>
+                        <hr/>
+                        <!--h4>&nbsp;&nbsp;Leads</h4-->
+                        <ul class="nav nav-sidebar">
+                            <li><a href="/admin/lead/index">Leads</a></li>
+                            <li><a href="/admin/roi-calculator/index">ROI Calculations</a></li>
+                        </ul>
+                    <?php endif; ?>
+
+                    <!-- email -->
+                    <?php if(in_array($this->ZfcUserIdentity()->getType(),array('user','admin','superadmin'))): ?>
+                        <h4><?=$this->fontAwesome('fa-envelope')?>&nbsp;&nbsp;E-Mail</h4>
+                        <hr/>
+                        <!--h4>&nbsp;&nbsp;Leads</h4-->
+                        <ul class="nav nav-sidebar">
+                            <li><a href="/admin/email/index">E-Mails</a></li>
+                            <li><a href="/admin/email-template/index">Templates</a></li>
+                        </ul>
+                    <?php endif; ?>
+
+                    <!-- cms -->
+                    <?php if(in_array($this->ZfcUserIdentity()->getType(),array('user','admin','superadmin'))): ?>
+                        <h4><?=$this->fontAwesome('fa-file-text')?>&nbsp;&nbsp;CMS</h4>
+                        <hr/>
+                        <h4>&nbsp;&nbsp;Custom Objects</h4>
+                        <ul class="nav nav-sidebar">
+                            <li><a href="/admin/application/index">Applications</a></li>
+                            <li><a href="/admin/industry/index">Industries</a></li>
+                            <li><a href="/admin/service/index">Services</a></li>
+                            <li><a href="/admin/technology/index">Technologies</a></li>
+                        </ul>
+                        <h4>&nbsp;&nbsp;Built-in Objects</h4>
+                        <ul class="nav nav-sidebar">
+                            <li><a href="/admin/blog/index">Blog</a></li>
+                            <li><a href="/admin/case-study/index">Case Studies</a></li>
+                            <li><a href="/admin/content/index">Content</a></li>
+                            <li><a href="/admin/document/index">Documents</a></li>
+                            <li><a href="/admin/gallery/index">Galleries</a></li>
+                            <li><a href="/admin/video/index">Videos</a></li>
+                            <li><a href="/admin/white-paper/index">White Papers</a></li>
+                        </ul>
+                    <?php endif; ?>
+
+                    <!-- security -->
+                    <?php if(in_array($this->ZfcUserIdentity()->getType(),array('admin','superadmin'))): ?>
+                    <h4><?=$this->fontAwesome('fa-lock')?>&nbsp;&nbsp;Security</h4>
                     <hr/>
-                    <!--h4>&nbsp;&nbsp;Leads</h4-->
                     <ul class="nav nav-sidebar">
-                        <li><a href="/admin/email/index">E-Mails</a></li>
-                        <li><a href="/admin/email-template/index">Templates</a></li>
+                        <li><a href="/admin/user/index">Users</a></li>
+                        <!--li><a href="/admin/organization/index">Organizations</a></li-->
                     </ul>
-                <?php endif; ?>
+                    <?php endif; ?>
 
-                <!-- cms -->
-                <?php if(in_array($this->ZfcUserIdentity()->getType(),array('user','admin','superadmin'))): ?>
-                    <h4><?=$this->fontAwesome('fa-file-text')?>&nbsp;&nbsp;CMS</h4>
+                    <h4><?=$this->fontAwesome('fa-cogs')?>&nbsp;&nbsp;System</h4>
                     <hr/>
-                    <h4>&nbsp;&nbsp;Custom Objects</h4>
-                    <ul class="nav nav-sidebar">
-                        <li><a href="/admin/application/index">Applications</a></li>
-                        <li><a href="/admin/industry/index">Industries</a></li>
-                        <li><a href="/admin/service/index">Services</a></li>
-                        <li><a href="/admin/technology/index">Technologies</a></li>
-                    </ul>
-                    <h4>&nbsp;&nbsp;Built-in Objects</h4>
-                    <ul class="nav nav-sidebar">
-                        <li><a href="/admin/blog/index">Blog</a></li>
-                        <li><a href="/admin/case-study/index">Case Studies</a></li>
-                        <li><a href="/admin/content/index">Content</a></li>
-                        <li><a href="/admin/document/index">Documents</a></li>
-                        <li><a href="/admin/gallery/index">Galleries</a></li>
-                        <li><a href="/admin/video/index">Videos</a></li>
-                        <li><a href="/admin/white-paper/index">White Papers</a></li>
-                    </ul>
-                <?php endif; ?>
+                    <?php if(in_array($this->ZfcUserIdentity()->getType(),array('user','admin','superadmin'))): ?>
+                        <h4>&nbsp;&nbsp;<?=$this->fontAwesome('fa-wrench')?>&nbsp;&nbsp;Tools</h4>
+                        <ul class="nav nav-sidebar">
+                            <li><a href="/admin/filemanager/index">Filemanager</a></li>
+                        </ul>
+                    <?php endif; ?>
 
-                <!-- security -->
-                <?php if(in_array($this->ZfcUserIdentity()->getType(),array('admin','superadmin'))): ?>
-                <h4><?=$this->fontAwesome('fa-lock')?>&nbsp;&nbsp;Security</h4>
-                <hr/>
-                <ul class="nav nav-sidebar">
-                    <li><a href="/admin/user/index">Users</a></li>
-                    <!--li><a href="/admin/organization/index">Organizations</a></li-->
-                </ul>
-                <?php endif; ?>
+                    <?php if(in_array($this->ZfcUserIdentity()->getType(),array('superadmin'))): ?>
+                        <h4>&nbsp;&nbsp;<?=$this->fontAwesome('fa-cog')?>&nbsp;&nbsp;Settings</h4>
+                        <ul class="nav nav-sidebar">
+                            <li><a href="/admin/settings/configuration">Configuration</a></li>
+                            <li><a href="/admin/settings/logs">Logs</a></li>
+                        </ul>
+                    <?php endif; ?>
 
-                <h4><?=$this->fontAwesome('fa-cogs')?>&nbsp;&nbsp;System</h4>
-                <hr/>
-                <?php if(in_array($this->ZfcUserIdentity()->getType(),array('user','admin','superadmin'))): ?>
-                    <h4>&nbsp;&nbsp;<?=$this->fontAwesome('fa-wrench')?>&nbsp;&nbsp;Tools</h4>
+                    <h4><?=$this->fontAwesome('fa-question')?>&nbsp;&nbsp;Help</h4>
+                    <hr/>
                     <ul class="nav nav-sidebar">
-                        <li><a href="/admin/filemanager/index">Filemanager</a></li>
+                        <li><a href="/admin/help/content">Cheat Sheet</a></li>
                     </ul>
-                <?php endif; ?>
-
-                <?php if(in_array($this->ZfcUserIdentity()->getType(),array('superadmin'))): ?>
-                    <h4>&nbsp;&nbsp;<?=$this->fontAwesome('fa-cog')?>&nbsp;&nbsp;Settings</h4>
-                    <ul class="nav nav-sidebar">
-                        <li><a href="/admin/settings/configuration">Configuration</a></li>
-                        <li><a href="/admin/settings/logs">Logs</a></li>
-                    </ul>
-                <?php endif; ?>
-
-                <h4><?=$this->fontAwesome('fa-question')?>&nbsp;&nbsp;Help</h4>
-                <hr/>
-                <ul class="nav nav-sidebar">
-                    <li><a href="/admin/help/content">Cheat Sheet</a></li>
-                </ul>
-            </div>
-            <div class="col-sm-11">
+                </div>
+            <?php endif; ?>
+            <div class="col-xs-8 col-sm-9 col-md-10 col-lg-11">
 
                 <!-- content -->
                 <?php echo $this->content; ?>

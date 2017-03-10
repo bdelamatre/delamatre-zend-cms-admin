@@ -59,11 +59,13 @@ return array(
 
     'module_layouts' => array(
         'DelamatreZendCmsAdmin' => 'layout/admin',
+        'ZfcUser' => 'layout/login',
     ),
 
     'view_manager' => array(
         'template_map' => array(
             'layout/admin'           => __DIR__ . '/../view/layout/admin.phtml',
+            'layout/login'           => __DIR__ . '/../view/layout/login.phtml',
         ),
         'template_path_stack' => array(
             __DIR__ . '/../view',

@@ -27,4 +27,19 @@ class HelpController extends AbstractEntityAdminController
         return $view;
     }
 
+
+    public function feelTheMagicAction(){
+
+        $doneFeelingTheMagic = $this->params()->fromQuery('done');
+
+        if($doneFeelingTheMagic==true){
+            $_SESSION['feelthemagic'] = false;
+        }else{
+            $_SESSION['feelthemagic'] = true;
+        }
+
+        $this->redirect()->toUrl('/admin');
+
+    }
+
 }

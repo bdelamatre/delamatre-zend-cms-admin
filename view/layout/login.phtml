@@ -12,9 +12,9 @@
 </head>
 <?php if($this->zfcUserIdentity()
 && $this->config()['myapp']['environment']['type']!=ENVIRONMENT_TYPE_PRODUCTION): ?>
-    <body class="wf-loading body-adjust" id="login">
+    <body class="wf-loading body-adjust <?php if(isset($_SESSION['feelthemagic'])&&$_SESSION['feelthemagic']==true){echo'feelthemagic';}?>"" id="login">
 <?php else: ?>
-    <body class="wf-loading" id="login">
+    <body class="wf-loading <?php if(isset($_SESSION['feelthemagic'])&&$_SESSION['feelthemagic']==true){echo'feelthemagic';}?>"" id="login">
 <?php endif; ?>
 
     <?=$this->partial('layout/components/environment-alert.phtml')?>

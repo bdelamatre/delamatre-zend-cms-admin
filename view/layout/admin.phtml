@@ -14,9 +14,9 @@
 </head>
 <?php if($this->zfcUserIdentity()
 && $this->config()['myapp']['environment']['type']!=ENVIRONMENT_TYPE_PRODUCTION): ?>
-    <body class="wf-loading body-adjust">
+    <body class="wf-loading body-adjust <?php if(isset($_SESSION['feelthemagic'])&&$_SESSION['feelthemagic']==true){echo'feelthemagic';}?>">
 <?php else: ?>
-    <body class="wf-loading">
+    <body class="wf-loading  <?php if(isset($_SESSION['feelthemagic'])&&$_SESSION['feelthemagic']==true){echo'feelthemagic';}?>"">
 <?php endif; ?>
 
     <?php //$this->partial('layout/components/environment-alert.phtml')?>
@@ -143,6 +143,11 @@
                     <hr/>
                     <ul class="nav nav-sidebar">
                         <li><a href="/admin/help/content">Cheat Sheet</a></li>
+                        <?php if(isset($_SESSION['feelthemagic'])&&$_SESSION['feelthemagic']==true): ?>
+                            <li><a href="/admin/help/feel-the-magic?done=sadface">Done Feeling The Magic<sup>&reg;</sup></a></li>
+                        <?php else: ?>
+                            <li><a href="/admin/help/feel-the-magic">Feel The Magic<sup>&reg;</sup></a></li>
+                        <?php endif; ?>
                     </ul>
                 </div>
             <?php endif; ?>

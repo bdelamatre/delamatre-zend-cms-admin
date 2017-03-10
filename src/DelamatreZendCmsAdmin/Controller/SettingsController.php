@@ -25,6 +25,14 @@ class SettingsController extends AbstractEntityAdminController
         return $view;
     }
 
+    public function phpinfoAction(){
+
+        $this->requireAuthentication(array('superadmin'));
+
+        echo phpinfo();
+
+    }
+
     public function logsAction(){
 
         $this->requireAuthentication(array('superadmin'));

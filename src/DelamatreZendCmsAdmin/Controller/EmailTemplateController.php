@@ -33,7 +33,7 @@ class EmailTemplateController extends AbstractEntityAdminController
             }
         }
 
-        echo $entity->generateHtml();
+        echo $entity->generateHtml(null,$this->getConfig()['myapp']['baseurl']);
         exit();
 
     }

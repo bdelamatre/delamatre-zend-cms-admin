@@ -59,8 +59,9 @@ class SettingsController extends AbstractEntityAdminController
             }elseif($clear==$filename){
                 unlink($filename);
                 touch($filename);
-            }
-            if($read==$filename){
+                //we redirect here so that a page reload doesn't reclear the log
+                $this->redirect()->toUrl('/admin/settings/logs?read='.$read);
+            }elseif($read==$filename){
                 $content = file_get_contents($filename);
             }
         }

@@ -60,6 +60,9 @@ class EmailController extends AbstractEntityAdminController
         $screenCapture = new Capture();
         $screenCapture->setUrl($this->getConfig()['myapp']['baseurl'].'/admin/email/preview?id='.$id);
         $screenCapture->setImageType('png');
+        $screenCapture->setOptions([
+            'ignore-ssl-errors' => 'yes',
+        ]);
 
         //check if the screenshot already exists, if it doesn't than create it
         $filename = $saveDirectory.$id.'_'.$entity->updated_datetime->getTimestamp().'_'.$entity->emailTemplate->updated_datetime->getTimestamp().'.'.$screenCapture->getImageType()->getFormat();
@@ -95,7 +98,7 @@ class EmailController extends AbstractEntityAdminController
             }
         }
 
-        echo $entity->generateHtml();
+        echo $entity->generateHtml($this->getConfig()['myapp']['baseurl']);
         exit();
 
     }
@@ -128,7 +131,7 @@ class EmailController extends AbstractEntityAdminController
         //header("Content-length: " . filesize($filename));
         header("Pragma: no-cache");
         header("Expires: 0");
-        echo $entity->generateHtml();
+        echo $entity->generateHtml($this->getConfig()['myapp']['baseurl']);
         exit();
 
     }
@@ -143,7 +146,7 @@ class EmailController extends AbstractEntityAdminController
             $filename = 'all_emails.zip';
         }
 
-            //create zip file
+        //create zip file
         $filenameandpath = 'data/cache/'.$filename;
         @unlink($filenameandpath);
         $zip = new \ZipArchive();
@@ -174,7 +177,7 @@ class EmailController extends AbstractEntityAdminController
             }
 
             //add the e-mail template to the zip
-            $zip->addFromString($email->key.'.html',$email->generateHtml(null));
+            $zip->addFromString($email->key.'.html',$email->generateHtml($this->getConfig()['myapp']['baseurl']));
 
         }
 

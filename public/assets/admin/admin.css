@@ -120,3 +120,7 @@ Login layout and form styling
     background-image: url(/img/stars.gif);
     color: #fff !important;
 }
+
+#login textarea{
+    color: #303030;
+}

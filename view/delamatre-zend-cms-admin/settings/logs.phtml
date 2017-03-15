@@ -6,7 +6,7 @@
         <ul class="">
             <?php foreach($this->logFiles as $logFile): ?>
                 <li class="<?php if($this->read==$logFile){echo 'active';}?>">
-                    <a href="/admin/settings/logs?read=<?=$logFile?>"><?=$logFile?></a> (filesize=<?=filesize($logFile)?>)
+                    <a href="/admin/settings/logs?read=<?=$logFile?>"><?=$logFile?></a> (filesize=<?=filesize($logFile)?> <a href="/admin/settings/logs?download=<?=$logFile?>"><?=$this->icon('fa-download')?></a>)
                 </li>
             <?php endforeach; ?>
         </ul>
@@ -19,8 +19,8 @@
             <div class="col-md-8 text-right">
                 <br/>
                 <?php if($this->read): ?>
-                <a href="/admin/settings/logs?clear=<?=$logFile?>&read=<?=$logFile?>" class="btn btn-danger">Clear Log</a>
-                <a href="/admin/settings/logs?download=<?=$logFile?>" class="btn btn-primary">Download Log</a>
+                <a href="/admin/settings/logs?clear=<?=$this->read?>&read=<?=$this->read?>" class="btn btn-danger">Clear Log</a>
+                <a href="/admin/settings/logs?download=<?=$this->read?>" class="btn btn-primary"><?=$this->icon('fa-download')?> Download Log</a>
                 <?php endif; ?>
             </div>
 <textarea style="width:100%;height:600px;">

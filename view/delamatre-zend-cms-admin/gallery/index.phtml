@@ -1,30 +1,41 @@
+<?php
+
+if(isset($_GET['category'])){
+    $this->category = $_GET['category'];
+}else{
+    $this->category = null;
+}
+
+//groups the e-mails by category
+$grouped = array();
+/* @var \DelamatreZendCms\Entity\Document $record */
+foreach($this->records as $record) {
+    $grouped[$record->category][] = $record;
+}
+
+?>
+
 <?=$this->partial('delamatre-zend-cms-admin/components/entity-index-header.phtml',array('routeName'=>$this->routeName,'name'=>'Galleries','recordCount'=>$this->recordCount))?>
 
-<table class="table table-hover table-condensed">
-    <tr>
-        <th style="width:125px;">Thumb</th>
-        <th>Category</th>
-        <th>Key</th>
-        <th>Title</th>
-        <th>Link</th>
-        <th style="width:150px;">Updated</th>
-        <th  style="width:25px;"></th>
-    </tr>
-    <?php foreach($this->records as $record):
-        /* @var \Application\Entity\CaseStudy $record */
-        ?>
-        <tr class="<?php if($record->active==false){echo 'danger';}?>">
-            <td><img src="<?=$record->getImageThumb()?>" title="<?=$record->title?>" class="img-responsive" /></td>
-            <td><?=$record->category?></td>
-            <td><?=$record->key?></td>
-            <td><?=$record->title?></td>
-            <td><?=$record->link?></td>
-            <td>
-                <?php if($record->updated_datetime): ?>
-                    <?=$record->updated_datetime->format($this->config()['myapp']['datetime_format'])?>
-                <?php endif; ?>
-            </td>
-            <td><a href="/admin/<?=$this->routeName?>/form?id=<?=$record->id?>"><?=$this->icon('fa-pencil-square','fa-lg')?></a></td>
-        </tr>
+<?php if(!empty($this->category)): ?>
+    <div class="alert alert-info">
+        You are looking at records for category <?=$this->category?> only. <a href="/admin/<?=$this->routeName?>/index">View all records</a>.
+    </div>
+<?php endif; ?>
+
+<?php foreach($grouped as $category=>$records):?>
+    <h2 class="cms-thumbnail-row-title"><a href="/admin/<?=$this->routeName?>/index?category=<?=$category?>"><?=$category?></a></h2>
+    <hr/>
+    <div class="row cms-thumbnail-row">
+    <?php $i=0;foreach($records as $record):$i++; ?>
+        <div class="col-md-2 cms-thumbnail <?php if($record->active==false){echo'alert-danger';} ?>">
+            <h4 class="cms-thumbnail-title"><?=$record->title?></h4>
+            <a href="/admin/<?=$this->routeName?>/form?id=<?=$record->id?>"><img src="<?=$record->getImageThumb()?>" title="<?=$record->title?>" class="img-responsive img-thumbnail" /></a>
+        </div>
+        <?php if($i==6):$i=0; ?>
+            </div>
+            <div class="row">
+        <?php endif; ?>
     <?php endforeach; ?>
-</table>
+    </div>
+<?php endforeach ; ?>

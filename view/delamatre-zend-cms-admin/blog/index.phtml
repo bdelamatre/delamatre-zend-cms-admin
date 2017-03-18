@@ -6,6 +6,7 @@
         <th style="width:200px;">Key</th>
         <th>Title</th>
         <th style="width:150px;">Category</th>
+        <th style="width:200px;">Preview</th>
         <th style="width:150px;">Updated</th>
         <th></th>
     </tr>
@@ -17,6 +18,7 @@
             <td><?=$record->key?></td>
             <td><?=$record->title?></td>
             <td><?=$record->category?></td>
+            <td></td>
             <td>
                 <?php if($record->posted_timestamp): ?>
                     <?=$record->posted_timestamp->format($this->config()['myapp']['datetime_format'])?>

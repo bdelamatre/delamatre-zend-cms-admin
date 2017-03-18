@@ -1,7 +1,20 @@
 <?php if($this->entity->id): ?>
+    <li role="presentation" style="background: none !important;border: none !important;">
+        <a style="color: #303030;background: none !important;border: none !important; font-weight: bold !important;">Related Content:</a>
+    </li>
     <?php if(property_exists($this->entity,'technologies')): ?>
         <li role="presentation" class="<?php if($this->defaultTab=='content-technologies'){echo 'active';} ?>">
             <a href="#content-technologies" aria-controls="analytics" role="tab" data-toggle="tab">Technologies (<?=count($this->entity->technologies)?>)</a>
+        </li>
+    <?php endif; ?>
+    <?php if(property_exists($this->entity,'applications')): ?>
+        <li role="presentation" class="<?php if($this->defaultTab=='content-applications'){echo 'active';} ?>">
+            <a href="#content-applications" aria-controls="analytics" role="tab" data-toggle="tab">Applications (<?=count($this->entity->applications)?>)</a>
+        </li>
+    <?php endif; ?>
+    <?php if(property_exists($this->entity,'industries')): ?>
+        <li role="presentation" class="<?php if($this->defaultTab=='content-industries'){echo 'active';} ?>">
+            <a href="#content-industries" aria-controls="analytics" role="tab" data-toggle="tab">Industries (<?=count($this->entity->industries)?>)</a>
         </li>
     <?php endif; ?>
     <?php if(property_exists($this->entity,'caseStudies')): ?>

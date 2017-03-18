@@ -13,17 +13,77 @@
         <table class="table table-condensed table-hover">
             <tr>
                 <th style="width:150px;">Thumb</th>
-                <th style="width:200px;">Key</th>
                 <th>Title</th>
                 <th style="width: 25px;"></th>
             </tr>
             <?php foreach($this->entity->technologies as $technology): ?>
                 <tr>
                     <td><img src="<?=$technology->getImageThumb()?>" title="<?=$technology->title?>" class="img-responsive" /></td>
-                    <td><?=$technology->key?></td>
                     <td><?=$technology->title?></td>
                     <td>
                         <a href="/admin/<?=$this->routeName?>/delete-technology?id=<?=$this->entity->id?>&technology=<?=$technology->id?>"><?=$this->icon('fa-trash','fa-lg')?></a>
+                    </td>
+                </tr>
+            <?php endforeach; ?>
+        </table>
+    </div>
+<?php endif; ?>
+
+<!-- tab : applications -->
+<?php if(property_exists($this->entity,'applications')): ?>
+    <div role="tabpanel" class="tab-pane <?php if($this->defaultTab=='content-applications'){echo 'active';} ?>" id="content-applications">
+        <div class="row">
+            <div class="col-sm-4">
+                <h3>Related Applications</h3>
+            </div>
+            <div class="col-sm-8 text-right">
+                <br/>
+                <a href="/admin/<?=$this->routeName?>/add-application?id=<?=$this->entity->id?>" class="btn btn-primary">Add Application</a>
+            </div>
+        </div>
+        <table class="table table-condensed table-hover">
+            <tr>
+                <th style="width:150px;">Thumb</th>
+                <th>Title</th>
+                <th style="width: 25px;"></th>
+            </tr>
+            <?php foreach($this->entity->applications as $application): ?>
+                <tr>
+                    <td><img src="<?=$application->getImageThumb()?>" title="<?=$applications->title?>" class="img-responsive" /></td>
+                    <td><?=$application->title?></td>
+                    <td>
+                        <a href="/admin/<?=$this->routeName?>/delete-application?id=<?=$this->entity->id?>&application=<?=$application->id?>"><?=$this->icon('fa-trash','fa-lg')?></a>
+                    </td>
+                </tr>
+            <?php endforeach; ?>
+        </table>
+    </div>
+<?php endif; ?>
+
+<!-- tab : industries -->
+<?php if(property_exists($this->entity,'industries')): ?>
+    <div role="tabpanel" class="tab-pane <?php if($this->defaultTab=='content-industries'){echo 'active';} ?>" id="content-industries">
+        <div class="row">
+            <div class="col-sm-4">
+                <h3>Related Industries</h3>
+            </div>
+            <div class="col-sm-8 text-right">
+                <br/>
+                <a href="/admin/<?=$this->routeName?>/add-industry?id=<?=$this->entity->id?>" class="btn btn-primary">Add Industry</a>
+            </div>
+        </div>
+        <table class="table table-condensed table-hover">
+            <tr>
+                <th style="width:150px;">Thumb</th>
+                <th>Title</th>
+                <th style="width: 25px;"></th>
+            </tr>
+            <?php foreach($this->entity->industries as $industry): ?>
+                <tr>
+                    <td><img src="<?=$industry->getImageThumb()?>" title="<?=$industry->title?>" class="img-responsive" /></td>
+                    <td><?=$industry->title?></td>
+                    <td>
+                        <a href="/admin/<?=$this->routeName?>/delete-industry?id=<?=$this->entity->id?>&industry=<?=$industry->id?>"><?=$this->icon('fa-trash','fa-lg')?></a>
                     </td>
                 </tr>
             <?php endforeach; ?>
@@ -45,14 +105,12 @@
         <table class="table table-condensed table-hover">
             <tr>
                 <th style="width:125px;">Thumb</th>
-                <th>Key</th>
                 <th>Title</th>
                 <th style="width: 25px;"></th>
             </tr>
             <?php foreach($this->entity->caseStudies as $caseStudy): ?>
                 <tr>
                     <td><img src="<?=$caseStudy->getImageThumb()?>" title="<?=$caseStudy->title?>" class="img-responsive" /></td>
-                    <td><?=$caseStudy->key?></td>
                     <td><?=$caseStudy->title?></td>
                     <td>
                         <a href="/admin/<?=$this->routeName?>/delete-case-study?id=<?=$this->entity->id?>&case-study=<?=$caseStudy->id?>"><?=$this->icon('fa-trash','fa-lg')?></a>
@@ -76,14 +134,12 @@
         <table class="table table-condensed table-hover">
             <tr>
                 <th style="width:125px;">Thumb</th>
-                <th>Key</th>
                 <th>Title</th>
                 <th style="width: 25px;"></th>
             </tr>
             <?php foreach($this->entity->documents as $document): ?>
                 <tr>
                     <td><img src="<?=$document->getImageThumb()?>" title="<?=$document->title?>" class="img-responsive" /></td>
-                    <td><?=$document->key?></td>
                     <td><?=$document->title?></td>
                     <td>
                         <a href="/admin/<?=$this->routeName?>/delete-document?id=<?=$this->entity->id?>&document=<?=$document->id?>"><?=$this->icon('fa-trash','fa-lg')?></a>
@@ -108,14 +164,12 @@
         <table class="table table-condensed table-hover">
             <tr>
                 <th style="width:125px;">Thumb</th>
-                <th>Key</th>
                 <th>Title</th>
                 <th style="width: 25px;"></th>
             </tr>
             <?php foreach($this->entity->videos as $video): ?>
                 <tr>
                     <td><img src="<?=$video->getImageThumb()?>" title="<?=$video->title?>" class="img-responsive" /></td>
-                    <td><?=$video->key?></td>
                     <td><?=$video->title?></td>
                     <td>
                         <a href="/admin/<?=$this->routeName?>/delete-video?id=<?=$this->entity->id?>&video=<?=$video->id?>"><?=$this->icon('fa-trash','fa-lg')?></a>
@@ -140,14 +194,12 @@
         <table class="table table-condensed table-hover">
             <tr>
                 <th style="width:125px;">Thumb</th>
-                <th>Key</th>
                 <th>Title</th>
                 <th style="width: 25px;"></th>
             </tr>
             <?php foreach($this->entity->whitePapers as $whitePaper): ?>
                 <tr>
                     <td><img src="<?=$whitePaper->getImageThumb()?>" title="<?=$whitePaper->title?>" class="img-responsive" /></td>
-                    <td><?=$whitePaper->key?></td>
                     <td><?=$whitePaper->title?></td>
                     <td>
                         <a href="/admin/<?=$this->routeName?>/delete-white-paper?id=<?=$this->entity->id?>&white-paper=<?=$whitePaper->id?>"><?=$this->icon('fa-trash','fa-lg')?></a>

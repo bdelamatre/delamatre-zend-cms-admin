@@ -2,21 +2,19 @@
 
 <table class="table table-hover table-condensed">
     <tr>
-        <!--th style="width:125px;">Thumb</th-->
-        <th>Key</th>
+        <th style="width:200px;">Key</th>
         <th>Title</th>
-        <th  style="width:150px;">Display On Web</th>
+        <th style="width:200px;">Preview</th>
         <th style="width:150px;">Updated</th>
         <th  style="width:25px;"></th>
     </tr>
     <?php foreach($this->records as $record):
         /* @var \Application\Entity\CaseStudy $record */
         ?>
-        <tr class="<?php if($record->active==false){echo 'danger';}?>">
-            <!--td><img src="<?=$record->getImageThumb()?>" title="<?=$record->title?>" class="img-responsive" /></td-->
+        <tr class="<?php if($record->display_on_website==false){echo'alert-warning';} ?> <?php if($record->active==false){echo'alert-danger';} ?>">
             <td><?=$record->key?></td>
             <td><?=$record->title?></td>
-            <td><?=$this->iconCheckMark($record->display_on_website)?></td>
+            <td></td>
             <td>
                 <?php if($record->updated_datetime): ?>
                     <?=$record->updated_datetime->format($this->config()['myapp']['datetime_format'])?>

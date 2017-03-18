@@ -71,7 +71,6 @@
                     <?php if(in_array($this->ZfcUserIdentity()->getType(),array('user','admin','superadmin'))): ?>
                         <h4><?=$this->fontAwesome('fa-users')?>&nbsp;&nbsp;Marketing</h4>
                         <hr/>
-                        <!--h4>&nbsp;&nbsp;Leads</h4-->
                         <ul class="nav nav-sidebar">
                             <li><a href="/admin/lead/index">Leads</a></li>
                             <li><a href="/admin/roi-calculator/index">ROI Calculations</a></li>
@@ -82,10 +81,19 @@
                     <?php if(in_array($this->ZfcUserIdentity()->getType(),array('user','admin','superadmin'))): ?>
                         <h4><?=$this->fontAwesome('fa-envelope')?>&nbsp;&nbsp;E-Mail</h4>
                         <hr/>
-                        <!--h4>&nbsp;&nbsp;Leads</h4-->
                         <ul class="nav nav-sidebar">
                             <li><a href="/admin/email/index">E-Mails</a></li>
                             <li><a href="/admin/email-template/index">Templates</a></li>
+                        </ul>
+                    <?php endif; ?>
+
+                    <!-- email -->
+                    <?php if(in_array($this->ZfcUserIdentity()->getType(),array('user','admin','superadmin'))): ?>
+                        <h4><?=$this->fontAwesome('fa-database')?>&nbsp;&nbsp;Catalog</h4>
+                        <hr/>
+                        <ul class="nav nav-sidebar">
+                            <li><a href="/admin/product/index">Products</a></li>
+                            <li><a href="/admin/product-category/index">Categories</a></li>
                         </ul>
                     <?php endif; ?>
 

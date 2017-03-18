@@ -29,9 +29,12 @@ class AbstractEntityAdminController extends AbstractAdminActionController
         //require authentication
         $this->requireAuthentication($this->requiredGroups);
 
-
         //start building the users query
         $qb = $this->buildQuery();
+
+        //\Doctrine\Common\Util\Debug::dump($qb);
+        //exit();
+
         $records = $qb->getQuery()->getResult();
         $recordCount = count($records);
 
@@ -92,7 +95,7 @@ class AbstractEntityAdminController extends AbstractAdminActionController
 
         $formName = $this->formName;
 
-        $form = new $formName('form',array('entityManager'=>$this->getEntityManager()));
+        $form = new $formName('form',array('entityManager'=>$this->getEntityManager(),'config'=>$this->getConfig()));
 
         $data = $entity->getArrayCopy();
         $form->setData($data);

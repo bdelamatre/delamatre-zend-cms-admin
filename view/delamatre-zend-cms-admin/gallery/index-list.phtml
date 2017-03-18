@@ -1,10 +1,12 @@
-<?=$this->partial('delamatre-zend-cms-admin/components/entity-index-header.phtml',array('routeName'=>$this->routeName,'name'=>'Content','recordCount'=>$this->recordCount))?>
+<?=$this->partial('delamatre-zend-cms-admin/components/entity-index-header.phtml',array('routeName'=>$this->routeName,'name'=>'Galleries','recordCount'=>$this->recordCount))?>
 
 <table class="table table-hover table-condensed">
     <tr>
-        <th style="width:200px;">Key</th>
+        <th style="width:125px;">Thumb</th>
+        <th>Category</th>
+        <th>Key</th>
         <th>Title</th>
-        <th style="width:200px;">Preview</th>
+        <th>Link</th>
         <th style="width:150px;">Updated</th>
         <th  style="width:25px;"></th>
     </tr>
@@ -12,9 +14,11 @@
         /* @var \Application\Entity\CaseStudy $record */
         ?>
         <tr class="<?php if($record->active==false){echo 'danger';}?>">
+            <td><img src="<?=$record->getImageThumb()?>" title="<?=$record->title?>" class="img-responsive" /></td>
+            <td><?=$record->category?></td>
             <td><?=$record->key?></td>
             <td><?=$record->title?></td>
-            <td></td>
+            <td><?=$record->link?></td>
             <td>
                 <?php if($record->updated_datetime): ?>
                     <?=$record->updated_datetime->format($this->config()['myapp']['datetime_format'])?>

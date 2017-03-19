@@ -1,1305 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="263bb3c7-3012-40d5-b43b-1c545af2a485" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/img/arrows-active.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/img/arrows-normal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/img/crop.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/img/dialogs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/img/icons-big.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/img/icons-small.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/img/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/img/progress.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/img/quicklook-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/img/quicklook-icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/img/resize.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/img/spinner-mini.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/img/toolbar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/img/volume_icon_box.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/img/volume_icon_dropbox.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/img/volume_icon_ftp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/img/volume_icon_googledrive.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/img/volume_icon_local.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/img/volume_icon_onedrive.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/img/volume_icon_sql.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/sounds/rm.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/base/images/ui-icons_444444_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/base/images/ui-icons_555555_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/base/images/ui-icons_777620_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/base/images/ui-icons_777777_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/base/images/ui-icons_cc0000_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/base/images/ui-icons_ffffff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/black-tie/images/ui-bg_diagonals-thick_8_333333_40x40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/black-tie/images/ui-bg_glass_40_111111_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/black-tie/images/ui-bg_glass_55_1c1c1c_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/black-tie/images/ui-bg_highlight-hard_100_f9f9f9_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/black-tie/images/ui-bg_highlight-hard_40_aaaaaa_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/black-tie/images/ui-bg_highlight-soft_50_aaaaaa_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/black-tie/images/ui-bg_inset-hard_45_cd0a0a_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/black-tie/images/ui-bg_inset-hard_55_ffeb80_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/black-tie/images/ui-icons_222222_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/black-tie/images/ui-icons_4ca300_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/black-tie/images/ui-icons_bbbbbb_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/black-tie/images/ui-icons_ededed_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/black-tie/images/ui-icons_ffcf29_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/black-tie/images/ui-icons_ffffff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/blitzer/images/ui-bg_diagonals-thick_75_f3d8d8_40x40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/blitzer/images/ui-bg_dots-small_65_a6a6a6_2x2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/blitzer/images/ui-bg_glass_55_fbf8ee_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/blitzer/images/ui-bg_highlight-hard_100_eeeeee_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/blitzer/images/ui-bg_highlight-hard_100_f6f6f6_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/blitzer/images/ui-bg_highlight-soft_15_cc0000_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/blitzer/images/ui-icons_004276_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/blitzer/images/ui-icons_cc0000_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/blitzer/images/ui-icons_ffffff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/cupertino/images/ui-bg_diagonals-thick_90_eeeeee_40x40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/cupertino/images/ui-bg_glass_100_e4f1fb_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/cupertino/images/ui-bg_glass_50_3baae3_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/cupertino/images/ui-bg_glass_80_d7ebf9_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/cupertino/images/ui-bg_highlight-hard_100_f2f5f7_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/cupertino/images/ui-bg_highlight-hard_70_000000_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/cupertino/images/ui-bg_highlight-soft_100_deedf7_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/cupertino/images/ui-bg_highlight-soft_25_ffef8f_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/cupertino/images/ui-icons_2694e8_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/cupertino/images/ui-icons_2e83ff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/cupertino/images/ui-icons_3d80b3_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/cupertino/images/ui-icons_72a7cf_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/cupertino/images/ui-icons_ffffff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/dark-hive/images/ui-bg_glass_40_ffc73d_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/dark-hive/images/ui-bg_highlight-hard_20_0972a5_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/dark-hive/images/ui-bg_highlight-soft_33_003147_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/dark-hive/images/ui-bg_highlight-soft_35_222222_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/dark-hive/images/ui-bg_highlight-soft_44_444444_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/dark-hive/images/ui-bg_highlight-soft_80_eeeeee_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/dark-hive/images/ui-bg_loop_25_000000_21x21.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/dark-hive/images/ui-icons_222222_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/dark-hive/images/ui-icons_4b8e0b_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/dark-hive/images/ui-icons_a83300_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/dark-hive/images/ui-icons_cccccc_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/dark-hive/images/ui-icons_ffffff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/dot-luv/images/ui-bg_diagonals-thick_15_0b3e6f_40x40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/dot-luv/images/ui-bg_dots-medium_30_0b58a2_4x4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/dot-luv/images/ui-bg_dots-small_20_333333_2x2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/dot-luv/images/ui-bg_dots-small_30_a32d00_2x2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/dot-luv/images/ui-bg_dots-small_40_00498f_2x2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/dot-luv/images/ui-bg_gloss-wave_20_111111_500x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/dot-luv/images/ui-icons_00498f_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/dot-luv/images/ui-icons_98d2fb_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/dot-luv/images/ui-icons_9ccdfc_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/dot-luv/images/ui-icons_ffffff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/eggplant/images/ui-bg_gloss-wave_30_3d3644_500x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/eggplant/images/ui-bg_highlight-soft_100_dcd9de_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/eggplant/images/ui-bg_highlight-soft_100_eae6ea_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/eggplant/images/ui-bg_highlight-soft_25_30273a_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/eggplant/images/ui-bg_highlight-soft_45_5f5964_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/eggplant/images/ui-icons_454545_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/eggplant/images/ui-icons_734d99_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/eggplant/images/ui-icons_8d78a5_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/eggplant/images/ui-icons_a8a3ae_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/eggplant/images/ui-icons_ebccce_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/eggplant/images/ui-icons_ffffff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/excite-bike/images/ui-bg_diagonals-small_25_c5ddfc_40x40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/excite-bike/images/ui-bg_diagonals-thick_20_e69700_40x40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/excite-bike/images/ui-bg_diagonals-thick_22_1484e6_40x40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/excite-bike/images/ui-bg_diagonals-thick_26_2293f7_40x40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/excite-bike/images/ui-bg_highlight-soft_100_f9f9f9_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/excite-bike/images/ui-bg_inset-hard_100_eeeeee_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/excite-bike/images/ui-icons_0a82eb_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/excite-bike/images/ui-icons_0b54d5_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/excite-bike/images/ui-icons_5fa5e3_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/excite-bike/images/ui-icons_fcdd4a_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/excite-bike/images/ui-icons_ffffff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/flick/images/ui-bg_glass_65_ffffff_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/flick/images/ui-bg_highlight-soft_100_f6f6f6_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/flick/images/ui-bg_highlight-soft_25_0073ea_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/flick/images/ui-bg_highlight-soft_50_dddddd_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/flick/images/ui-icons_0073ea_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/flick/images/ui-icons_454545_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/flick/images/ui-icons_666666_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/flick/images/ui-icons_ff0084_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/flick/images/ui-icons_ffffff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/hot-sneaks/images/ui-bg_diagonals-small_40_db4865_40x40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/hot-sneaks/images/ui-bg_diagonals-small_50_93c3cd_40x40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/hot-sneaks/images/ui-bg_diagonals-small_50_ff3853_40x40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/hot-sneaks/images/ui-bg_diagonals-small_75_ccd232_40x40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/hot-sneaks/images/ui-bg_dots-medium_80_ffff38_4x4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/hot-sneaks/images/ui-bg_dots-small_35_35414f_2x2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/hot-sneaks/images/ui-bg_white-lines_85_f7f7ba_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/hot-sneaks/images/ui-icons_454545_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/hot-sneaks/images/ui-icons_88a206_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/hot-sneaks/images/ui-icons_c02669_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/hot-sneaks/images/ui-icons_e1e463_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/hot-sneaks/images/ui-icons_ffeb33_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/hot-sneaks/images/ui-icons_ffffff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/humanity/images/ui-bg_glass_100_f5f0e5_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/humanity/images/ui-bg_glass_25_cb842e_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/humanity/images/ui-bg_glass_70_ede4d4_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/humanity/images/ui-bg_highlight-hard_100_f4f0ec_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/humanity/images/ui-bg_highlight-hard_65_fee4bd_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/humanity/images/ui-bg_highlight-hard_75_f5f5b5_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/humanity/images/ui-bg_inset-soft_100_f4f0ec_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/humanity/images/ui-icons_c47a23_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/humanity/images/ui-icons_cb672b_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/humanity/images/ui-icons_f08000_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/humanity/images/ui-icons_f35f07_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/humanity/images/ui-icons_ff7519_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/humanity/images/ui-icons_ffffff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/le-frog/images/ui-bg_diagonals-small_0_aaaaaa_40x40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/le-frog/images/ui-bg_diagonals-thick_15_444444_40x40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/le-frog/images/ui-bg_diagonals-thick_95_ffdc2e_40x40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/le-frog/images/ui-bg_glass_55_fbf5d0_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/le-frog/images/ui-bg_highlight-hard_30_285c00_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/le-frog/images/ui-bg_highlight-soft_33_3a8104_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/le-frog/images/ui-bg_highlight-soft_50_4eb305_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/le-frog/images/ui-bg_highlight-soft_60_4ca20b_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/le-frog/images/ui-bg_inset-soft_10_285c00_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/le-frog/images/ui-icons_4eb305_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/le-frog/images/ui-icons_72b42d_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/le-frog/images/ui-icons_cd0a0a_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/le-frog/images/ui-icons_ffffff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/mint-choc/images/ui-bg_glass_15_5f391b_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/mint-choc/images/ui-bg_gloss-wave_20_1c160d_500x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/mint-choc/images/ui-bg_gloss-wave_25_453326_500x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/mint-choc/images/ui-bg_gloss-wave_30_44372c_500x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/mint-choc/images/ui-bg_highlight-soft_20_201913_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/mint-choc/images/ui-bg_highlight-soft_20_619226_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/mint-choc/images/ui-bg_inset-soft_10_201913_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/mint-choc/images/ui-icons_222222_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/mint-choc/images/ui-icons_9bcc60_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/mint-choc/images/ui-icons_add978_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/mint-choc/images/ui-icons_e3ddc9_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/mint-choc/images/ui-icons_f1fd86_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/mint-choc/images/ui-icons_ffffff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/overcast/images/ui-bg_glass_100_f8f8f8_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/overcast/images/ui-bg_glass_35_dddddd_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/overcast/images/ui-bg_glass_60_eeeeee_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/overcast/images/ui-bg_inset-hard_75_999999_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/overcast/images/ui-bg_inset-soft_50_c9c9c9_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/overcast/images/ui-icons_3383bb_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/overcast/images/ui-icons_454545_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/overcast/images/ui-icons_70b2e1_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/overcast/images/ui-icons_999999_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/overcast/images/ui-icons_fbc856_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/pepper-grinder/images/ui-bg_diagonal-maze_20_6e4f1c_10x10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/pepper-grinder/images/ui-bg_diagonal-maze_40_000000_10x10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/pepper-grinder/images/ui-bg_fine-grain_10_eceadf_60x60.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/pepper-grinder/images/ui-bg_fine-grain_10_f8f7f6_60x60.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/pepper-grinder/images/ui-bg_fine-grain_15_eceadf_60x60.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/pepper-grinder/images/ui-bg_fine-grain_15_f7f3de_60x60.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/pepper-grinder/images/ui-bg_fine-grain_15_ffffff_60x60.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/pepper-grinder/images/ui-bg_fine-grain_65_654b24_60x60.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/pepper-grinder/images/ui-bg_fine-grain_68_b83400_60x60.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/pepper-grinder/images/ui-icons_222222_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/pepper-grinder/images/ui-icons_3572ac_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/pepper-grinder/images/ui-icons_8c291d_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/pepper-grinder/images/ui-icons_b83400_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/pepper-grinder/images/ui-icons_fbdb93_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/pepper-grinder/images/ui-icons_ffffff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/redmond/images/ui-bg_glass_75_d0e5f5_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/redmond/images/ui-bg_glass_85_dfeffc_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/redmond/images/ui-bg_glass_95_fef1ec_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/redmond/images/ui-bg_gloss-wave_55_5c9ccc_500x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/redmond/images/ui-bg_inset-hard_100_f5f8f9_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/redmond/images/ui-bg_inset-hard_100_fcfdfd_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/redmond/images/ui-icons_217bc0_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/redmond/images/ui-icons_2e83ff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/redmond/images/ui-icons_469bdd_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/redmond/images/ui-icons_6da8d5_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/redmond/images/ui-icons_cd0a0a_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/redmond/images/ui-icons_d8e7f3_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/redmond/images/ui-icons_f9bd01_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/smoothness/images/ui-bg_glass_65_ffffff_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/smoothness/images/ui-bg_glass_75_dadada_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/smoothness/images/ui-icons_222222_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/smoothness/images/ui-icons_2e83ff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/smoothness/images/ui-icons_454545_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/smoothness/images/ui-icons_888888_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/smoothness/images/ui-icons_cd0a0a_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/south-street/images/ui-bg_glass_55_fcf0ba_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/south-street/images/ui-bg_gloss-wave_100_ece8da_500x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/south-street/images/ui-bg_highlight-hard_100_f5f3e5_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/south-street/images/ui-bg_highlight-hard_100_fafaf4_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/south-street/images/ui-bg_highlight-hard_15_459e00_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/south-street/images/ui-bg_highlight-hard_95_cccccc_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/south-street/images/ui-bg_highlight-soft_25_67b021_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/south-street/images/ui-bg_highlight-soft_95_ffedad_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/south-street/images/ui-bg_inset-soft_15_2b2922_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/south-street/images/ui-icons_808080_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/south-street/images/ui-icons_847e71_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/south-street/images/ui-icons_8DC262_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/south-street/images/ui-icons_cd0a0a_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/south-street/images/ui-icons_eeeeee_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/south-street/images/ui-icons_ffffff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/start/images/ui-bg_glass_45_0078ae_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/start/images/ui-bg_glass_55_f8da4e_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/start/images/ui-bg_glass_75_79c9ec_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/start/images/ui-bg_gloss-wave_45_e14f1c_500x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/start/images/ui-bg_gloss-wave_50_6eac2c_500x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/start/images/ui-bg_gloss-wave_75_2191c0_500x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/start/images/ui-bg_inset-hard_100_fcfdfd_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/start/images/ui-icons_0078ae_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/start/images/ui-icons_056b93_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/start/images/ui-icons_d8e7f3_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/start/images/ui-icons_e0fdff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/start/images/ui-icons_f5e175_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/start/images/ui-icons_f7a50d_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/start/images/ui-icons_fcd113_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/sunny/images/ui-bg_diagonals-medium_20_d34d17_40x40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/sunny/images/ui-bg_gloss-wave_45_817865_500x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/sunny/images/ui-bg_gloss-wave_60_fece2f_500x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/sunny/images/ui-bg_gloss-wave_70_ffdd57_500x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/sunny/images/ui-bg_gloss-wave_90_fff9e5_500x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/sunny/images/ui-bg_highlight-soft_100_feeebd_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/sunny/images/ui-bg_inset-soft_30_ffffff_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/sunny/images/ui-icons_3d3d3d_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/sunny/images/ui-icons_bd7b00_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/sunny/images/ui-icons_d19405_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/sunny/images/ui-icons_eb990f_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/sunny/images/ui-icons_ed9f26_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/sunny/images/ui-icons_fadc7a_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/sunny/images/ui-icons_ffe180_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/swanky-purse/images/ui-bg_diamond_10_4f4221_10x8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/swanky-purse/images/ui-bg_diamond_20_372806_10x8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/swanky-purse/images/ui-bg_diamond_25_675423_10x8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/swanky-purse/images/ui-bg_diamond_25_d5ac5d_10x8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/swanky-purse/images/ui-bg_diamond_8_261803_10x8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/swanky-purse/images/ui-bg_diamond_8_443113_10x8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/swanky-purse/images/ui-bg_highlight-hard_65_fee4bd_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/swanky-purse/images/ui-icons_070603_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/swanky-purse/images/ui-icons_e8e2b5_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/swanky-purse/images/ui-icons_e9cd86_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/swanky-purse/images/ui-icons_efec9f_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/swanky-purse/images/ui-icons_f2ec64_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/swanky-purse/images/ui-icons_f9f2bd_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/swanky-purse/images/ui-icons_ff7519_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/trontastic/images/ui-bg_diagonals-small_50_262626_40x40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/trontastic/images/ui-bg_glass_40_0a0a0a_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/trontastic/images/ui-bg_glass_55_f1fbe5_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/trontastic/images/ui-bg_glass_60_000000_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/trontastic/images/ui-bg_gloss-wave_55_000000_500x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/trontastic/images/ui-bg_gloss-wave_85_9fda58_500x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/trontastic/images/ui-bg_gloss-wave_95_f6ecd5_500x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/trontastic/images/ui-icons_000000_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/trontastic/images/ui-icons_1f1f1f_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/trontastic/images/ui-icons_9fda58_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/trontastic/images/ui-icons_b8ec79_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/trontastic/images/ui-icons_cd0a0a_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/trontastic/images/ui-icons_ffffff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/ui-darkness/images/ui-bg_glass_20_555555_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/ui-darkness/images/ui-bg_glass_40_0078a3_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/ui-darkness/images/ui-bg_glass_40_ffc73d_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/ui-darkness/images/ui-bg_gloss-wave_25_333333_500x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/ui-darkness/images/ui-bg_highlight-soft_80_eeeeee_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/ui-darkness/images/ui-bg_inset-soft_25_000000_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/ui-darkness/images/ui-bg_inset-soft_30_f58400_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/ui-darkness/images/ui-icons_222222_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/ui-darkness/images/ui-icons_4b8e0b_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/ui-darkness/images/ui-icons_a83300_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/ui-darkness/images/ui-icons_cccccc_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/ui-darkness/images/ui-icons_ffffff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/ui-lightness/images/ui-icons_222222_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/ui-lightness/images/ui-icons_228ef1_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/ui-lightness/images/ui-icons_ef8c08_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/ui-lightness/images/ui-icons_ffd27a_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/ui-lightness/images/ui-icons_ffffff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/vader/images/ui-bg_glass_95_fef1ec_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/vader/images/ui-bg_gloss-wave_16_121212_500x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/vader/images/ui-bg_highlight-hard_15_888888_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/vader/images/ui-bg_highlight-hard_55_555555_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/vader/images/ui-bg_highlight-soft_35_adadad_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/vader/images/ui-bg_highlight-soft_60_dddddd_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/vader/images/ui-bg_inset-soft_15_121212_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/vader/images/ui-icons_666666_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/vader/images/ui-icons_aaaaaa_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/vader/images/ui-icons_bbbbbb_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/vader/images/ui-icons_c98000_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/vader/images/ui-icons_cccccc_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/vader/images/ui-icons_cd0a0a_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/vader/images/ui-icons_f29a00_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/font/summernote.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/font/summernote.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/tools/nuget.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Module.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/Gemfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/Gemfile.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/ISSUE_TEMPLATE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap-theme.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/dist/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/dist/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/dist/js/npm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/grunt/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/grunt/bs-commonjs-generator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/grunt/bs-glyphicons-data-generator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/grunt/bs-lessdoc-parser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/grunt/bs-raw-files-generator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/grunt/change-version.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/grunt/configBridge.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/grunt/npm-shrinkwrap.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/grunt/sauce_browsers.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/js/.jscsrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/js/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/js/affix.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/js/alert.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/js/button.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/js/carousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/js/collapse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/js/dropdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/js/modal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/js/popover.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/js/scrollspy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/js/tab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/js/tooltip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/js/transition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/.csscomb.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/.csslintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/alerts.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/badges.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/bootstrap.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/breadcrumbs.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/button-groups.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/buttons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/carousel.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/close.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/code.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/component-animations.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/dropdowns.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/forms.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/glyphicons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/grid.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/input-groups.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/jumbotron.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/labels.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/list-group.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/media.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/alerts.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/background-variant.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/border-radius.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/buttons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/center-block.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/clearfix.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/forms.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/gradients.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/grid-framework.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/grid.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/hide-text.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/image.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/labels.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/list-group.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/nav-divider.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/nav-vertical-align.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/opacity.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/pagination.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/panels.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/progress-bar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/reset-filter.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/reset-text.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/resize.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/responsive-visibility.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/size.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/tab-focus.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/table-row.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/text-emphasis.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/text-overflow.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/vendor-prefixes.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/modals.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/navbar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/navs.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/normalize.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/pager.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/pagination.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/panels.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/popovers.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/print.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/progress-bars.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/responsive-embed.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/responsive-utilities.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/scaffolding.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/tables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/theme.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/thumbnails.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/tooltip.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/type.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/utilities.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/less/wells.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/nuget/MyGet.ps1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/nuget/bootstrap.less.nuspec" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/nuget/bootstrap.nuspec" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/package.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/Changelog" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/css/elfinder.full.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/css/elfinder.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/css/theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/elfinder.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/js/elfinder.full.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/js/elfinder.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/js/extras/encoding-japanese.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/js/extras/quicklook.googledocs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/js/i18n/elfinder.LANG.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/js/i18n/elfinder.ar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/js/i18n/elfinder.bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/js/i18n/elfinder.ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/js/i18n/elfinder.cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/js/i18n/elfinder.da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/js/i18n/elfinder.de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/js/i18n/elfinder.el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/js/i18n/elfinder.es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/js/i18n/elfinder.fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/js/i18n/elfinder.fallback.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/js/i18n/elfinder.fo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/js/i18n/elfinder.fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/js/i18n/elfinder.he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/js/i18n/elfinder.hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/js/i18n/elfinder.hu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/js/i18n/elfinder.id.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/js/i18n/elfinder.it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/js/i18n/elfinder.jp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/js/i18n/elfinder.ko.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/js/i18n/elfinder.nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/js/i18n/elfinder.no.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/js/i18n/elfinder.pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/js/i18n/elfinder.pt_BR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/js/i18n/elfinder.ro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/js/i18n/elfinder.ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/js/i18n/elfinder.sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/js/i18n/elfinder.sl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/js/i18n/elfinder.sr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/js/i18n/elfinder.sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/js/i18n/elfinder.tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/js/i18n/elfinder.ug_CN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/js/i18n/elfinder.uk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/js/i18n/elfinder.vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/js/i18n/elfinder.zh_CN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/js/i18n/elfinder.zh_TW.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/js/proxy/elFinderSupportVer1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/main.default.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/elfinder/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/jquery-ui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/jquery-ui.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/base/accordion.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/base/all.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/base/autocomplete.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/base/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/base/button.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/base/checkboxradio.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/base/controlgroup.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/base/core.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/base/datepicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/base/dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/base/draggable.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/base/jquery-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/base/jquery-ui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/base/menu.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/base/progressbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/base/resizable.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/base/selectable.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/base/selectmenu.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/base/slider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/base/sortable.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/base/spinner.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/base/tabs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/base/theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/base/tooltip.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/black-tie/jquery-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/black-tie/jquery-ui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/black-tie/theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/blitzer/jquery-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/blitzer/jquery-ui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/blitzer/theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/cupertino/jquery-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/cupertino/jquery-ui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/cupertino/theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/dark-hive/jquery-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/dark-hive/jquery-ui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/dark-hive/theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/dot-luv/jquery-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/dot-luv/jquery-ui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/dot-luv/theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/eggplant/jquery-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/eggplant/jquery-ui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/eggplant/theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/excite-bike/jquery-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/excite-bike/jquery-ui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/excite-bike/theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/flick/jquery-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/flick/jquery-ui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/flick/theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/hot-sneaks/jquery-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/hot-sneaks/jquery-ui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/hot-sneaks/theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/humanity/jquery-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/humanity/jquery-ui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/humanity/theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/le-frog/jquery-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/le-frog/jquery-ui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/le-frog/theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/mint-choc/jquery-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/mint-choc/jquery-ui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/mint-choc/theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/overcast/jquery-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/overcast/jquery-ui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/overcast/theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/pepper-grinder/jquery-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/pepper-grinder/jquery-ui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/pepper-grinder/theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/redmond/jquery-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/redmond/jquery-ui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/redmond/theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/smoothness/jquery-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/smoothness/jquery-ui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/smoothness/theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/south-street/jquery-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/south-street/jquery-ui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/south-street/theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/start/jquery-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/start/jquery-ui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/start/theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/sunny/jquery-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/sunny/jquery-ui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/sunny/theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/swanky-purse/jquery-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/swanky-purse/jquery-ui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/swanky-purse/theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/trontastic/jquery-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/trontastic/jquery-ui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/trontastic/theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/ui-darkness/jquery-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/ui-darkness/jquery-ui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/ui-darkness/theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/ui-lightness/jquery-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/ui-lightness/jquery-ui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/ui-lightness/theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/vader/jquery-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/vader/jquery-ui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/themes/vader/theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/disable-selection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/effect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/effects/effect-blind.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/effects/effect-bounce.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/effects/effect-clip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/effects/effect-drop.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/effects/effect-explode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/effects/effect-fade.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/effects/effect-fold.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/effects/effect-highlight.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/effects/effect-puff.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/effects/effect-pulsate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/effects/effect-scale.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/effects/effect-shake.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/effects/effect-size.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/effects/effect-slide.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/effects/effect-transfer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/escape-selector.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/focusable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/form-reset-mixin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/form.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-af.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-ar-DZ.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-ar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-az.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-be.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-bs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-cy-GB.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-en-AU.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-en-GB.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-en-NZ.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-eo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-et.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-eu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-fo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-fr-CA.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-fr-CH.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-gl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-hi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-hu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-hy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-id.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-is.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-it-CH.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-ka.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-kk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-km.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-ko.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-ky.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-lb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-lt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-lv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-mk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-ml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-ms.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-nl-BE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-nn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-no.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-pt-BR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-rm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-ro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-sl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-sq.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-sr-SR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-sr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-ta.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-th.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-tj.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-uk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-zh-CN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-zh-HK.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/i18n/datepicker-zh-TW.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/ie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/jquery-1-7.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/keycode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/labels.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/disable-selection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/effect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/escape-selector.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/focusable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/form-reset-mixin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/form.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-af.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-ar-DZ.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-ar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-az.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-be.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-bs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-cy-GB.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-en-AU.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-en-GB.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-en-NZ.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-eo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-et.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-eu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-fo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-fr-CA.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-fr-CH.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-gl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-hi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-hu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-hy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-id.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-is.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-it-CH.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-ka.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-kk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-km.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-ko.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-ky.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-lb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-lt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-lv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-mk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-ml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-ms.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-nl-BE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-nn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-no.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-pt-BR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-rm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-ro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-sl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-sq.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-sr-SR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-sr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-ta.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-th.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-tj.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-uk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-zh-CN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-zh-HK.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/i18n/datepicker-zh-TW.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/ie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/jquery-1-7.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/keycode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/labels.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/position.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/safe-active-element.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/safe-blur.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/scroll-parent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/tabbable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/unique-id.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/version.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/minified/widget.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/position.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/safe-active-element.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/safe-blur.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/scroll-parent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/tabbable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/unique-id.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/version.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/widget.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/widgets/accordion.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/widgets/autocomplete.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/widgets/button.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/widgets/checkboxradio.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/widgets/controlgroup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/widgets/datepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/widgets/dialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/widgets/draggable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/widgets/droppable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/widgets/menu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/widgets/mouse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/widgets/progressbar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/widgets/resizable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/widgets/selectable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/widgets/selectmenu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/widgets/slider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/widgets/sortable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/widgets/spinner.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/widgets/tabs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery-ui/ui/widgets/tooltip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/AUTHORS.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/dist/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.slim.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.slim.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.slim.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/external/sizzle/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/external/sizzle/dist/sizzle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/external/sizzle/dist/sizzle.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/external/sizzle/dist/sizzle.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/.eslintrc.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/ajax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/ajax/jsonp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/ajax/load.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/ajax/parseXML.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/ajax/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/ajax/var/location.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/ajax/var/nonce.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/ajax/var/rquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/ajax/xhr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/attributes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/attributes/attr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/attributes/classes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/attributes/prop.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/attributes/support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/attributes/val.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/callbacks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/core/DOMEval.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/core/access.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/core/init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/core/parseHTML.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/core/ready-no-deferred.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/core/ready.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/core/readyException.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/core/stripAndCollapse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/core/support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/core/var/rsingleTag.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/addGetHookIf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/adjustCSS.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/curCSS.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/hiddenVisibleSelectors.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/showHide.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/var/cssExpand.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/var/getStyles.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/var/isHiddenWithinTree.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/var/rmargin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/var/rnumnonpx.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/var/swap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/data/Data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/data/var/acceptData.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/data/var/dataPriv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/data/var/dataUser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/deferred.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/deferred/exceptionHook.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/deprecated.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/dimensions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/effects.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/effects/Tween.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/effects/animatedSelector.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/event.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/event/ajax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/event/alias.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/event/focusin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/event/support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/event/trigger.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/exports/amd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/exports/global.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/manipulation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/_evalUrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/buildFragment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/getAll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/setGlobalEval.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/var/rcheckableType.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/var/rscriptType.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/var/rtagName.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/wrapMap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/offset.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/queue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/queue/delay.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/selector-native.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/selector-sizzle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/selector.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/serialize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/traversing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/traversing/findFilter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/traversing/var/dir.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/traversing/var/rneedsContext.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/traversing/var/siblings.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/ObjectFunctionString.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/arr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/class2type.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/concat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/document.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/documentElement.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/fnToString.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/getProto.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/hasOwn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/indexOf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/pnum.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/push.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/rcssNum.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/rnothtmlwhite.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/slice.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/var/toString.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/jquery/src/wrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/font/summernote.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-ar-AR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-ar-AR.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-bg-BG.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-bg-BG.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-ca-ES.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-ca-ES.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-cs-CZ.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-cs-CZ.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-da-DK.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-da-DK.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-de-DE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-de-DE.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-es-ES.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-es-ES.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-es-EU.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-es-EU.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-fa-IR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-fa-IR.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-fi-FI.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-fi-FI.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-fr-FR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-fr-FR.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-gl-ES.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-gl-ES.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-he-IL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-he-IL.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-hr-HR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-hr-HR.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-hu-HU.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-hu-HU.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-id-ID.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-id-ID.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-it-IT.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-it-IT.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-ja-JP.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-ja-JP.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-ko-KR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-ko-KR.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-lt-LT.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-lt-LT.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-lt-LV.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-lt-LV.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-nb-NO.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-nb-NO.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-nl-NL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-nl-NL.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-pl-PL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-pl-PL.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-pt-BR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-pt-BR.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-pt-PT.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-pt-PT.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-ro-RO.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-ro-RO.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-ru-RU.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-ru-RU.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-sk-SK.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-sk-SK.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-sl-SI.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-sl-SI.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-sr-RS-Latin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-sr-RS-Latin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-sr-RS.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-sr-RS.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-sv-SE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-sv-SE.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-th-TH.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-th-TH.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-tr-TR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-tr-TR.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-uk-UA.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-uk-UA.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-vi-VN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-vi-VN.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-zh-CN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-zh-CN.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-zh-TW.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/lang/summernote-zh-TW.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/plugin/databasic/summernote-ext-databasic.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/plugin/databasic/summernote-ext-databasic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/plugin/databasic/summernote-ext-databasic.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/plugin/databasic/summernote-ext-databasic.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/plugin/hello/summernote-ext-hello.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/plugin/hello/summernote-ext-hello.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/plugin/specialchars/summernote-ext-specialchars.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/plugin/specialchars/summernote-ext-specialchars.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/summernote.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/summernote.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/dist/summernote.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/examples/airmode.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/examples/bs3fa4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/examples/codemirror.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/examples/external-api.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/examples/get-button.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/examples/hint-emoji.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/examples/hint-userdefine.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/examples/jquery-custom-event.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/examples/jquery18lt.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/examples/lang.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/examples/nativestyle.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/examples/ondialog-multitab.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/examples/ondialog.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/examples/plugin-hello.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/examples/rtl.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/examples/textarea.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/ie8.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/issue_template.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/lang/summernote-ar-AR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/lang/summernote-bg-BG.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/lang/summernote-ca-ES.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/lang/summernote-cs-CZ.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/lang/summernote-da-DK.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/lang/summernote-de-DE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/lang/summernote-es-ES.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/lang/summernote-es-EU.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/lang/summernote-fa-IR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/lang/summernote-fi-FI.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/lang/summernote-fr-FR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/lang/summernote-gl-ES.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/lang/summernote-he-IL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/lang/summernote-hr-HR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/lang/summernote-hu-HU.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/lang/summernote-id-ID.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/lang/summernote-it-IT.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/lang/summernote-ja-JP.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/lang/summernote-ko-KR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/lang/summernote-lt-LT.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/lang/summernote-lt-LV.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/lang/summernote-nb-NO.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/lang/summernote-nl-NL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/lang/summernote-pl-PL.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/lang/summernote-pt-BR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/lang/summernote-pt-PT.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/lang/summernote-ro-RO.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/lang/summernote-ru-RU.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/lang/summernote-sk-SK.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/lang/summernote-sl-SI.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/lang/summernote-sr-RS-Latin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/lang/summernote-sr-RS.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/lang/summernote-sv-SE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/lang/summernote-th-TH.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/lang/summernote-tr-TR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/lang/summernote-uk-UA.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/lang/summernote-vi-VN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/lang/summernote-zh-CN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/lang/summernote-zh-TW.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/lite.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/meteor/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/meteor/package-standalone.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/meteor/package.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/meteor/publish.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/meteor/runtests.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/meteor/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/nuget-build.cmd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/plugin/databasic/summernote-ext-databasic.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/plugin/databasic/summernote-ext-databasic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/plugin/hello/summernote-ext-hello.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/plugin/specialchars/summernote-ext-specialchars.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/pull_request_template.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/icons/align-center.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/icons/align-indent.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/icons/align-justify.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/icons/align-left.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/icons/align-outdent.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/icons/align-right.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/icons/align.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/icons/arrows-alt.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/icons/bold.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/icons/caret.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/icons/chain-broken.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/icons/circle.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/icons/close.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/icons/code.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/icons/eraser.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/icons/font.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/icons/frame.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/icons/italic.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/icons/link.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/icons/magic.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/icons/menu-check.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/icons/minus.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/icons/orderedlist.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/icons/pencil.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/icons/picture.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/icons/question.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/icons/redo.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/icons/special-character.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/icons/square.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/icons/strikethrough.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/icons/subscript.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/icons/summernote.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/icons/superscript.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/icons/table.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/icons/templates/summernote.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/icons/templates/summernote.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/icons/text-height.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/icons/trash.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/icons/underline.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/icons/undo.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/icons/unorderedlist.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/icons/video.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/base/Context.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/base/core/agent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/base/core/async.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/base/core/dom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/base/core/func.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/base/core/key.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/base/core/list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/base/core/range.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/base/editing/Bullet.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/base/editing/History.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/base/editing/Style.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/base/editing/Table.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/base/editing/Typing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/base/module/AutoLink.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/base/module/AutoSync.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/base/module/Clipboard.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/base/module/Codeview.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/base/module/Dropzone.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/base/module/Editor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/base/module/Fullscreen.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/base/module/Handle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/base/module/Placeholder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/base/module/Statusbar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/base/renderer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/base/summernote-en-US.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/bs3/module/AirPopover.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/bs3/module/Buttons.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/bs3/module/HelpDialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/bs3/module/HintPopover.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/bs3/module/ImageDialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/bs3/module/ImagePopover.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/bs3/module/LinkDialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/bs3/module/LinkPopover.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/bs3/module/Toolbar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/bs3/module/VideoDialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/bs3/settings.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/bs3/ui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/intro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/lite/module/Toolbar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/lite/settings.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/lite/ui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/outro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/js/summernote.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/less/elements.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/less/elements.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/less/summernote-lite.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/less/summernote.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/src/less/summernote.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/summernote.nuspec" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/summernote/tools/NuGet.Config" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/assetic.global.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/module.config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DelamatreZendCmsAdmin/Controller/AdminController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DelamatreZendCmsAdmin/Controller/BlogController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DelamatreZendCmsAdmin/Controller/CaseStudyController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DelamatreZendCmsAdmin/Controller/ContentController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DelamatreZendCmsAdmin/Controller/DocumentController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DelamatreZendCmsAdmin/Controller/FilemanagerController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DelamatreZendCmsAdmin/Controller/GalleryController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DelamatreZendCmsAdmin/Controller/Tracking/Tracking.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DelamatreZendCmsAdmin/Controller/UserController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DelamatreZendCmsAdmin/Controller/VideoController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DelamatreZendCmsAdmin/Controller/WhitePaperController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DelamatreZendCmsAdmin/Form/BlogForm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DelamatreZendCmsAdmin/Form/CaseStudyForm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DelamatreZendCmsAdmin/Form/ContentForm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DelamatreZendCmsAdmin/Form/DoctrineIntegration.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DelamatreZendCmsAdmin/Form/DocumentForm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DelamatreZendCmsAdmin/Form/Element/CaseStudy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DelamatreZendCmsAdmin/Form/Element/Document.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DelamatreZendCmsAdmin/Form/Element/GetresponseAccount.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DelamatreZendCmsAdmin/Form/Element/GetresponseCampaign.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DelamatreZendCmsAdmin/Form/Element/SalesforceOwner.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DelamatreZendCmsAdmin/Form/Element/UserState.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DelamatreZendCmsAdmin/Form/Element/UserType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DelamatreZendCmsAdmin/Form/Element/Video.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DelamatreZendCmsAdmin/Form/Element/WhitePaper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DelamatreZendCmsAdmin/Form/GalleryForm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DelamatreZendCmsAdmin/Form/GetresponseIntegration.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DelamatreZendCmsAdmin/Form/IndustryForm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DelamatreZendCmsAdmin/Form/SalesforcIntegration.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DelamatreZendCmsAdmin/Form/SelectCaseStudy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DelamatreZendCmsAdmin/Form/SelectDocument.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DelamatreZendCmsAdmin/Form/SelectVideo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DelamatreZendCmsAdmin/Form/SelectWhitePaper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DelamatreZendCmsAdmin/Form/Superclass/ContentForm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DelamatreZendCmsAdmin/Form/UserForm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DelamatreZendCmsAdmin/Form/VideoForm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DelamatreZendCmsAdmin/Form/WhitePaperForm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DelamatreZendCmsAdmin/Mvc/Controller/AbstractAdminActionController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DelamatreZendCmsAdmin/Mvc/Controller/AbstractEntityAdminController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/delamatre-zend-cms-admin/admin/index.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/delamatre-zend-cms-admin/blog/form.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/delamatre-zend-cms-admin/blog/index.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/delamatre-zend-cms-admin/case-study/form.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/delamatre-zend-cms-admin/case-study/index.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/delamatre-zend-cms-admin/components/add-case-study.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/delamatre-zend-cms-admin/components/add-document.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/delamatre-zend-cms-admin/components/add-video.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/delamatre-zend-cms-admin/components/add-white-paper.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/delamatre-zend-cms-admin/components/entity-form-header.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/delamatre-zend-cms-admin/components/entity-index-header.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/delamatre-zend-cms-admin/components/related-nav-content.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/delamatre-zend-cms-admin/components/related-nav-tabs.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/delamatre-zend-cms-admin/components/wysiwyg.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/delamatre-zend-cms-admin/content/form.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/delamatre-zend-cms-admin/content/index.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/delamatre-zend-cms-admin/document/form.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/delamatre-zend-cms-admin/document/index.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/delamatre-zend-cms-admin/filemanager/index.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/delamatre-zend-cms-admin/gallery/form.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/delamatre-zend-cms-admin/gallery/index.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/delamatre-zend-cms-admin/user/dashboard.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/delamatre-zend-cms-admin/user/form.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/delamatre-zend-cms-admin/user/index.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/delamatre-zend-cms-admin/video/form.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/delamatre-zend-cms-admin/video/index.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/delamatre-zend-cms-admin/white-paper/form.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/delamatre-zend-cms-admin/white-paper/index.phtml" />
-    </list>
+    <list default="true" id="263bb3c7-3012-40d5-b43b-1c545af2a485" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -1312,12 +14,12 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="module.config.php" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="module.config.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/module.config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="51" lean-forward="false" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+            <state relative-caret-position="102">
+              <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -1336,18 +38,18 @@
       <file leaf-file-name="assetic.global.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/assetic.global.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
+            <state relative-caret-position="425">
               <caret line="25" column="59" lean-forward="false" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Module.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Module.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Module.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+            <state relative-caret-position="136">
+              <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -1368,7 +70,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
               <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-              <folding />
+              <folding>
+                <marker date="1488384724071" expanded="true" signature="552:572" ph="{&quot;DelamatreZendCmsAdmin&quot;: &quot;src/&quot;...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1393,6 +97,7 @@
         <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/config/assetic.global.php" />
         <option value="$PROJECT_DIR$/Module.php" />
+        <option value="$PROJECT_DIR$/config/module.config.php" />
       </list>
     </option>
   </component>
@@ -1404,7 +109,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -1424,8 +129,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1468,6 +171,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1515,6 +220,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -1549,32 +260,33 @@
       <option name="presentableId" value="Default" />
       <updated>1486571434978</updated>
       <workItem from="1486571436165" duration="1487000" />
+      <workItem from="1488384621366" duration="3718000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1487000" />
+    <option name="totallyTimeSpent" value="5205000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1590,22 +302,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/module.config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1624,7 +320,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/assetic.global.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
+        <state relative-caret-position="425">
           <caret line="25" column="59" lean-forward="false" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
           <folding />
         </state>
@@ -1632,8 +328,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Module.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+          <folding>
+            <marker date="1488384724071" expanded="true" signature="552:572" ph="{&quot;DelamatreZendCmsAdmin&quot;: &quot;src/&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+          <folding>
+            <marker date="1488384724071" expanded="true" signature="552:572" ph="{&quot;DelamatreZendCmsAdmin&quot;: &quot;src/&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/assetic.global.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="59" lean-forward="false" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Module.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/module.config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
           <folding />
         </state>
       </provider>

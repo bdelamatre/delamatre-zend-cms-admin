@@ -18,7 +18,7 @@ class UserController extends AbstractAdminActionController
     public function indexAction(){
 
         //require authentication
-        $this->requireAuthentication();
+        $this->requireAuthentication(array('admin','superadmin'));
 
         //start building the users query
         $qb = $this->createQueryBuilder();
@@ -36,7 +36,7 @@ class UserController extends AbstractAdminActionController
 
     public function dashboardAction(){
 
-        $this->requireAuthentication();
+        $this->requireAuthentication(array('admin','superadmin'));
 
         $id = $this->params()->fromQuery('id');
 
@@ -58,7 +58,7 @@ class UserController extends AbstractAdminActionController
 
     public function formAction(){
 
-        $this->requireAuthentication();
+        $this->requireAuthentication(array('admin','superadmin'));
 
         $id = $this->params()->fromQuery('id');
 

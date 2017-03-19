@@ -3,20 +3,20 @@
     <div class="col-sm-3 col-admin">
         <div class="panel-admin">
             <h2><a href="/admin/video/index">Videos (<?=$this->videoCount?>)</a></h2>
-            <p>Custom Entity.</p>
+            <p>Built-in videos.</p>
             <?php if(in_array($this->ZfcUserIdentity()->getType(),array('superadmin'))): ?>
                 <!-- only show config to superadmins -->
-                <a class="btn btn-primary" role="button" data-toggle="collapse" href="#videoConfig" aria-expanded="false" aria-controls="videoConfig">
+                <a class="btn btn-primary" role="button" data-toggle="modal" href="#videoConfig" aria-expanded="false" aria-controls="videoConfig">
                     Config
                 </a>
                 <div class="modal fade" id="videoConfig" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h1 class="modal-title" id="myModalLabel">Video Config</h1>
+                                <h1 class="modal-title text-center" id="myModalLabel">Videos Config</h1>
                             </div>
                             <div class="modal-body">
-                                asd
+                                Nothing to see here.
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

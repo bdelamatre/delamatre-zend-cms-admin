@@ -1,0 +1,38 @@
+<?=$this->form()->openTag($this->form)?>
+
+<?=$this->partial('delamatre-zend-cms-admin/components/entity-form-header.phtml',array('routeName'=>$this->routeName,'name'=>'Organization','entity'=>$this->entity,'key'=>$this->entity->name))?>
+
+<?=$this->formHidden($this->form->get('id'))?>
+
+<div class="form-group">
+    <div class="col-sm-3">
+        <?=$this->formLabel($this->form->get('name'))?>
+    </div>
+    <div class="col-sm-9">
+        <?=$this->formElement($this->form->get('name'))?>
+    </div>
+</div>
+<?=$this->formElementErrors($this->form->get('name'),array('class'=>'help-inline form-errors'))?>
+
+<div class="form-group">
+    <div class="col-sm-3">
+        <?=$this->formLabel($this->form->get('email'))?>
+    </div>
+    <div class="col-sm-9">
+        <?=$this->formElement($this->form->get('email'))?>
+    </div>
+</div>
+<?=$this->formElementErrors($this->form->get('email'),array('class'=>'help-inline form-errors'))?>
+
+<div class="form-group">
+    <div class="col-sm-3">
+        <?=$this->formLabel($this->form->get('type'))?>
+    </div>
+    <div class="col-sm-4">
+        <?=$this->formElement($this->form->get('type'))?>
+    </div>
+</div>
+<?=$this->formElementErrors($this->form->get('type'),array('class'=>'help-inline form-errors'))?>
+
+
+<?=$this->form()->closeTag($this->form)?>

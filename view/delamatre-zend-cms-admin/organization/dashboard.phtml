@@ -1,0 +1,133 @@
+<div class="row">
+    <div class="col-sm-9">
+        <h1>Organization <?=$this->organization->name?></h1>
+        <a href="/admin/organization/index"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i> Back to users</a>
+    </div>
+    <div class="col-sm-3 text-right">
+        <br/>
+        <br/>
+        <a href="/admin/organization/form?id=<?=$this->organization->id?>" class="btn btn-primary">Edit</a>
+    </div>
+</div>
+<hr/>
+
+<div class="row">
+    <div class="col-sm-3">
+        <?=$this->formLabel($this->form->get('name'))?>
+    </div>
+    <div class="col-sm-5">
+        <?=$this->organization->name?>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-3">
+        <?=$this->formLabel($this->form->get('preferred_contact_type'))?>
+    </div>
+    <div class="col-sm-9">
+        <?=$this->organization->preferred_contact_type?>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-3">
+        <?=$this->formLabel($this->form->get('email'))?>
+    </div>
+    <div class="col-sm-9">
+        <?=$this->organization->email?>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-3">
+        <?=$this->formLabel($this->form->get('mobile'))?>
+    </div>
+    <div class="col-sm-9">
+        <?=$this->organization->mobile?>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-3">
+        <?=$this->formLabel($this->form->get('phone'))?>
+    </div>
+    <div class="col-sm-9">
+        <?=$this->organization->phone?>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-3">
+        <?=$this->formLabel($this->form->get('fax'))?>
+    </div>
+    <div class="col-sm-9">
+        <?=$this->organization->fax?>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-3">
+        <?=$this->formLabel($this->form->get('notes'))?>
+    </div>
+    <div class="col-sm-9">
+        <?=$this->organization->notes?>
+    </div>
+</div>
+
+<h2>Address</h2>
+
+<div class="row">
+    <div class="col-sm-3">
+        <?=$this->formLabel($this->form->get('address_street'))?>
+    </div>
+    <div class="col-sm-9">
+        <?=$this->organization->address_street?>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-3">
+        <?=$this->formLabel($this->form->get('address_city'))?>, <?=$this->formLabel($this->form->get('address_state'))?>&nbsp;<?=$this->formLabel($this->form->get('address_zip'))?>
+    </div>
+    <div class="col-sm-9">
+        <?=$this->organization->address_city?>, <?=$this->organization->address_state?> <?=$this->organization->address_zip?>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-3">
+        <?=$this->formLabel($this->form->get('address_country'))?>
+    </div>
+    <div class="col-sm-9">
+        <?=$this->organization->address_country?>
+    </div>
+</div>
+
+<h2>Billing</h2>
+
+<div class="row">
+    <div class="col-sm-3">
+        <?=$this->formLabel($this->form->get('billing_street'))?>
+    </div>
+    <div class="col-sm-9">
+        <?=$this->organization->billing_street?>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-3">
+        <?=$this->formLabel($this->form->get('billing_city'))?>, <?=$this->formLabel($this->form->get('billing_state'))?>&nbsp;<?=$this->formLabel($this->form->get('billing_zip'))?>
+    </div>
+    <div class="col-sm-9">
+        <?=$this->organization->billing_city?>, <?=$this->organization->billing_state?> <?=$this->organization->billing_zip?>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-3">
+        <?=$this->formLabel($this->form->get('billing_country'))?>
+    </div>
+    <div class="col-sm-9">
+        <?=$this->organization->billing_country?>
+    </div>
+</div>

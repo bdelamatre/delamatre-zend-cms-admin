@@ -6,9 +6,9 @@ use Zend\Form\Form;
 
 class ContentForm extends Form{
 
-    public function __construct($name=null){
+    public function __construct($name=null,$options=array()){
 
-        parent::__construct($name);
+        parent::__construct($name,$options);
 
         $this->add(array(
             'name' => 'id',
@@ -19,11 +19,12 @@ class ContentForm extends Form{
             'name' => 'key',
             'type' => 'text',
                 'options' => array(
-                'label' => 'Unique Key',
+                'label' => 'URL Key',
                 'required' => true,
             ),
             'attributes' => array(
                 'required' => true,
+                'placeholder' => 'unique-key',
             ),
         ));
 
@@ -35,7 +36,7 @@ class ContentForm extends Form{
             ),
             'attributes' => array(
                 'required' => true,
-                'placeholder' => 'Page Title',
+                'placeholder' => 'Title',
             ),
         ));
 

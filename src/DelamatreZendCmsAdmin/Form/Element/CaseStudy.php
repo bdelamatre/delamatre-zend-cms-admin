@@ -14,7 +14,7 @@ class CaseStudy extends Select{
         $valueOptions = array(''=>'');
 
         $qb = $entityManager->createQueryBuilder();
-        $qb->select('t')->from('Application\Entity\CaseStudy','t')->orderBy('t.title','ASC');
+        $qb->select('t')->from('DelamatreZendCms\Entity\CaseStudy','t')->orderBy('t.title','ASC');
 
         if(!empty($options['exclude'])){
             $qb->andWhere($qb->expr()->notIn('t.id',$options['exclude']));

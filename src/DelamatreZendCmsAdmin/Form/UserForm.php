@@ -8,9 +8,9 @@ use Zend\Form\Form;
 
 class UserForm extends Form{
 
-    public function __construct($name=null){
+    public function __construct($name=null,$options=array()){
 
-        parent::__construct($name);
+        parent::__construct($name,$options);
 
         $this->add(array(
             'name' => 'id',
@@ -71,10 +71,10 @@ class UserForm extends Form{
             ),
         ));
 
-        $status = new UserState('state');
+        $status = new \DelamatreZend\Form\Element\UserState('state');
         $this->add($status);
 
-        $type = new UserType('type');
+        $type = new \DelamatreZend\Form\Element\UserType('type');
         $this->add($type);
 
     }

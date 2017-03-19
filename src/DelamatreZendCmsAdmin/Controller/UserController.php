@@ -11,6 +11,10 @@ use Zend\View\Model\ViewModel;
 class UserController extends AbstractAdminActionController
 {
 
+    public $routeName = 'user';
+    public $entityName = 'DelamatreZendCms\Entity\User';
+    public $formName = 'DelamatreZendCmsAdmin\Form\UserForm';
+
     public function indexAction(){
 
         //require authentication
@@ -23,7 +27,8 @@ class UserController extends AbstractAdminActionController
         $usersCount = count($users);
 
         $view = new ViewModel();
-        $view->usersCount = $usersCount;
+        $view->recordCount = $usersCount;
+        $view->routeName = 'user';
         $view->users = $users;
         return $view;
 
@@ -42,9 +47,10 @@ class UserController extends AbstractAdminActionController
             throw new \Exception('No user found for user id '.$id);
         }
 
-        $form  = new UserForm();
+        $form  = $user->getForm();
 
         $view = new ViewModel();
+        $view->routeName = 'user';
         $view->form = $form;
         $view->user = $user;
         return $view;
@@ -56,11 +62,13 @@ class UserController extends AbstractAdminActionController
 
         $id = $this->params()->fromQuery('id');
 
+        $userClass = $this->getUserClass();
+
         //if an id is specific get that lead, else create a new lead
         if(empty($id)){
-            $user = new User();
+            $user = new $userClass;
         }else{
-            $user = $this->getEntityManager()->find($this->getUserClass(),$id);
+            $user = $this->getEntityManager()->find($userClass,$id);
 
             if(empty($user)){
                 throw new \Exception('No user found for user id '.$id);
@@ -87,7 +95,7 @@ class UserController extends AbstractAdminActionController
 
         }
 
-        $form = new UserForm();
+        $form = $user->getForm();
 
         $data = $user->getArrayCopy();
         $form->setData($data);
@@ -96,7 +104,97 @@ class UserController extends AbstractAdminActionController
         $view->id = $id;
         $view->form = $form;
         $view->user = $user;
+        $view->name = 'User';
+        $view->routeName = 'user';
         return $view;
+
+    }
+
+    public function deactivateAction(){
+
+        $this->requireAuthentication();
+
+        $id = $this->params()->fromQuery('id');
+
+        //if an id is specific get that lead, else create a new lead
+        if(empty($id)){
+            throw new \Exception('No id specified');
+        }else{
+
+            $this->entityName = $this->getUserClass();
+
+            /** @var \DelamatreZendCms\Entity\Superclass\Content $entity */
+            $entity = $this->getEntityManager()->find($this->entityName,$id);
+
+            if(empty($entity)){
+                throw new \Exception('No '.$this->entityName.' found for id '.$id);
+            }
+
+            $entity->state = false;
+            $this->getEntityManager()->flush();
+
+            $this->redirect()->toUrl('/admin/'.$this->routeName.'/form?id='.$entity->id);
+
+        }
+
+    }
+
+    public function activateAction(){
+
+
+        $this->requireAuthentication();
+
+        $id = $this->params()->fromQuery('id');
+
+        //if an id is specific get that lead, else create a new lead
+        if(empty($id)){
+            throw new \Exception('No id specified');
+        }else{
+
+            $this->entityName = $this->getUserClass();
+
+            /** @var \DelamatreZendCms\Entity\Superclass\Content $entity */
+            $entity = $this->getEntityManager()->find($this->entityName,$id);
+
+            if(empty($entity)){
+                throw new \Exception('No '.$this->entityName.' found for id '.$id);
+            }
+
+            $entity->state = true;
+            $this->getEntityManager()->flush();
+
+            $this->redirect()->toUrl('/admin/'.$this->routeName.'/form?id='.$entity->id);
+
+        }
+
+    }
+
+    public function deleteAction(){
+
+        $this->requireAuthentication();
+
+        $id = $this->params()->fromQuery('id');
+
+        //if an id is specific get that lead, else create a new lead
+        if(empty($id)){
+            throw new \Exception('No id specified');
+        }else{
+
+            $this->entityName = $this->getUserClass();
+
+            /** @var \DelamatreZendCms\Entity\Superclass\Content $entity */
+            $entity = $this->getEntityManager()->find($this->entityName,$id);
+
+            if(empty($entity)){
+                throw new \Exception('No '.$this->entityName.' found for id '.$id);
+            }
+
+            $this->getEntityManager()->remove($entity);
+            $this->getEntityManager()->flush();
+
+            $this->redirect()->toUrl('/admin/'.$this->routeName.'/index');
+
+        }
 
     }
 

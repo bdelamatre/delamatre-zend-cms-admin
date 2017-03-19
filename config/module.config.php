@@ -41,8 +41,12 @@ return array(
     'controllers' => array(
         'invokables' => array(
             'Admin\Controller\Admin' => Controller\AdminController::class,
+            'Admin\Controller\Settings' => Controller\SettingsController::class,
+            'Admin\Controller\Help' => Controller\HelpController::class,
             'Admin\Controller\Blog' => Controller\BlogController::class,
             'Admin\Controller\Content' => Controller\ContentController::class,
+            'Admin\Controller\Email' => Controller\EmailController::class,
+            'Admin\Controller\EmailTemplate' => Controller\EmailTemplateController::class,
             'Admin\Controller\Gallery' => Controller\GalleryController::class,
             'Admin\Controller\CaseStudy' => Controller\CaseStudyController::class,
             'Admin\Controller\Document' => Controller\DocumentController::class,
@@ -50,12 +54,19 @@ return array(
             'Admin\Controller\WhitePaper' => Controller\WhitePaperController::class,
             'Admin\Controller\Filemanager' => Controller\FilemanagerController::class,
             'Admin\Controller\User' => Controller\UserController::class,
+            'Admin\Controller\Organization' => Controller\OrganizationController::class,
         ),
+    ),
+
+    'module_layouts' => array(
+        'DelamatreZendCmsAdmin' => 'layout/admin',
+        'ZfcUser' => 'layout/login',
     ),
 
     'view_manager' => array(
         'template_map' => array(
-            //'layout/layout'           => __DIR__ . '/../view/layout/layout.phtml',
+            'layout/admin'           => __DIR__ . '/../view/layout/admin.phtml',
+            'layout/login'           => __DIR__ . '/../view/layout/login.phtml',
         ),
         'template_path_stack' => array(
             __DIR__ . '/../view',

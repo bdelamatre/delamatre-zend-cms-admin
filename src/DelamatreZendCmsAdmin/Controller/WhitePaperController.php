@@ -8,7 +8,7 @@ class WhitePaperController extends AbstractEntityAdminController
 {
 
     public $routeName = 'white-paper';
-    public $entityName = 'Application\Entity\WhitePaper';
+    public $entityName = 'DelamatreZendCms\Entity\WhitePaper';
     public $formName = 'DelamatreZendCmsAdmin\Form\WhitePaperForm';
 
 }

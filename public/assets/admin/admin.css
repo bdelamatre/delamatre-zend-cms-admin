@@ -1,0 +1,242 @@
+body{
+    margin-top:52px;
+}
+
+.body-adjust{
+    margin-top:100px;
+}
+
+.sidebar{
+    color:#fff;
+    background-color: #333;
+    border-right: 2px solid #333;
+    border-bottom: 2px solid #333;
+}
+
+.navbar{
+    height:52px;
+    background-color: #333;
+    background-image: none;
+    border: 0;
+}
+
+.navbar-brand{
+    padding-top: 0px;
+    color: #fff !important;
+}
+
+.sidebar hr{
+    border:1px solid #ccc;
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+
+.nav-sidebar li a{
+    background-color: #333 !important;
+    color:#fff;
+    padding-top:0px;
+}
+
+.nav-sidebar li a:hover{
+    padding-top:0px;
+    color:#EA2227;
+}
+
+
+.environment-adjust{
+    margin-top:18px;
+}
+
+.environment{
+    position: fixed;
+    width:100%;
+    margin-top:-100px;
+    z-index: 255;
+}
+
+li .active{
+    background-color: #333 !important;
+}
+
+li .active a{
+    color: #fff;
+}
+
+.cms-thumbnail-row{
+    margin-bottom:60px;
+}
+
+.cms-thumbnail-row-title{
+    margin-bottom:-10px;
+}
+
+.cms-thumbnail-title{
+    min-height: 40px;
+}
+
+.cms-thumbnail{
+    border-right: 1px solid #eee !important;
+}
+
+.cms-thumbnail img{
+}
+
+/**
+
+Login layout and form styling
+
+**/
+#login{
+    background-color:#303030;
+    color: #fff;
+}
+
+.login-container{
+    max-width: 350px;
+    color: #fff;
+}
+
+.login-form .btn{
+    width: 100%;
+}
+
+.login-form dd{
+    margin-bottom: 10px;
+}
+
+.help-block{
+    color: #ff0000;
+}
+
+.script{
+    font-size: 18px;
+    font-style: italic;
+    background-color: #606060;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.feelthemagic{
+    background-image: url(/img/stars.gif);
+    color: #fff !important;
+}
+
+#login textarea{
+    color: #303030;
+}
+
+/** admin css **/
+.nav-tabs-admin .active{
+}
+
+/** admin css **/
+.nav-tabs-admin .active a{
+    border: 1px solid #333 !important;
+    border-bottom: 0 !important;
+    background-color: #ddd !important;
+}
+
+.tab-content-admin{
+    margin-top: 0px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.ui-helper-hidden-accessible{
+    display:none;
+}
+
+.dialogelfinder{
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.elfinder-workzone{
+    margin-top:50px;
+}
+
+.dialogelfinder-drag{
+    font-family: "bebas-neue",sans-serif !important;
+    font-size: 26px !important;
+}
+
+.dialogelfinder-drag-close {
+    width: 25px !important;
+    height: 25px;
+    border: 1px solid #ff0000;
+    background-color: #ff0000;
+}
+
+.ui-icon{
+
+}
+
+.ui-icon-closethick{
+}
+
+.section-admin{
+    border-bottom:1px solid #333;
+    padding-bottom: 25px;
+    margin-bottom: 45px;
+}
+
+.row-admin{
+}
+
+.col-admin{
+    padding-left: 20px;
+}
+
+.panel-admin{
+    min-height: 100px;
+    padding: 0 20px 20px 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding-bottom: 15px;
+    background-color: #eee;
+    margin-bottom: 25px;
+}
+
+.form-row{
+    margin:0;
+}
+
+.form-row .col-md-6{
+    padding: 10px 25px 0 25px;
+}
+
+.form-row .col-md-12{
+    padding: 0 25px 0 25px;
+    margin-top: -10px !important;
+    margin-bottom: -20px !important;
+}
+
+.form-panel {
+    margin: 10px -15px 15px -15px;
+    background-color: #fefefe;
+    border: 1px solid #303030 !important;
+}
+
+.form-panel .panel-heading{
+    /*font-family: "bebas neue";
+    font-size: 20px;*/
+    /*border: 1px solid #303030 !important;*/
+    border-color: #303030 !important;
+    background-color: #eee;
+}
+
+.form-panel .panel-body{
+    padding: 10px 30px 0 30px;
+    /*padding: 10px 20px 0 20px;*/
+}
+
+.tab-pane{
+
+    margin: 20px !important;
+}
+
+.form-group{
+
+}

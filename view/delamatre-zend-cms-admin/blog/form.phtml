@@ -1,29 +1,6 @@
-<?php if(empty($this->id)): ?>
-    <h1>Create Blog Post</h1>
-<?php else: ?>
-    <h1>Edit Blog Post <?=$this->entity->key?></h1>
-<?php endif;?>
-
 <?=$this->form()->openTag($this->form->setAttribute('onsubmit','return postForm();'))?>
 
-<div class="row">
-    <div class="col-sm-4">
-        <br/>
-        <a href="/admin/<?=$this->routeName?>/index"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i> Back to admin</a>
-    </div>
-    <div class="col-sm-8 text-right">
-        <?php if($this->entity->id): ?>
-            <?php if($this->entity->active==true): ?>
-                <a class="btn btn-danger" href="/admin/<?=$this->routeName?>/deactivate?id=<?=$this->entity->id?>">Deactivate</a>
-            <?php else: ?>
-                <a class="btn btn-success" href="/admin/<?=$this->routeName?>/activate?id=<?=$this->entity->id?>">Activate</a>
-            <?php endif; ?>
-        <?php endif; ?>
-        <button class="btn btn-primary" type="submit">Save Content</button>
-    </div>
-</div>
-
-<hr/>
+<?=$this->partial('delamatre-zend-cms-admin/components/entity-form-header.phtml',array('routeName'=>$this->routeName,'entity'=>$this->entity))?>
 
 <?php if($this->entity->id && $this->entity->active==false): ?>
     <div class="alert alert-danger">
@@ -96,13 +73,10 @@
 
 
 <script type="text/javascript">
-
     var postForm = function() {
         var content = $('#content').val($('#summernote-content').summernote('code'));
         var contentShort = $('#contentShort').val($('#summernote-content-short').summernote('code'));
     }
-
 </script>
-
 
 <?=$this->form()->closeTag($this->form)?>

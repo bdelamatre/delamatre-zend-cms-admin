@@ -3,7 +3,6 @@
 namespace DelamatreZendCmsAdmin\Controller;
 
 
-use DelamatreZend\Entity\AbstractEntity;
 use DelamatreZendCmsAdmin\Mvc\Controller\AbstractEntityAdminController;
 
 class BlogController extends AbstractEntityAdminController
@@ -20,7 +19,7 @@ class BlogController extends AbstractEntityAdminController
         return $qb;
     }
 
-    public function crudBusinessRules(AbstractEntity $entity){
+    public function crudBusinessRules(\DelamatreZendCms\Entity\Superclass\Content $blog){
 
         if(!$blog->created_datetime){
             //backwards compatability for posted_timestamp
@@ -33,8 +32,6 @@ class BlogController extends AbstractEntityAdminController
         }
 
         $blog->updated_datetime = new \DateTime('now');
-
-        parent::crudBusinessRules($entity);
 
     }
 

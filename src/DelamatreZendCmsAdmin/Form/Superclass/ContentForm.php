@@ -42,24 +42,26 @@ class ContentForm extends Form{
 
         $this->add(array(
             'name' => 'description',
-            'type' => 'text',
+            'type' => 'textarea',
             'options' => array(
                 'label' => 'Description',
             ),
             'attributes' => array(
-                //'placeholder' => 'sjhdf873nd93nd9384nd93',
+                'placeholder' => 'Meta description',
+                'rows' => 6,
             ),
         ));
 
         $this->add(array(
             'name' => 'keywords',
-            'type' => 'text',
+            'type' => 'textarea',
             'options' => array(
                 'label' => 'Keywords',
                 'required' => true,
             ),
             'attributes' => array(
-                //'placeholder' => 'John',
+                'placeholder' => 'Meta keywords',
+                'rows' => 4,
             ),
         ));
 

@@ -9,8 +9,7 @@ if(isset($this->id)){
 ?>
 <?=$this->formHidden($this->formElement)?>
 <div id="<?=$editorId?>"><?=$this->content?></div>
-
-<script type="text/javascript">
+<?php $this->inlineScript()->captureStart(); ?>
 
     $(document).ready(function() {
         $('#<?=$editorId?>').summernote({
@@ -56,9 +55,8 @@ if(isset($this->id)){
         var postForm = function() {
 
             var code = $('#<?=$editorId?>').summernote('code').replace(/®/gi,"&reg;").replace(/&gt;/gi,">");
-            console.log(code);
             var content = $('#<?=$this->formElement->getAttribute('id')?>').val(code);
         }
     <?php endif; ?>
 
-</script>
+<?php $this->inlineScript()->captureEnd(); ?>

@@ -2,7 +2,8 @@
 
 namespace DelamatreZendCmsAdmin\Mvc\Controller;
 
-use DelamatreZend\Entity\AbstractEntity;
+use Doctrine\DBAL\Schema\View;
+use Html2Text\Html2Text;
 use Zend\Mvc\MvcEvent;
 use Zend\View\Model\ViewModel;
 
@@ -33,9 +34,6 @@ class AbstractEntityAdminController extends AbstractAdminActionController
         //start building the users query
         $qb = $this->buildQuery();
 
-        //\Doctrine\Common\Util\Debug::dump($qb);
-        //exit();
-
         $records = $qb->getQuery()->getResult();
         $recordCount = count($records);
 
@@ -49,7 +47,7 @@ class AbstractEntityAdminController extends AbstractAdminActionController
 
     }
 
-    public function crudBusinessRules(AbstractEntity $entity){
+    public function crudBusinessRules(\DelamatreZendCms\Entity\Superclass\Content $entity){
 
         if(!$entity->created_datetime){
             $entity->created_datetime = new \DateTime('now');
@@ -224,5 +222,89 @@ class AbstractEntityAdminController extends AbstractAdminActionController
         }
 
     }
+
+    public function generateMetadataAction(){
+
+        $this->requireAuthentication($this->requiredGroups);
+
+        $id = $this->params()->fromQuery('id');
+
+        //if an id is specific get that lead, else create a new lead
+        if(empty($id)){
+            throw new \Exception('No id specified');
+        }else{
+
+            /** @var \DelamatreZendCms\Entity\Superclass\Content $entity */
+            $entity = $this->getEntityManager()->find($this->entityName,$id);
+
+            if(empty($entity)){
+                throw new \Exception('No '.$this->entityName.' found for id '.$id);
+            }
+
+            if(!empty($entity->content)){
+
+                //fix-me: this chould change to using the appropriate route to get the content
+                $view = new ViewModel();
+                $view->entity = $entity;
+                $view->em = $this->getEntityManager();
+                $view->key = $entity->key;
+                $view->category = $entity;
+                $view->content = $entity->content;
+                if($entity->title){
+                    $this->getHeadTitle()->prepend($entity->getTitle(true));
+                    $this->setHeadMetaKeywords($entity->getKeywords(true));
+                    $this->setHeadMetaDescription($entity->getDescription(true));
+                }
+
+                $viewHelperManager = $this->getServiceLocator()->get('ViewHelperManager');
+
+                $partial = $viewHelperManager->get('partial'); // $escapeHtml can be called as function because of its __invoke method
+                $view->partial = $partial;
+
+                $icon = $viewHelperManager->get('icon'); // $escapeHtml can be called as function because of its __invoke method
+                $view->icon = $icon;
+
+                $cmsContent = $viewHelperManager->get('cmsContent'); // $escapeHtml can be called as function because of its __invoke method
+
+                $description = $cmsContent($entity->content,$view);
+                $descriptionHtml = new \Html2Text\Html2Text($description,array('width'=>0,'do_links'=>'none'));
+                $descriptionPlainText = $descriptionHtml->getText();
+
+                // These code snippets use an open-source library. http://unirest.io/php
+                $response = \Unirest\Request::get("https://aylien-text.p.mashape.com/summarize?title=".urlencode($entity->title)."&text=".urlencode($descriptionPlainText),
+                    array(
+                        "X-Mashape-Key" => "6o8B4UsXWImshWAV0WKxVRLr2Ri6p1v7bYOjsngJYQEQCFtQOL",
+                        "Accept" => "application/json"
+                    )
+                );
+
+                $entity->description = implode('',str_replace("\n",'',$response->body->sentences));
+
+                // These code snippets use an open-source library. http://unirest.io/php
+                $response2 = \Unirest\Request::get("https://aylien-text.p.mashape.com/entities?text=".urlencode($descriptionPlainText),
+                    array(
+                        "X-Mashape-Key" => "6o8B4UsXWImshWAV0WKxVRLr2Ri6p1v7bYOjsngJYQEQCFtQOL",
+                        "Accept" => "application/json"
+                    )
+                );
+
+                $entity->keywords = implode(',',$response2->body->entities->keyword);
+
+                //var_dump($entity->keywords);
+                //var_dump($response);
+                //var_dump($response2);
+                //exit();
+
+                $this->getEntityManager()->flush();
+
+            }
+
+            $this->redirect()->toUrl('/admin/'.$this->routeName.'/form?id='.$entity->id);
+
+        }
+
+    }
+
+
 
 }

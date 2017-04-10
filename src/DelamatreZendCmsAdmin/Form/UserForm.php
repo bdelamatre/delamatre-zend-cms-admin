@@ -8,9 +8,9 @@ use Zend\Form\Form;
 
 class UserForm extends Form{
 
-    public function __construct($name=null,$options=array()){
+    public function __construct($name=null){
 
-        parent::__construct($name,$options);
+        parent::__construct($name);
 
         $this->add(array(
             'name' => 'id',

@@ -1,45 +1,28 @@
-<?php
-
-if(!isset($this->id)){
-    $this->id = $this->entity->id;
-}
-
-if(!isset($this->key) || is_null($this->key)){
-    if(isset($this->entity->key)){
-        $this->key = $this->entity->key;
-    }
-}
-
-if(!isset($this->active)){
-    $this->active = $this->entity->active;
-}
-
-?>
 <div class="row">
     <div class="col-sm-6">
-        <?php if(empty($this->id)): ?>
+        <?php if(empty($this->entity->id)): ?>
             <h1>Create <?=$this->name?></h1>
         <?php else: ?>
-            <h1>Edit <?=$this->name?> <?=$this->key?></h1>
+            <h1>Edit <?=$this->name?> <?=$this->entity->key?></h1>
         <?php endif;?>
         <a href="/admin/<?=$this->routeName?>/index"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i> Back to records</a>
     </div>
     <div class="col-sm-6 text-right">
         <br/>
-        <br/>
-        <?php if($this->id): ?>
-            <?php if($this->active==true): ?>
-                <a class="btn btn-danger" href="/admin/<?=$this->routeName?>/deactivate?id=<?=$this->id?>">Deactivate</a>
+        <?php if($this->entity->id): ?>
+            <?php if($this->entity->active==true): ?>
+                <a class="btn btn-danger" href="/admin/<?=$this->routeName?>/deactivate?id=<?=$this->entity->id?>">Deactivate</a>
             <?php else: ?>
-                <a class="btn btn-danger" href="/admin/<?=$this->routeName?>/delete?id=<?=$this->id?>">Delete</a>
-                <a class="btn btn-success" href="/admin/<?=$this->routeName?>/activate?id=<?=$this->id?>">Activate</a>
+                <a class="btn btn-danger" href="/admin/<?=$this->routeName?>/delete?id=<?=$this->entity->id?>">Delete</a>
+                <a class="btn btn-success" href="/admin/<?=$this->routeName?>/activate?id=<?=$this->entity->id?>">Activate</a>
             <?php endif; ?>
         <?php endif; ?>
         <?php if($this->additionalActions): ?>
             <?=$this->additionalActions?>
         <?php endif; ?>
-        <?php if($this->id): ?>
-            <a class="btn btn-primary" href="/admin/<?=$this->routeName?>/duplicate?id=<?=$this->id?>">Duplicate</a>
+        <?php if($this->entity->id): ?>
+            <a class="btn btn-primary" href="/admin/<?=$this->routeName?>/generate-metadata?id=<?=$this->entity->id?>">Generate Metadata</a>
+            <a class="btn btn-primary" href="/admin/<?=$this->routeName?>/duplicate?id=<?=$this->entity->id?>">Duplicate</a>
         <?php endif; ?>
         <button class="btn btn-primary" type="submit">Save</button>
     </div>

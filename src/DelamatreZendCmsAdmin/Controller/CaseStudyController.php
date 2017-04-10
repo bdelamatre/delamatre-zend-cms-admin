@@ -8,7 +8,7 @@ class CaseStudyController extends AbstractEntityAdminController
 {
 
     public $routeName = 'case-study';
-    public $entityName = 'DelamatreZendCms\Entity\CaseStudy';
+    public $entityName = 'Application\Entity\CaseStudy';
     public $formName = 'DelamatreZendCmsAdmin\Form\CaseStudyForm';
 
 }

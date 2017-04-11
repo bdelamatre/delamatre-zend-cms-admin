@@ -270,11 +270,13 @@ class AbstractEntityAdminController extends AbstractAdminActionController
                 $descriptionHtml = new \Html2Text\Html2Text($description,array('width'=>0,'do_links'=>'none'));
                 $descriptionPlainText = $descriptionHtml->getText();
 
+                $mashapeKey = $this->getConfig()['mashape']['key'];
+
                 // These code snippets use an open-source library. http://unirest.io/php
                 $response = \Unirest\Request::get("https://aylien-text.p.mashape.com/summarize?title=".urlencode($entity->title)."&text=".urlencode($descriptionPlainText),
                     array(
-                        "X-Mashape-Key" => "6o8B4UsXWImshWAV0WKxVRLr2Ri6p1v7bYOjsngJYQEQCFtQOL",
-                        "Accept" => "application/json"
+                        "X-Mashape-Key" => $mashapeKey,
+                        "Accept" => "application/json",
                     )
                 );
 
@@ -283,17 +285,12 @@ class AbstractEntityAdminController extends AbstractAdminActionController
                 // These code snippets use an open-source library. http://unirest.io/php
                 $response2 = \Unirest\Request::get("https://aylien-text.p.mashape.com/entities?text=".urlencode($descriptionPlainText),
                     array(
-                        "X-Mashape-Key" => "6o8B4UsXWImshWAV0WKxVRLr2Ri6p1v7bYOjsngJYQEQCFtQOL",
-                        "Accept" => "application/json"
+                        "X-Mashape-Key" => $mashapeKey,
+                        "Accept" => "application/json",
                     )
                 );
 
                 $entity->keywords = implode(',',$response2->body->entities->keyword);
-
-                //var_dump($entity->keywords);
-                //var_dump($response);
-                //var_dump($response2);
-                //exit();
 
                 $this->getEntityManager()->flush();
 

@@ -43,7 +43,7 @@ class UserController extends AbstractAdminActionController
             throw new \Exception('No user found for user id '.$id);
         }
 
-        $form  = new UserForm();
+        $form  = $user->getForm();
 
         $view = new ViewModel();
         $view->form = $form;
@@ -52,6 +52,8 @@ class UserController extends AbstractAdminActionController
     }
 
     public function formAction(){
+
+
 
         $this->requireAuthentication(array('admin','superadmin'));
 
@@ -87,8 +89,7 @@ class UserController extends AbstractAdminActionController
             $this->redirect()->toUrl('/admin/user/dashboard?id='.$user->getId());
 
         }
-
-        $form = new UserForm();
+        $form = $user->getForm();
 
         $data = $user->getArrayCopy();
         $form->setData($data);

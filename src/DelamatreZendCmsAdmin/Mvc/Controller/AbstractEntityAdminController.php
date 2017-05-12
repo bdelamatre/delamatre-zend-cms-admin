@@ -2,6 +2,7 @@
 
 namespace DelamatreZendCmsAdmin\Mvc\Controller;
 
+use DelamatreZend\Entity\AbstractEntity;
 use Doctrine\DBAL\Schema\View;
 use Html2Text\Html2Text;
 use Zend\Mvc\MvcEvent;
@@ -47,7 +48,7 @@ class AbstractEntityAdminController extends AbstractAdminActionController
 
     }
 
-    public function crudBusinessRules(\DelamatreZendCms\Entity\Superclass\Content $entity){
+    public function crudBusinessRules(AbstractEntity $entity){
 
         if(!$entity->created_datetime){
             $entity->created_datetime = new \DateTime('now');

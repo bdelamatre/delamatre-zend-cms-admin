@@ -1,11 +1,9 @@
 <?=$this->form()->openTag($this->form)?>
 
-<h1>Choose Product Category</h1>
-
 <div class="row">
     <div class="col-sm-9">
         <br/>
-        <a href="/admin/<?=$this->routeName?>/form?id=<?=$this->entity->id?>&default-tab=product-details"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i> Back to <?=$this->entity->title?></a>
+        <a href="/admin/<?=$this->routeName?>/form?id=<?=$this->entity->id?>&default-tab=content-categories"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i> Back to <?=$this->entity->title?></a>
     </div>
     <div class="col-sm-3 text-right">
     </div>
@@ -13,14 +11,12 @@
 
 <hr/>
 
+<h1>Choose Product Category</h1>
+
 <?=$this->formHidden($this->form->get('id'))?>
+<?=$this->formLabel($this->form->get('product-category'))?>
+<?=$this->formSelect($this->form->get('product-category'))?>
 
-<div class="row form-row">
-    <div class="col-md-4">
-        <?=$this->formRow($this->form->get('product-category'))?>
-    </div>
-</div>
-
-<button type="submit" class="btn btn-primary">Add</button>
+<button type="submit">Add</button>
 
 <?=$this->form()->closeTag($this->form)?>

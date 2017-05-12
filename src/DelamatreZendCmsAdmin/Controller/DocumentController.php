@@ -8,7 +8,7 @@ class DocumentController extends AbstractEntityAdminController
 {
 
     public $routeName = 'document';
-    public $entityName = 'Application\Entity\Document';
+    public $entityName = 'DelamatreZendCms\Entity\Document';
     public $formName = 'DelamatreZendCmsAdmin\Form\DocumentForm';
 
     public function buildQuery()

@@ -53,7 +53,8 @@ return array(
             'Admin\Controller\Video' => Controller\VideoController::class,
             'Admin\Controller\WhitePaper' => Controller\WhitePaperController::class,
             'Admin\Controller\Filemanager' => Controller\FilemanagerController::class,
-            'Admin\Controller\User' => Controller\UserController::class,
+            'Admin\Controller\User' => Controller\UserController::class,            
+		'Admin\Controller\Organization' => Controller\OrganizationController::class,
         ),
     ),
 

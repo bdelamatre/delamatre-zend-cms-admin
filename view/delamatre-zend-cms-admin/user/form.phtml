@@ -1,16 +1,6 @@
-<?php if(empty($this->id)): ?>
-    <h1>Create User</h1>
-<?php else: ?>
-    <h1>Edit User <?=$this->entity->username?></h1>
-<?php endif;?>
-
 <?=$this->form()->openTag($this->form)?>
 
-<?php if(empty($this->id)): ?>
-    <a href="/admin/user/index"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i> Back to users</a>
-<?php else: ?>
-    <a href="/admin/user/dashboard?id=<?=$this->id?>"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i> Back to user dashboard</a>
-<?php endif;?>
+<?=$this->partial('delamatre-zend-cms-admin/components/entity-form-header.phtml',array('routeName'=>$this->routeName,'name'=>'User','entity'=>$this->user,'id'=>$this->user->getId(),'key'=>$this->user->getUsername(),'entity'=>$this->user->getState()))?>
 
 <h3>User Details</h3>
 <div class="form-group">

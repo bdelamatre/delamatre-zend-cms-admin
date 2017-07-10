@@ -1,6 +1,8 @@
 <?php
 
-if(!isset($this->id)){
+if(!isset($this->id) && method_exists($this->entity,'getId')){
+	$this->id = $this->entity->getId();
+}elseif(!isset($this->id) && property_exists($this->entity,'id')){
     $this->id = $this->entity->id;
 }
 

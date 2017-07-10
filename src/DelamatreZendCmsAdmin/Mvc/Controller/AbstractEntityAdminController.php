@@ -76,7 +76,7 @@ class AbstractEntityAdminController extends AbstractAdminActionController
                 throw new \Exception('No '.$this->entityName.' found for id '.$id);
             }
         }
-
+		
         //if this is a post than add the post to the lead
         if($this->getRequest()->isPost()){
 
@@ -97,14 +97,19 @@ class AbstractEntityAdminController extends AbstractAdminActionController
 
         $form = new $formName('form',array('entityManager'=>$this->getEntityManager(),'config'=>$this->getConfig()));
 
+		//fix-me: bad
+		/*if($form->hasElement('password')){
+			$form->getElement('password')->setAttribute('required',true);
+		}*/
+		
         $data = $entity->getArrayCopy();
         $form->setData($data);
 
         $view = new ViewModel();
         $view->id = $id;
         $view->form = $form;
-        $view->formName = $this->formName;
         $view->entity = $entity;
+        $view->formName = $this->formName;
         $view->entityName = $this->entityName;
         $view->routeName = $this->routeName;
         $view->defaultTab = $this->params()->fromQuery('default-tab',false);

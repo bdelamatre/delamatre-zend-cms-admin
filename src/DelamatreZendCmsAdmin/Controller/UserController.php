@@ -16,7 +16,7 @@ class UserController extends AbstractAdminActionController
     public function indexAction(){
 
         //require authentication
-        $this->requireAuthentication(array('admin','superadmin'));
+        $this->requireAuthentication($this->requiredGroups);
 
         //start building the users query
         $qb = $this->createQueryBuilder();
@@ -34,7 +34,7 @@ class UserController extends AbstractAdminActionController
 
     public function dashboardAction(){
 
-        $this->requireAuthentication(array('admin','superadmin'));
+        $this->requireAuthentication($this->requiredGroups);
 
         $id = $this->params()->fromQuery('id');
 
@@ -56,7 +56,7 @@ class UserController extends AbstractAdminActionController
 
     public function formAction(){
 
-        $this->requireAuthentication(array('admin','superadmin'));
+        $this->requireAuthentication($this->requiredGroups);
 
         $id = $this->params()->fromQuery('id');
 		$userClass = $this->getUserClass();
@@ -92,9 +92,10 @@ class UserController extends AbstractAdminActionController
 
         }
 
-		$form = new \Admin\Form\SurgeonForm();
-		//$form = $user->getForm();
-		
+		//$form = new \Admin\Form\SurgeonForm();
+		$formName = get_class($user->getForm());
+        $form = new $formName(null,array('entityManager'=>$this->getEntityManager()));
+
         $data = $user->getArrayCopy();
         $form->setData($data);
 		$view = new ViewModel();

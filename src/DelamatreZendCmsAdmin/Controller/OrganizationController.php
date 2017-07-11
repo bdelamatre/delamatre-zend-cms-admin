@@ -25,7 +25,7 @@ class OrganizationController extends AbstractEntityAdminController
 
     public function dashboardAction(){
 
-        $this->requireAuthentication();
+        $this->requireAuthentication($this->requiredGroups);
 
         $id = $this->params()->fromQuery('id');
 

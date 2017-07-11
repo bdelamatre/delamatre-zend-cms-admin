@@ -2,21 +2,29 @@
 
 namespace DelamatreZendCmsAdmin\Form\Element;
 
-use DelamatreZend\Entity\User;
 use Zend\Form\Element\Select;
 
 class UserType extends Select{
 
-    public static function valueOptions(){
-        $options = User::$userTypes;
-        return $options;
+    const TYPE_USER             = 'user';
+    const TYPE_ADMIN            = 'admin';
+    const TYPE_SUPERADMIN       = 'superadmin';
+
+    public $valueOptions = array(
+        self::TYPE_USER => 'User',
+        self::TYPE_ADMIN => 'Admin',
+        self::TYPE_SUPERADMIN => 'Superadmin',
+    );
+
+    public function valueOptions(){
+        return $this->valueOptions;
     }
 
     public function __construct($name=null,$options=array()){
 
         parent::__construct($name,$options);
 
-        $this->setValueOptions(self::valueOptions());
+        $this->setValueOptions($this->valueOptions());
         $this->setLabel('User Type');
 
     }

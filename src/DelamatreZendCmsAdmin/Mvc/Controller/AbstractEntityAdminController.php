@@ -14,7 +14,7 @@ class AbstractEntityAdminController extends AbstractAdminActionController
     public $routeName = 'entity';
     public $entityName = 'DelamatreZendCms\Entity\Superclass\Content';
     public $formName = 'DelamatreZend\Form\Form';
-    public $requiredGroups = array('user','admin','superadmin');
+    public $requiredGroups = array('admin','superadmin');
 
     public function buildQuery(){
 

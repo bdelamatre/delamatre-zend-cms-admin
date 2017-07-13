@@ -15,6 +15,62 @@ class AbstractEntityAdminController extends AbstractAdminActionController
     public $entityName = 'DelamatreZendCms\Entity\Superclass\Content';
     public $formName = 'DelamatreZend\Form\Form';
     public $requiredGroups = array('admin','superadmin');
+    public $overrideGroups = array('admin','superadmin');
+    public $ownerField = null;
+    public $owns;
+
+    public function ownerField(){
+
+        $type = $this->getZfcUserAuthentication()->getIdentity()->getType();
+
+        //if group doesn't require an ownership check, skip
+        if(!is_null($this->overrideGroups)
+            && in_array($type,$this->overrideGroups)) {
+            return false;
+        }
+
+        return $this->ownerField;
+    }
+
+    public function owns(){
+        return array();
+    }
+
+    public function requireOwnership($id,$overrideGroups=null){
+
+        $type = $this->getZfcUserAuthentication()->getIdentity()->getType();
+        $ownerField = $this->ownerField();
+
+        //if there is no ownerfield, skip ownership check
+        if(!$ownerField){
+            return true;
+        }
+
+        //if group doesn't require an ownership check, skip
+        if(!is_null($overrideGroups)
+            && in_array($type,$overrideGroups)) {
+            return true;
+        }
+
+        #if an object was passed
+        if(is_object($id)){
+            $type = get_class($id);
+            $ownerField = $this->ownerField();
+            #check that field exists on object
+            if(property_exists($id,$ownerField)){
+                $id = $id->$ownerField;
+            }else{
+                throw new \Exception('Ownership requires the field '.$ownerField.' on '.$type.', but it is not defined.');
+            }
+        }
+
+        if(in_array($id,$this->owns())){
+            return true;
+        }else{
+            throw new \Exception("You do not own this record");
+        }
+
+    }
 
     public function buildQuery(){
 
@@ -23,6 +79,10 @@ class AbstractEntityAdminController extends AbstractAdminActionController
             ->from($this->entityName,'u')
             ->orderBy('u.active', 'DESC')
             ->addOrderBy('u.title', 'ASC');
+        $ownerField = $this->ownerField();
+        if($ownerField && !in_array($this->getZfcUserAuthentication()->getIdentity()->getType(),$this->overrideGroups)){
+            $qb->andWhere($qb->expr()->in('u.'.$ownerField,$this->owns()));
+        }
         return $qb;
     }
 
@@ -75,6 +135,9 @@ class AbstractEntityAdminController extends AbstractAdminActionController
             if(empty($entity)){
                 throw new \Exception('No '.$this->entityName.' found for id '.$id);
             }
+
+            $this->requireOwnership($entity,$this->overrideGroups);
+
         }
 		
         //if this is a post than add the post to the lead
@@ -84,18 +147,38 @@ class AbstractEntityAdminController extends AbstractAdminActionController
 
             $entity->exchangeArray($post);
 
+            try {
+                $this->requireOwnership($entity, $this->overrideGroups);
+            }catch(\Exception $e){
+                throw new \Exception("Somehow, you have attempted to create a record that you wouldn't own.");
+            }
             $this->crudBusinessRules($entity);
 
-            $this->getEntityManager()->persist($entity);
-            $this->getEntityManager()->flush();
+            try {
+                $this->getEntityManager()->persist($entity);
+                $this->getEntityManager()->flush();
+                if(method_exists($this,'dashboardAction')){
+                    $this->redirect()->toUrl('/admin/'.$this->routeName.'/dashboard?id='.$entity->id);
+                }else{
+                    $this->redirect()->toUrl('/admin/'.$this->routeName.'/form?id='.$entity->id.'&success=1');
+                }
+            }catch(\Exception $e){
+                //error, shit is going down
+            }
 
-            $this->redirect()->toUrl('/admin/'.$this->routeName.'/form?id='.$entity->id);
+
 
         }
 
         $formName = $this->formName;
 
-        $form = new $formName('form',array('entityManager'=>$this->getEntityManager(),'config'=>$this->getConfig()));
+        $form = new $formName('form',
+                                array(
+                                    'entityManager'=>$this->getEntityManager(),
+                                    'owns'=>$this->owns(),
+                                    'ownerField'=>$this->ownerField(),
+                                    'config'=>$this->getConfig())
+                                );
 
 		//fix-me: bad
 		/*if($form->hasElement('password')){
@@ -113,6 +196,7 @@ class AbstractEntityAdminController extends AbstractAdminActionController
         $view->entityName = $this->entityName;
         $view->routeName = $this->routeName;
         $view->defaultTab = $this->params()->fromQuery('default-tab',false);
+        $view->success = $this->params()->fromQuery('success',0);
         return $view;
 
     }
@@ -134,6 +218,8 @@ class AbstractEntityAdminController extends AbstractAdminActionController
             if(empty($entity)){
                 throw new \Exception('No '.$this->entityName.' found for id '.$id);
             }
+
+            $this->requireOwnership($entity,$this->overrideGroups);
 
             $entity->active = false;
             $this->getEntityManager()->flush();
@@ -162,6 +248,8 @@ class AbstractEntityAdminController extends AbstractAdminActionController
                 throw new \Exception('No '.$this->entityName.' found for id '.$id);
             }
 
+            $this->requireOwnership($entity,$this->overrideGroups);
+
             $entity->active = true;
             $this->getEntityManager()->flush();
 
@@ -188,6 +276,8 @@ class AbstractEntityAdminController extends AbstractAdminActionController
             if(empty($entity)){
                 throw new \Exception('No '.$this->entityName.' found for id '.$id);
             }
+
+            $this->requireOwnership($entity,$this->overrideGroups);
 
             //duplicate entity
             /** @var \DelamatreZendCms\Entity\Superclass\Content $newEntity */
@@ -220,6 +310,8 @@ class AbstractEntityAdminController extends AbstractAdminActionController
                 throw new \Exception('No '.$this->entityName.' found for id '.$id);
             }
 
+            $this->requireOwnership($entity,$this->overrideGroups);
+
             $this->getEntityManager()->remove($entity);
             $this->getEntityManager()->flush();
 
@@ -246,6 +338,8 @@ class AbstractEntityAdminController extends AbstractAdminActionController
             if(empty($entity)){
                 throw new \Exception('No '.$this->entityName.' found for id '.$id);
             }
+
+            $this->requireOwnership($entity,$this->overrideGroups);
 
             if(!empty($entity->content)){
 

@@ -11,7 +11,7 @@ class FilemanagerController extends AbstractEntityAdminController
     public function indexAction(){
 
         //require authentication
-        $this->requireAuthentication(array('user','admin','superadmin'));
+        $this->requireAuthentication($this->requiredGroups);
 
         $view = new ViewModel();
         //$view->connector = $connector;
@@ -21,7 +21,7 @@ class FilemanagerController extends AbstractEntityAdminController
 
     public function connectorAction(){
 
-        $this->requireAuthentication(array('user','admin','superadmin'));
+        $this->requireAuthentication($this->requiredGroups);
 
         $connector = $this->getFilemanager();
         $connector->run();

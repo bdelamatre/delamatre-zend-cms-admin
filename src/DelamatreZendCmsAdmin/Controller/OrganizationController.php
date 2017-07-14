@@ -38,7 +38,19 @@ class OrganizationController extends AbstractEntityAdminController
             throw new \Exception('No organization found for organization id '.$id);
         }
 
-        $form  = $organization->getForm();
+        //$form  = $organization->getForm();
+
+        $formName = $this->formName;
+
+        $form = new $formName('form',
+            array(
+                'entityManager'=>$this->getEntityManager(),
+                'owns'=>$this->owns(),
+                'ownerField'=>$this->ownerField(),
+                'config'=>$this->getConfig())
+        );
+
+
 
         $view = new ViewModel();
         $view->form = $form;

@@ -161,6 +161,7 @@ class AbstractEntityAdminController extends AbstractAdminActionController
                     && !$id) {
                     $this->sendNotificationOnCreate($entity);
                 }
+
                 if(method_exists($this,'dashboardAction')){
                     $this->redirect()->toUrl('/admin/'.$this->routeName.'/dashboard?id='.$entity->id);
                 }else{
@@ -170,6 +171,8 @@ class AbstractEntityAdminController extends AbstractAdminActionController
                 //die($e->getMessage());
                 //error, shit is going down
             }
+
+
 
         }
 
